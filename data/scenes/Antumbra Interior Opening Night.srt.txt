@@ -110,16 +110,297 @@ regions {
   loop_combat_music: true
   loop_default_music: false
 }
+regions {
+  name: "New Region"
+  position {
+    x: -26
+    y: -3
+    width: 46
+    height: 59
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  idRef {
+    id: "51fd33ab3662367007001abc"
+  }
+  directional_light_dir {
+    x: -0.25
+    y: -1
+    z: -0.5
+  }
+  directional_light_color {
+    r: 0.086274512
+    g: 0.25098041
+    b: 0.50196081
+    a: 0.78431374
+  }
+  ambient_light_color {
+    r: 0.082352944
+    g: 0.19607843
+    b: 0.36470589
+    a: 0.50196081
+  }
+  ambience_template: ""
+  combat_music: "Seattle-Set9-Combat"
+  default_music: "Seattle-Set8-MatrixLoop"
+  loop_combat_music: true
+  loop_default_music: true
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 39
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "bystander"
+  idRef {
+    id: "51fd1cd736623670070018ce"
+  }
+  character_instance {
+    prefab_name: "Wealthy/HumanMaleAutumnPony"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        awareness: 24
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+    }
+    team_id: "Civilians"
+    char_name: "Drunk Patron"
+    GeneralTags: "bystander"
+    pc_spawn_number: -1
+    ai_ignores: true
+    uninjurable: true
+    unkillable: true
+    portrait {
+      filename: "pc_humanmale_05a_dreads"
+    }
+    portrait_code_override: "s1h5b3"
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 40
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "bystander"
+  idRef {
+    id: "51fd1f0d36623670070018cf"
+  }
+  character_instance {
+    character_sheet_id: "Lvl4_Dwarf_Shaman"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "bystander"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    karma: 4
+    hiring_cost_override: 1700
+    hiring_set_randomizer: "dwarf_shaman"
+    hiring_tag: "Shaman"
+    is_prop_character: true
+    id: "Lvl4_Dwarf_Shaman"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "Bystander"
+  idRef {
+    id: "51fd238c3662367007001902"
+  }
+  character_instance {
+    character_sheet_id: "Lvl4_Elf_Decker"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "ESP Shield"
+    }
+    equipment {
+      prefab_name: "PR Supression 1"
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "ESP Kamikaze"
+    }
+    equipment {
+      prefab_name: "Grenade 2 (Flash)"
+    }
+    equipment {
+      prefab_name: "Grenade 2 (Flash)"
+    }
+    equipment {
+      prefab_name: "PR Sniffer 2"
+    }
+    equipment {
+      prefab_name: "PR Killjoy 1"
+    }
+    equipment {
+      prefab_name: "PR Blaster 2"
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "Bystander"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    cyberware_jack: "Datajack"
+    cyberware_right_arm: "Obvious Cyberarm 2"
+    karma: 4
+    hiring_cost_override: 1600
+    hiring_set_randomizer: "elf_decker"
+    hiring_tag: "Decker"
+    id: "Lvl4_Elf_Decker"
+  }
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 18
+    x: 3
     y: 0
-    z: 28
+    z: 13
   }
   orientation: ORIENTATION_S
   idRef {
-    id: "51fc795c366236881d0067a8"
+    id: "51fd33993662367007001abb"
   }
   character_instance {
     team_id: "Shadowrunners"
