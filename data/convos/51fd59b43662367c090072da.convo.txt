@@ -1,0 +1,168 @@
+idRef {
+  id: "51fd59b43662367c090072da"
+}
+ui_name: "A1_Club_Dalmin_1"
+nodes {
+  idRef {
+    id: "51fd5a9a3662367c09007321"
+  }
+  index: 0
+  text: "Well, well! What have we here!\n\n$(l.name), right? I was talking with your friend Turm the other day. She said you two worked together.\n\nWell, more specifically, she said you would stick a knife in my back if I showed my face to her again. Heh..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fd5aa53662367c09007324"
+  }
+  index: 1
+  text: "So, what can a little guy like me do for you?"
+  branches {
+    responseText: "Are your services for sale?"
+    nextNodeIndex: 2
+  }
+  branches {
+    responseText: "I\'ll pay good nuyen for your worthless hide."
+    nextNodeIndex: -1
+  }
+}
+nodes {
+  idRef {
+    id: "51fd5ae43662367c09007328"
+  }
+  index: 2
+  text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fd5b0d3662367c0900733e"
+  }
+  index: 3
+  text: "Tell you what: my pals are coming here in three hours. You can have me until then for just 500 nuyen."
+  branches {
+    responseText: "{{CC}}\302\245500{{/CC}} Here you go."
+    conditions {
+      ops {
+        functionName: "Evaluate Nuyen"
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          int_value: 500
+        }
+      }
+    }
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "Too pricey for me."
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "Not a chance."
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fd5b9b3662367c09007349"
+  }
+  index: 4
+  text: "Excellent! After you, $(l.sir)."
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Remove Nuyen"
+      args {
+        int_value: 500
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "DalminJoined"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "RecruitedHelp"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "No Effect"
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fd5f943662362c230072c0"
+  }
+  index: 5
+  text: "If I didn\'t know better, I\'d think you were trying to hurt my feelings!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

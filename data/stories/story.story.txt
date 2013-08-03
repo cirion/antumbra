@@ -21,6 +21,39 @@ variables {
     }
   }
 }
+variables {
+  name: "DalminJoined"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "DalminJoined"
+    }
+  }
+}
+variables {
+  name: "RecruitedHelp"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "RecruitedHelp"
+    }
+  }
+}
+variables {
+  name: "TurmJoined"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "TurmJoined"
+    }
+  }
+}
 startScene: "Antumbra Exterior Night"
 character_roster {
   roster_entries {
