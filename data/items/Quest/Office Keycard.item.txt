@@ -1,0 +1,8 @@
+id: "Office Keycard"
+type: ItemType_QuestItem
+uirep {
+  name: "Keycard"
+  description: "This electronic pass should grant you entrance to the Antumbra offices."
+}
+credentials: 0
+sorting_group: "Quest"

@@ -65,6 +65,28 @@ variables {
     }
   }
 }
+variables {
+  name: "A1_Bool_FakeMusician"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_FakeMusician"
+    }
+  }
+}
+variables {
+  name: "A1_Bool_FakePopularMusician"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_FakePopularMusician"
+    }
+  }
+}
 startScene: "Antumbra Exterior Night"
 character_roster {
   roster_entries {

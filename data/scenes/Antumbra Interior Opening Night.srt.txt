@@ -580,6 +580,405 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "Hostile Guards"
+  events {
+    ops {
+      functionName: "On Alarm Activated"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Move To (Region)"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "bystander"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "51fea2c93662365008006012"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Hunt And Destroy (Team)"
+      args {
+        call_value {
+          functionName: "All Actors on Team"
+          args {
+            call_value {
+              functionName: "Get Preset Value (string)"
+              args {
+                string_value: "FactionList"
+              }
+              args {
+                int_value: 2
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Map Item (SceneDimension)"
+              args {
+                string_value: "Default"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Log Debug Message"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Log Levels"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "TRIGGERED"
+      }
+    }
+    ops {
+      functionName: "Display Text at Screen Position"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "Trigger fired."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fea20f3662365008006011"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "FleesScene"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "51fea2c93662365008006012"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Actor is Player Controlled"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Delete Prop"
+      args {
+        call_value {
+          functionName: "Triggering Prop"
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fea2ed3662365008006013"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Killed Chief"
+  events {
+    ops {
+      functionName: "On Actor Death"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Target Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "51fea39d3662365008006014"
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Move Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "51fea4693662365008006018"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Current Location of Actor"
+          args {
+            call_value {
+              functionName: "Triggering Target Actor"
+            }
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fea3e53662365008006016"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region Door Lobby to Dining"
   position {
@@ -664,6 +1063,42 @@ regions {
   is_camera_region: false
   idRef {
     id: "51fd36563662367007001abf"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "Exit"
+  position {
+    x: 18
+    y: 24
+    width: 3
+    height: 9
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "51fea2c93662365008006012"
   }
   directional_light_dir {
     x: -0.5
@@ -936,16 +1371,25 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -20
+    x: -19
     y: 0
     z: 11
   }
   orientation: ORIENTATION_S
+  displayName: "Door Guard"
   idRef {
     id: "51fd3b4c3662367c090072c0"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "51fe9a2d3662365008005f93"
+      turnToFace: true
+    }
+  }
   character_instance {
-    prefab_name: "Lonestar/OrkLonestarGuard"
+    prefab_name: "Core/OrkMale"
     character_sheet_id: "Lonestar_Lv1_Ork_Shotgun"
     equipment_sheet_id: "Lonestar_Shotgun_High"
     character_mod {
@@ -966,12 +1410,16 @@ characters {
     equipment {
       prefab_name: "Sh 1 Street Sweeper"
     }
+    equipment {
+      prefab_name: "SamuraiTrenchcoat"
+    }
     team_id: "LoneStar"
     char_name: "Antumbra Security"
     pc_spawn_number: -1
     portrait {
       filename: "pc_orkmale_06_blondetusks"
     }
+    portrait_code_override: "s3h5c3"
     karma: 33
   }
 }
@@ -983,6 +1431,7 @@ characters {
     z: 41
   }
   orientation: ORIENTATION_S
+  GeneralTags: "bystander"
   idRef {
     id: "51fd3c863662367c090072c1"
   }
@@ -1009,6 +1458,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Manager"
+    GeneralTags: "bystander"
     pc_spawn_number: -1
     portrait {
       filename: "pc_elffemale_05_hairstreaks"
@@ -1025,6 +1475,7 @@ characters {
   }
   orientation: ORIENTATION_E
   GeneralTags: "bystander"
+  displayName: "Bartender"
   idRef {
     id: "51fd3d463662367c090072c2"
   }
@@ -1064,7 +1515,7 @@ characters {
   gridPoint {
     x: 16
     y: 0
-    z: 25
+    z: 26
   }
   orientation: ORIENTATION_E
   idRef {
@@ -1142,6 +1593,7 @@ characters {
     z: 45
   }
   orientation: ORIENTATION_W
+  GeneralTags: "bystander"
   idRef {
     id: "51fd4fd13662367c090072c5"
   }
@@ -1172,6 +1624,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Entrepeneur"
+    GeneralTags: "bystander"
     pc_spawn_number: -1
     portrait {
       filename: "pc_elfmale_03_slick"
@@ -1297,9 +1750,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 8
+    x: -17
     y: 0
-    z: 28
+    z: 12
   }
   orientation: ORIENTATION_S
   idRef {
@@ -1371,6 +1824,39 @@ characters {
     karma: 43
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -10
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  displayName: "Security Chief"
+  idRef {
+    id: "51fea39d3662365008006014"
+  }
+  character_instance {
+    prefab_name: "Lonestar/HumanFemaleLonestarCaptain"
+    character_sheet_id: "Lonestar_Lv1_Captain"
+    equipment_sheet_id: "Lonestar_Captain_Low"
+    character_mod {
+      stats {
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "LoneStar"
+    char_name: "Lonestar Captain"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    portrait {
+      filename: ""
+    }
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -1387,7 +1873,22 @@ variables {
     typeName: "bool"
   }
 }
-mapEvents: "New Event"
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "JobRecommendation"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "SabotagedSound"
+    typeName: "bool"
+  }
+}
 worldMapLocation {
   filename: ""
   location {
