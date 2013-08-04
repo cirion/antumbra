@@ -480,42 +480,6 @@ regions {
   enabledAtStart: true
   is_camera_region: false
   idRef {
-    id: "51fd35e43662367007001abd"
-  }
-  directional_light_dir {
-    x: -0.5
-    y: -1
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambience_template: ""
-  combat_music: ""
-  default_music: ""
-  loop_combat_music: true
-  loop_default_music: false
-}
-regions {
-  name: "Region Door Lobby to Dance"
-  position {
-    x: 6
-    y: 22
-    width: 7
-    height: 5
-  }
-  enabledAtStart: true
-  is_camera_region: false
-  idRef {
     id: "51fd36563662367007001abf"
   }
   directional_light_dir {
@@ -1017,6 +981,10 @@ characters {
         protect_tether_range: 5
         move_speed: 6
       }
+      skills {
+      }
+      specializations {
+      }
       archetypeName: "Non-Combatant"
     }
     team_id: "Civilians"
@@ -1074,9 +1042,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -3
+    x: 4
     y: 0
-    z: 7
+    z: 45
   }
   orientation: ORIENTATION_E
   idRef {
@@ -1146,9 +1114,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 1
+    x: 6
     y: 0
-    z: 13
+    z: 46
   }
   orientation: ORIENTATION_S
   idRef {
@@ -1159,6 +1127,81 @@ characters {
     char_name: "New Actor"
     enabled_at_start: true
     pc_spawn_number: 0
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "51fdbde4366236181b0072af"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "51fdc3a3366236181b0072b0"
+      turnToFace: true
+    }
+  }
+  character_instance {
+    prefab_name: "Standard/TrollFemaleDetective"
+    character_sheet_id: "Lvl1_Merc_Troll_Brute"
+    equipment_sheet_id: "Lonestar_Shotgun_Low"
+    character_mod {
+      stats {
+        body: 1
+        hp: 0
+        morale: 24
+        awareness: 19
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+        ranged_combat: 2
+        throwing_weapons: 1
+      }
+      specializations {
+        shotgun: 2
+        edged: 1
+      }
+    }
+    equipment {
+      prefab_name: "HealthPack"
+    }
+    equipment {
+      prefab_name: "Sword 1 Rebar Pipe"
+    }
+    equipment {
+      prefab_name: "Kamikaze"
+    }
+    team_id: "Gangers"
+    char_name: "Turm"
+    pc_spawn_number: -1
+    portrait {
+      filename: "pc_trollfemale_01a_detective"
+    }
+    karma: 43
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "Spoke_Dalmin_Once"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "Spoke_Turm_Once"
+    typeName: "bool"
   }
 }
 mapEvents: "New Event"
@@ -1223,6 +1266,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
