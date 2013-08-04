@@ -15,17 +15,10 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Comparison (Actor)"
       args {
         call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
+          functionName: "Triggering Actor"
         }
       }
       args {
@@ -36,6 +29,14 @@ triggers {
           }
           args {
             int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
           }
         }
       }
@@ -79,17 +80,10 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Comparison (Actor)"
       args {
         call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
+          functionName: "Triggering Actor"
         }
       }
       args {
@@ -100,6 +94,14 @@ triggers {
           }
           args {
             int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
           }
         }
       }
@@ -143,17 +145,10 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Comparison (Actor)"
       args {
         call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
+          functionName: "Triggering Actor"
         }
       }
       args {
@@ -164,6 +159,14 @@ triggers {
           }
           args {
             int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
           }
         }
       }
@@ -207,17 +210,10 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Comparison (Actor)"
       args {
         call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
+          functionName: "Triggering Actor"
         }
       }
       args {
@@ -228,6 +224,14 @@ triggers {
           }
           args {
             int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
           }
         }
       }
@@ -255,7 +259,7 @@ triggers {
   is_oneshot: false
 }
 triggers {
-  name: "NewTrigger"
+  name: "Dalmin Joins Team"
   events {
     ops {
       functionName: "On Conversation Complete"
@@ -397,13 +401,156 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "Turm Joins Team"
+  events {
+    ops {
+      functionName: "On Conversation Complete"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "TurmJoined"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "51fdbde4366236181b0072af"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Change Actor Control"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "51fdbde4366236181b0072af"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PlayerOrAI"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "51fdbde4366236181b0072af"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fdd677366236181b007778"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region Door Lobby to Dining"
   position {
-    x: 7
-    y: 31
-    width: 5
-    height: 5
+    x: 5
+    y: 29
+    width: 8
+    height: 7
   }
   enabledAtStart: true
   is_camera_region: false
@@ -472,10 +619,10 @@ regions {
 regions {
   name: "Region Door Lobby to Dance"
   position {
-    x: 6
-    y: 22
-    width: 7
-    height: 5
+    x: 5
+    y: 21
+    width: 8
+    height: 7
   }
   enabledAtStart: true
   is_camera_region: false
@@ -1114,7 +1261,7 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 6
+    x: 3
     y: 0
     z: 46
   }

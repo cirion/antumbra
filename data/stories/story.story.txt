@@ -54,6 +54,17 @@ variables {
     }
   }
 }
+variables {
+  name: "A1_Bool_KnowAboutNanites"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_KnowAboutNanites"
+    }
+  }
+}
 startScene: "Antumbra Exterior Night"
 character_roster {
   roster_entries {

@@ -21,31 +21,371 @@ nodes {
   index: 1
   text: "So, what can a little guy like me do for you?"
   branches {
-    responseText: "Are your services for sale?"
+    responseText: "What do you think of Antumbra?"
     nextNodeIndex: 2
+    onlyOnce: true
+    idRef {
+      id: "51fdd6d1366236181b0077cb"
+    }
+  }
+  branches {
+    responseText: "Have you met Kali?"
+    nextNodeIndex: 3
+    onlyOnce: true
+    idRef {
+      id: "51fdd6d4366236181b0077cc"
+    }
+  }
+  branches {
+    responseText: "What can you tell me about this box?"
+    nextNodeIndex: 4
+    onlyOnce: true
+    idRef {
+      id: "51fdd6d7366236181b0077cd"
+    }
+  }
+  branches {
+    responseText: "Are your services for sale?"
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "51fdbde4366236181b0072af"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 11
+    hideIfUnavailable: true
   }
   branches {
     responseText: "I\'ll pay good nuyen for your worthless hide."
-    nextNodeIndex: -1
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "51fdbde4366236181b0072af"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 16
+    hideIfUnavailable: true
   }
-}
-nodes {
-  idRef {
-    id: "51fd5ae43662367c09007328"
-  }
-  index: 2
-  text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
   branches {
-    responseText: ""
-    nextNodeIndex: 3
+    responseText: "Are your services for sale?"
+    conditions {
+      ops {
+        functionName: "Compare Actor Team"
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "51fdbde4366236181b0072af"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 17
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "51fdd303366236181b0075d7"
+    }
+  }
+  branches {
+    responseText: "So long, Dalmin."
+    nextNodeIndex: 23
+  }
+  branches {
+    responseText: "{{GM}}Leave.{{/GM}}"
+    nextNodeIndex: -1
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fd5b0d3662367c0900733e"
+    id: "51fdcf94366236181b0074ff"
+  }
+  index: 2
+  text: "It seems promising. Of course, it doesn\342\200\231t have much competition out here in Everett. The beer\342\200\231s cheaper than the downtown clubs, and Kali has booked some impressive talent.\n\nThe real test will come after the opening fervor dies down. This place needs backing if they want to keep drawing people in."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+}
+nodes {
+  idRef {
+    id: "51fdcfd3366236181b007520"
   }
   index: 3
+  text: "Oh, I\342\200\231ve seen her, but she wouldn\342\200\231t know me. She\342\200\231s always focused on finding the next rising star. It\342\200\231s easy to overlook a little dwarf when you have her stature.\n\nFrom what I\342\200\231ve heard, she\342\200\231s perfectly nice for an ambitious narcissist."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdcffa366236181b007524"
+  }
+  index: 4
+  text: "{{GM}}You hand the box over to Dalmin, who stops dancing while hefting it up to eye level.{{/GM}}\n\nI\342\200\231d be happy to consult on your run. Let\342\200\231s take a look at it...\n\nOh.\n\nOh, dear."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd0b0366236181b00752d"
+  }
+  index: 5
+  text: "{{GM}}His jovial mood has flown away. Dalmin regards you with a growing frown.{{/GM}}\n\n$(l.name), do you have any idea what\'s in here?"
+  branches {
+    responseText: "Medical supplies?"
+    nextNodeIndex: 6
+  }
+  branches {
+    responseText: "Enough space to stuff an uncooperative dwarf?"
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd296366236181b0075ce"
+  }
+  index: 6
+  text: "No. Rather the opposite, in fact..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd270366236181b0075b3"
+  }
+  index: 7
+  text: "Er. No. Not unless you squeezed it very hard, I suppose..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd0f7366236181b007535"
+  }
+  index: 8
+  text: "This thing is filled with biological nanites. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
+  branches {
+    responseText: "I take it that\'s bad?"
+    nextNodeIndex: 9
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "So?"
+    nextNodeIndex: 9
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_KnowAboutNanites"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fdd132366236181b00753a"
+  }
+  index: 9
+  text: "I\342\200\231m no expert, but once this thing is opened, they\342\200\231ll swarm through the entire area. Just a couple of bio-nanites are plenty for implanting cyberware. With this many in a box, they must be for an attack.\n\nWho would do that, though? There\342\200\231s nothing in here but aspiring trideo stars and DJs. The whole building will be doomed to destruction."
+  branches {
+    responseText: "What do you suggest I do?"
+    nextNodeIndex: 10
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Who cares?"
+    nextNodeIndex: 10
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd18e366236181b00753f"
+  }
+  index: 10
+  text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say this certainly qualifies. Could be a rare opportunity for some prime blackmail."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fd5ae43662367c09007328"
+  }
+  index: 11
+  text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdcf03366236181b0074f3"
+  }
+  index: 12
   text: "Tell you what: my pals are coming here in three hours. You can have me until then for just 500 nuyen."
   branches {
     responseText: "{{CC}}\302\245500{{/CC}} Here you go."
@@ -68,23 +408,23 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 4
+    nextNodeIndex: 13
   }
   branches {
     responseText: "Too pricey for me."
-    nextNodeIndex: -1
+    nextNodeIndex: 14
   }
   branches {
     responseText: "Not a chance."
-    nextNodeIndex: 5
+    nextNodeIndex: 15
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fd5b9b3662367c09007349"
+    id: "51fdcf03366236181b0074f6"
   }
-  index: 4
+  index: 13
   text: "Excellent! After you, $(l.sir)."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -151,10 +491,137 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fd5f943662362c230072c0"
+    id: "51fdd2af366236181b0075d2"
   }
-  index: 5
+  index: 14
+  text: "That\'s a shame. I assure you that I\'m worth every credit."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdcf03366236181b0074fa"
+  }
+  index: 15
   text: "If I didn\'t know better, I\'d think you were trying to hurt my feelings!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdce70366236181b007463"
+  }
+  index: 16
+  text: "And I\'ll take your money with a smile!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+    auxiliaryLink: true
+  }
+}
+nodes {
+  idRef {
+    id: "51fdd315366236181b0075d9"
+  }
+  index: 17
+  text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd330366236181b0075dc"
+  }
+  index: 18
+  text: "NO.\n\n{{GM}}Turm\'s voice bellows loudly enough that nearby patrons look over in annoyance. They quickly glance away and pretend not to have noticed the upset troll.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 19
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "51fdbde4366236181b0072af"
+  }
+}
+nodes {
+  idRef {
+    id: "51fdd42c366236181b0075e7"
+  }
+  index: 19
+  text: "Aww, Turm..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd42c366236181b0075ea"
+  }
+  index: 20
+  text: "{{GM}}Turm taps your chest with a stubby forefinger. While you catch your breath, she calmly explains the situation.{{/GM}}\n\n $(l.name), if this little pile of drek gets within reach of my arms, I\'ll stuff his face into his rectum."
+  branches {
+    responseText: ""
+    nextNodeIndex: 21
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "51fdbde4366236181b0072af"
+  }
+}
+nodes {
+  idRef {
+    id: "51fdd44c366236181b0075ee"
+  }
+  index: 21
+  text: "{{GM}}Dalmin audibly gulps, his Adam\'s apple seemingly attempting to escape his body\'s fate.{{/GM}}\n\nThank you most kindly for the offer, $(l.name), but I must respectfully decline due to extenuating circumstances."
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd4aa366236181b0075f1"
+  }
+  index: 22
+  text: "I\'ll extend your spine! Keep away from me, you freak!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  sourceInSceneRef {
+    id: "51fdbde4366236181b0072af"
+  }
+}
+nodes {
+  idRef {
+    id: "51fdd55e366236181b007675"
+  }
+  index: 23
+  text: "Take care, $(l.name)! Enjoy the party! Maybe I\'ll see you around later."
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdd943366236181b007aad"
+  }
+  index: 24
+  text: "Can\'t get enough, eh?"
   branches {
     responseText: ""
     nextNodeIndex: 1
@@ -164,5 +631,79 @@ nodes {
 }
 roots {
   responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "Spoke_Dalmin_Once"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
   nextNodeIndex: 0
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "Spoke_Dalmin_Once"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 24
 }

@@ -209,7 +209,7 @@ nodes {
     id: "51fdc67c366236181b007309"
   }
   index: 4
-  text: "You kidding? I\342\200\231d get shot on sight. No way an ork like me could pass for talent.\n\nThey sure put on a bright front here, all smiles and dances, but if you start prowling through the offices they\342\200\231ll drop you quicker than Kali\342\200\231s next single."
+  text: "You kidding? I\342\200\231d get shot on sight. No way a troll like me could pass for talent.\n\nThey sure put on a bright front here, all smiles and dances, but if you start prowling through the offices they\342\200\231ll drop you quicker than Kali\342\200\231s next single."
   branches {
     responseText: ""
     nextNodeIndex: 1
@@ -375,6 +375,12 @@ nodes {
             int_value: 1
           }
         }
+      }
+    }
+    ops {
+      functionName: "Remove Nuyen"
+      args {
+        int_value: 500
       }
     }
   }
