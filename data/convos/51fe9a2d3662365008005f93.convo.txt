@@ -753,7 +753,7 @@ nodes {
   index: 12
   text: "Yes, I can see why Kali would be interested. You\342\200\231re probably going to be a big star in a few weeks! Hey, can I get your autograph?"
   branches {
-    responseText: "{{GM}}You take the proffered pen and scrawl your signature across the guard\342\200\231s bicep.{{/GM}}"
+    responseText: "{{GM}}Scrawl your signature across the guard\342\200\231s bicep.{{/GM}}"
     nextNodeIndex: 13
   }
   nodeType: ConversationNodeType_Simple
@@ -763,7 +763,7 @@ nodes {
     id: "51fea03b3662365008005fe0"
   }
   index: 13
-  text: "Wow, thanks! My wife will be so jealous. Here\342\200\231s your key card. Head right on in, Kali will be waiting for you. Oh, and a word of warning: the guards upstairs work off of a separate visitor list. Shouldn\342\200\231t be a problem, though... unless you hacked into our system! Haha! (Get pass, flip variable for star, remove dialogue.)"
+  text: "Wow, thanks! My wife will be so jealous. Here\342\200\231s your key card. Head right on in, Kali will be waiting for you. Oh, and a word of warning: the guards upstairs work off of a separate visitor list. Shouldn\342\200\231t be a problem, though... unless you hacked into our system! Ha!"
   nodeType: ConversationNodeType_Simple
   actions {
     ops {

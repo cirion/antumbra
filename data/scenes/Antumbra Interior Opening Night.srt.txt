@@ -896,10 +896,28 @@ triggers {
   }
   actions {
     ops {
-      functionName: "Delete Prop"
+      functionName: "Kill Actor"
       args {
         call_value {
-          functionName: "Triggering Prop"
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
         }
       }
     }
@@ -910,7 +928,7 @@ triggers {
   }
   elseActions {
   }
-  is_oneshot: true
+  is_oneshot: false
 }
 triggers {
   name: "Killed Chief"
@@ -978,6 +996,117 @@ triggers {
   elseActions {
   }
   is_oneshot: true
+}
+triggers {
+  name: "Prop_Terminal_Interaction"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "51fec67e366236500800632f"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "51fec3b4366236500800628a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "51fed758366236500800659a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fec83b3662365008006331"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Prop_SoundSystemInteraction"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "51fd31953662367007001a2b"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "51fed23b36623650080064fb"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "51fed4723662365008006548"
+  }
+  elseActions {
+  }
+  is_oneshot: false
 }
 regions {
   name: "Region Door Lobby to Dining"
@@ -1123,6 +1252,42 @@ regions {
   loop_combat_music: true
   loop_default_music: false
 }
+regions {
+  name: "Nowhere"
+  position {
+    x: -7
+    y: 65
+    width: 10
+    height: 10
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "51febd3d3662365008006239"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
@@ -1132,8 +1297,17 @@ characters {
   }
   orientation: ORIENTATION_N
   GeneralTags: "bystander"
+  displayName: "Drunk"
   idRef {
     id: "51fd1cd736623670070018ce"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "51febfc53662365008006241"
+      turnToFace: true
+    }
   }
   character_instance {
     prefab_name: "Wealthy/HumanMaleAutumnPony"
@@ -1426,17 +1600,26 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -10
+    x: -9
     y: 0
-    z: 41
+    z: 40
   }
   orientation: ORIENTATION_S
   GeneralTags: "bystander"
+  displayName: "Manager"
   idRef {
     id: "51fd3c863662367c090072c1"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "51fec8f13662365008006332"
+      turnToFace: true
+    }
+  }
   character_instance {
-    prefab_name: "Core/ElfFemale"
+    prefab_name: "Extras/ElfFemaleFashionista"
     character_sheet_id: "BaseCivilian"
     character_mod {
       stats {
@@ -1453,6 +1636,10 @@ characters {
         awareness: 24
         protect_tether_range: 5
         move_speed: 6
+      }
+      skills {
+      }
+      specializations {
       }
       archetypeName: "Non-Combatant"
     }
@@ -1479,9 +1666,20 @@ characters {
   idRef {
     id: "51fd3d463662367c090072c2"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 2
+    conversationPoint {
+      conversationID: "51fecb9b36623650080063bd"
+      turnToFace: true
+    }
+  }
   character_instance {
     prefab_name: "Homeless/DwarfMaleHomelessBeard"
     character_sheet_id: "BaseCivilian"
+    equipment_sheet_id: "Merchant_Weapons_Low"
+    equipment_sheet_id: "Merchant_Magic_Low"
+    equipment_sheet_id: "Merchant_Outfit_Low"
     character_mod {
       stats {
         body: 0
@@ -1497,6 +1695,10 @@ characters {
         awareness: 24
         protect_tether_range: 5
         move_speed: 6
+      }
+      skills {
+      }
+      specializations {
       }
       archetypeName: "Non-Combatant"
     }
@@ -1663,6 +1865,10 @@ characters {
         protect_tether_range: 5
         move_speed: 6
       }
+      skills {
+      }
+      specializations {
+      }
       archetypeName: "Non-Combatant"
     }
     team_id: "Civilians"
@@ -1678,9 +1884,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: 4
+    x: 0
     y: 0
-    z: 45
+    z: 13
   }
   orientation: ORIENTATION_E
   idRef {
@@ -1750,9 +1956,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -17
+    x: -18
     y: 0
-    z: 12
+    z: 24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -1857,6 +2063,64 @@ characters {
     }
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -22
+    y: 0
+    z: 24
+  }
+  orientation: ORIENTATION_S
+  displayName: "Terminal Face"
+  idRef {
+    id: "51fed758366236500800659a"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "51fec3b4366236500800628a"
+      turnToFace: true
+    }
+  }
+  character_instance {
+    prefab_name: "Extras/TrollMaleMentalPatientStraightJacketCreme"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Shadowrunners"
+    char_name: "Antumbra Information Center"
+    enabled_at_start: true
+    pc_spawn_number: -1
+    portrait {
+      filename: "generic_esp_kamikaze"
+    }
+    karma: 6
+    is_prop_character: true
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -1886,6 +2150,22 @@ variables {
   variableref_value {
     scope: TsVariableScope_Scene
     name: "SabotagedSound"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "FetchingDrink"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "JobRecommendation"
     typeName: "bool"
   }
 }
