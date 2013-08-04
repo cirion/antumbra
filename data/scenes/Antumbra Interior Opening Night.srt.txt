@@ -41,6 +41,42 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
   }
   actions {
     ops {
@@ -55,7 +91,7 @@ triggers {
       }
     }
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "51fc8317366236881d00689e"
   }
@@ -120,7 +156,7 @@ triggers {
       }
     }
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "51fc8656366236881d0068a5"
   }
@@ -185,7 +221,7 @@ triggers {
       }
     }
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "51fd36333662367007001abe"
   }
@@ -250,7 +286,7 @@ triggers {
       }
     }
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "51fd36613662367007001ac0"
   }
@@ -547,10 +583,10 @@ triggers {
 regions {
   name: "Region Door Lobby to Dining"
   position {
-    x: 5
-    y: 29
-    width: 8
-    height: 7
+    x: 9
+    y: 31
+    width: 2
+    height: 4
   }
   enabledAtStart: true
   is_camera_region: false
@@ -619,10 +655,10 @@ regions {
 regions {
   name: "Region Door Lobby to Dance"
   position {
-    x: 5
-    y: 21
-    width: 8
-    height: 7
+    x: 9
+    y: 23
+    width: 2
+    height: 4
   }
   enabledAtStart: true
   is_camera_region: false
@@ -1261,9 +1297,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 3
+    x: 8
     y: 0
-    z: 46
+    z: 28
   }
   orientation: ORIENTATION_S
   idRef {

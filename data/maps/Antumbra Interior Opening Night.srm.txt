@@ -970,7 +970,7 @@ props {
     interactionRadius: 1
     doorPoint {
       doorState: false
-      aiOnlyDoor: true
+      aiOnlyDoor: false
       doorSound: "DoorSlide"
       doorSoundBundle: "props"
     }
@@ -1014,7 +1014,7 @@ props {
     interactionRadius: 1
     doorPoint {
       doorState: false
-      aiOnlyDoor: true
+      aiOnlyDoor: false
       doorSound: "DoorSlide"
       doorSoundBundle: "props"
     }
@@ -4949,29 +4949,6 @@ props {
   }
 }
 props {
-  name: "office_wall_glassDoor01"
-  gridPoint {
-    x: -11
-    y: 0
-    z: 32
-  }
-  orientation: ORIENTATION_E
-  displayName: "Door Dining to Dance"
-  idRef {
-    id: "51fd28633662367007001966"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    doorPoint {
-      doorState: false
-      aiOnlyDoor: true
-      doorSound: "DoorSlide"
-      doorSoundBundle: "props"
-    }
-  }
-}
-props {
   name: "office_wall_greyEdge15"
   gridPoint {
     x: -14
@@ -8630,14 +8607,25 @@ props {
   }
 }
 props {
-  name: "telestrianEstate_floor_tile02"
+  name: "office_wall_glassDoor01"
   gridPoint {
-    x: 8
-    y: 3
-    z: 21
+    x: -11
+    y: 0
+    z: 32
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
+  displayName: "Door Dining to Dance"
   idRef {
-    id: "51fd5a243662367c090072df"
+    id: "51fdddfd366236181b007d83"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: false
+      doorSound: "DoorSlide"
+      doorSoundBundle: "props"
+    }
   }
 }
