@@ -1,0 +1,200 @@
+idRef {
+  id: "51ff22fd366236f803007303"
+}
+ui_name: "A1_Office_Kali"
+nodes {
+  idRef {
+    id: "51ff2305366236f803007309"
+  }
+  index: 0
+  text: "{{GM}}The woman across the desk glares at you, her imperious face not betraying any hint of distress.{{/GM}}\n\nWhat are you doing here?"
+  branches {
+    responseText: "I\342\200\231m your biggest fan! Can I get your autograph?"
+    nextNodeIndex: 1
+  }
+  branches {
+    responseText: "I\342\200\231m here to deliver some medical supplies. "
+    nextNodeIndex: 8
+  }
+  branches {
+    responseText: "I\'m on a mission."
+    nextNodeIndex: 9
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff2362366236f80300730e"
+  }
+  index: 1
+  text: "No way my guards would let a fan back here."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff23a9366236f803007311"
+  }
+  index: 2
+  text: "Who are you, really?"
+  branches {
+    responseText: "I\'m a friend. You\'re in grave danger."
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (bool)"
+            args {
+              string_value: "51f7429764343188990041a8"
+            }
+            args {
+              string_value: "A1_Bool_KnowAboutNanites"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
+    hideIfUnavailable: true
+  }
+  branches {
+    responseText: "I just need to deliver this box. Nobody has to get hurt."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "Stand in my way and you\342\200\231ll find out."
+    nextNodeIndex: 6
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 7
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff2499366236f803007338"
+  }
+  index: 3
+  text: ""
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff24ef366236f80300733a"
+  }
+  index: 4
+  text: "This smells rotten. Did one of the other clubs send you to put me out of business?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff255c366236f803007346"
+  }
+  index: 5
+  text: "I\342\200\231ve taken too much drek over the years to put up with scum like you.\n\nI won\342\200\231t let you ruin the highlight of my career! Security!"
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff2581366236f80300734e"
+  }
+  index: 6
+  text: "Can\342\200\231t I do ANYTHING in this town without someone infringing my turf?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff2535366236f80300733e"
+  }
+  index: 7
+  text: "I see how it is."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff23b3366236f803007315"
+  }
+  index: 8
+  text: "I might believe you if I hadn\'t just taken a delivery an hour ago."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff23e3366236f803007319"
+  }
+  index: 9
+  text: "Oh? Should I be worried?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51ff23fb366236f80300731e"
+  }
+  index: 10
+  text: "You\'re making me nervous.\n\n{{GM}}Sure enough, her calm is getting ruffled. You spot some motion under the desk, no doubt activating a silent alarm.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

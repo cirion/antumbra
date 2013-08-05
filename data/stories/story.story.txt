@@ -87,7 +87,21 @@ variables {
     }
   }
 }
+variables {
+  name: "A1_Bool_ToldCarverAboutNanites"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_ToldCarverAboutNanites"
+    }
+  }
+}
 startScene: "Antumbra Exterior Night"
+allowCharacterGen: true
+allowFallbackCharacter: false
+useDefaultEquipment: false
 character_roster {
   roster_entries {
     reference_id: "lvl1_dwarf_rigger"
