@@ -2474,13 +2474,23 @@ props {
 props {
   name: "cemetery_wall_gateDoor01"
   gridPoint {
-    x: -33
+    x: -37
     y: 0
-    z: -24
+    z: -23
   }
   orientation: ORIENTATION_E
   idRef {
     id: "52005fc3366236b019003923"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: true
+      doorSound: "DoorStone"
+      doorSoundBundle: "props"
+    }
   }
 }
 props {
@@ -10132,7 +10142,7 @@ props {
   gridPoint {
     x: -30
     y: 0
-    z: -25
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14332,7 +14342,7 @@ props {
   gridPoint {
     x: -28
     y: 0
-    z: -22
+    z: -23
   }
   orientation: ORIENTATION_S
   idRef {
@@ -15107,7 +15117,7 @@ props {
 props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
-    x: 1.66893e-006
+    x: 1.66893e-06
     y: 0
     z: 22.099998
   }
@@ -15462,5 +15472,214 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "520079a3366236b019003d78"
+  }
+}
+props {
+  name: "telestrianEstate_decor_statue01"
+  gridPoint {
+    x: -27
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "puzzle1_piece1_wrong"
+  displayName: "Puzzle 1 Piece 1 Wrong"
+  idRef {
+    id: "52013016643431684e7c3c68"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "puzzle1_piece3_wrong"
+  displayName: "Puzzle 1 Piece 3 Wrong"
+  idRef {
+    id: "52013026643431684e7c3c6b"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -45
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "puzzle1_piece2_right"
+  displayName: "Puzzle 1 Piece 2 Right"
+  idRef {
+    id: "52011740643431684e7c3c57"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "puzzle1_piece2_wrong"
+  displayName: "Puzzle 1 Piece 2 Wrong"
+  idRef {
+    id: "5201174c643431684e7c3c58"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -25
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520117cb643431684e7c3c59"
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520117dc643431684e7c3c5a"
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -25
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520117ff643431684e7c3c5b"
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -20
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201180f643431684e7c3c5c"
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "puzzle1_piece4_right"
+  displayName: "Puzzle 1 Piece 4 Right"
+  idRef {
+    id: "5201185c643431684e7c3c5d"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue02"
+  gridPoint {
+    x: -44
+    y: 0
+    z: -41
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "puzzle1_piece1_right"
+  displayName: "Puzzle 1 Piece 1 Right"
+  idRef {
+    id: "520118e2643431684e7c3c5e"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -42
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "puzzle1_piece4_wrong"
+  displayName: "Puzzle 1 Piece 4 Wrong"
+  idRef {
+    id: "520118fa643431684e7c3c5f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
+  }
+}
+props {
+  name: "cemetery_decor_angelStatue01"
+  gridPoint {
+    x: -43
+    y: 0
+    z: -35
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "puzzle1_piece3_right"
+  displayName: "Puzzle 1 Piece 3 Right"
+  idRef {
+    id: "520118fe643431684e7c3c60"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_Generic
   }
 }
