@@ -17,3 +17,9 @@ content_pack_dependencies {
   package_name: "Seattle"
   package_description: "Seattle Area Environments and Tilesets"
 }
+content_pack_dependencies {
+  package_id: "518d7674643431b03f0041ab"
+  package_version: "1"
+  package_name: "DeadMansSwitch"
+  package_description: "The Dead Man\'s Switch"
+}
