@@ -6125,9 +6125,9 @@ props {
 props {
   name: "telestrianEstate_wall_wallpaperEdge01"
   gridPoint {
-    x: 35
+    x: 26
     y: 0
-    z: 43
+    z: 35
   }
   orientation: ORIENTATION_S
 }
@@ -6433,9 +6433,9 @@ props {
   gridPoint {
     x: 35
     y: 0
-    z: 42
+    z: 43
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   idRef {
     id: "51fefceb3662365008006911"
   }
@@ -6599,11 +6599,11 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: 43
-    y: 3
+    x: 45.9
+    y: 4
     z: 44
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
   idRef {
     id: "51fefd633662365008006922"
   }
@@ -6843,18 +6843,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "51fefe40366236500800692f"
-  }
-}
-props {
-  name: "telestrianEstate_floor_woodTile03"
-  gridPoint {
-    x: 38
-    y: 0
-    z: 35
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51fefe403662365008006930"
   }
 }
 props {
@@ -8919,11 +8907,11 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: 43.1
+    x: 43.699997
     y: 3
-    z: 43.7
+    z: 43
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
   idRef {
     id: "51ff047636623650080069e6"
   }
@@ -8966,6 +8954,18 @@ props {
     z: 50
   }
   orientation: ORIENTATION_S
+  displayName: "Elevator to Caves"
+  idRef {
+    id: "5202591436623654100039db"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    transitionPoint {
+      scene_name: "Caves"
+      confirmation_text: ""
+    }
+  }
 }
 props {
   name: "secretLab_wall_fill"
@@ -9811,4 +9811,302 @@ props {
     z: 1.5
   }
   orientation: ORIENTATION_W
+}
+props {
+  name: "telestrianEstate_floor_woodTile05"
+  gridPoint {
+    x: 38
+    y: 0
+    z: 35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5202566336623654100039d4"
+  }
+}
+props {
+  name: "hive_wallDecoration_firstAidStation"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 47
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52025b6236623654100039e4"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    pickupItem {
+      itemName: "HealthPack"
+      destroyOnPickup: true
+    }
+  }
+}
+props {
+  name: "hive_wallDecoration_firstAidStation"
+  gridPoint {
+    x: 10
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52025b1236623654100039e1"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    pickupItem {
+      itemName: "HealthPack"
+      destroyOnPickup: true
+    }
+  }
+}
+props {
+  name: "telestrianEstate_wallDecoration_cubistPainting01"
+  gridPoint {
+    x: 29
+    y: 4
+    z: 44
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "telestrianEstate_decor_displayCase01"
+  gridPoint {
+    x: 33
+    y: 0
+    z: 44
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_decor_pottedPalm"
+  gridPoint {
+    x: 36
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_decor_sculpture01"
+  gridPoint {
+    x: 37
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_baroqueChair01"
+  gridPoint {
+    x: 38
+    y: 0
+    z: 48
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "telestrianEstate_furniture_baroqueChair02"
+  gridPoint {
+    x: 32
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_baroqueEndTable01"
+  gridPoint {
+    x: 34
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_baroqueLoungeChair01"
+  gridPoint {
+    x: 38
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_coffeeTable01"
+  gridPoint {
+    x: 40
+    y: 0
+    z: 51
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "telestrianEstate_furniture_coffeeTable02"
+  gridPoint {
+    x: 35
+    y: 0
+    z: 47
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_endTable01"
+  gridPoint {
+    x: 29
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_hallwayTable01"
+  gridPoint {
+    x: 26
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_modernChair01"
+  gridPoint {
+    x: 24
+    y: 0
+    z: 45
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_modernCouch01"
+  gridPoint {
+    x: 23
+    y: 0
+    z: 53
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_piano01"
+  gridPoint {
+    x: 35
+    y: 0
+    z: 53
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_piano01"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52025c1236623654100039e5"
+  }
+}
+props {
+  name: "telestrianEstate_furniture_vanity01"
+  gridPoint {
+    x: 29
+    y: 0
+    z: 47
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_lighting_wallLight01"
+  gridPoint {
+    x: 24
+    y: 0
+    z: 48
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_storage_gunSafe"
+  gridPoint {
+    x: 31
+    y: 0
+    z: 49
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_tech_soundSystem"
+  gridPoint {
+    x: 26
+    y: 0
+    z: 54
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_giantPortrait"
+  gridPoint {
+    x: 31
+    y: 0
+    z: 53
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_minimalistSculpture01"
+  gridPoint {
+    x: 24
+    y: 0
+    z: 50
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_mirror01"
+  gridPoint {
+    x: 33
+    y: 0
+    z: 48
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_mirror02"
+  gridPoint {
+    x: 25
+    y: 0
+    z: 47
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_modernPanels01"
+  gridPoint {
+    x: 28
+    y: 0
+    z: 55
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_PopArtPainting01"
+  gridPoint {
+    x: 33
+    y: 0
+    z: 50
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_wallDecoration_worldMap"
+  gridPoint {
+    x: 34
+    y: 0
+    z: 54
+  }
+  orientation: ORIENTATION_S
 }

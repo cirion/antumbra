@@ -98,6 +98,28 @@ variables {
     }
   }
 }
+variables {
+  name: "A1_Bool_KilledBoss"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_KilledBoss"
+    }
+  }
+}
+variables {
+  name: "A1_Bool_KilledCarver"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_KilledCarver"
+    }
+  }
+}
 startScene: "Antumbra Exterior Night"
 allowCharacterGen: true
 allowFallbackCharacter: false

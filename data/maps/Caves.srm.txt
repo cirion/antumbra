@@ -16310,3 +16310,654 @@ props {
     id: "5201d8b53662368c16004e73"
   }
 }
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -24
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
+  }
+}
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -24
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
+  }
+  idRef {
+    id: "5202547336623654100039bb"
+  }
+}
+props {
+  name: "tempbad_leyline_medium"
+  gridPoint {
+    x: -26
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineMedium"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineMed"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileMed"
+  }
+}
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
+  }
+}
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -41
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
+  }
+  idRef {
+    id: "5202549036623654100039bc"
+  }
+}
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -46
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
+  }
+  idRef {
+    id: "5202549536623654100039bd"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -85
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254ac36623654100039c1"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -77
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+}
+props {
+  name: "tempbad_leyline_medium"
+  gridPoint {
+    x: -54
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineMedium"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineMed"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileMed"
+  }
+}
+props {
+  name: "tempbad_leyline_medium"
+  gridPoint {
+    x: -62
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineMedium"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineMed"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileMed"
+  }
+  idRef {
+    id: "520254c736623654100039c2"
+  }
+}
+props {
+  name: "tempbad_leyline_medium"
+  gridPoint {
+    x: -67
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineMedium"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineMed"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileMed"
+  }
+  idRef {
+    id: "520254cb36623654100039c3"
+  }
+}
+props {
+  name: "tempbad_leyline_medium"
+  gridPoint {
+    x: -76
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineMedium"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineMed"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileMed"
+  }
+  idRef {
+    id: "520254ce36623654100039c4"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -92
+    y: -0.5
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -76
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -76
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254ea36623654100039c5"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -82
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254ec36623654100039c6"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -88
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254f036623654100039c7"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -95
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254f436623654100039c8"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -102
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254f636623654100039c9"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -104
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254f736623654100039ca"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -104
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254f936623654100039cb"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -104
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254fc36623654100039cc"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -101
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "520254fe36623654100039cd"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -87
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "5202550236623654100039ce"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -92
+    y: -0.4
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "5202551436623654100039cf"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -86
+    y: -0.4
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "5202551936623654100039d0"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -91
+    y: -0.4
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "5202551b36623654100039d1"
+  }
+}
+props {
+  name: "tempbad_leyline_heavy"
+  gridPoint {
+    x: -98
+    y: -0.4
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineHigh"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineClose"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileHigh"
+  }
+  idRef {
+    id: "5202551c36623654100039d2"
+  }
+}
