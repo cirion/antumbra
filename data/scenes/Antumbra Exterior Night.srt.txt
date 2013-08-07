@@ -211,6 +211,16 @@ characters {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv5_Captain"
     character_mod {
+      stats {
+        morale: 24
+        awareness: 24
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
       archetypeName: "Non-Combatant"
     }
     team_id: "Civilians"
@@ -218,6 +228,10 @@ characters {
     pc_spawn_number: -1
     uninjurable: true
     unkillable: true
+    portrait {
+      filename: "backer_humanmale_levieranburks"
+    }
+    karma: 98
   }
 }
 worldMapLocation {

@@ -1319,8 +1319,8 @@ props {
   name: "secretLab_tech_largeWallMonitor03_lights"
   gridPoint {
     x: 5.2
-    y: 1.7
-    z: 24.2
+    y: 1.6
+    z: 24.400002
   }
   orientation: ORIENTATION_S
 }
@@ -8423,7 +8423,7 @@ props {
       }
     }
     transitionPoint {
-      scene_name: "downtownseattle"
+      scene_name: "Caves"
       confirmation_text: "Are you ready to enter the office? Security will likely prevent you from returning to the club."
     }
   }
@@ -8638,9 +8638,9 @@ props {
 props {
   name: "telestrianEstate_floor_tile02"
   gridPoint {
-    x: -14
-    y: 3
-    z: -2
+    x: -28
+    y: 0
+    z: 17
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9071,4 +9071,13 @@ props {
   idRef {
     id: "51fed68e3662365008006588"
   }
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: -6.1
+    y: 0
+    z: 26.8
+  }
+  orientation: ORIENTATION_S
 }
