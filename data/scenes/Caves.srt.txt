@@ -4679,12 +4679,6 @@ characters {
       attitude: AttitudeAggressive
     }
     equipment {
-      prefab_name: "Bound Air Spirit 1"
-    }
-    equipment {
-      prefab_name: "Bound Air Spirit 1"
-    }
-    equipment {
       prefab_name: "HealthPack"
     }
     equipment {

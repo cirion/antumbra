@@ -1,4 +1,4 @@
-id: "Seattle\'s newest nightclub hides a secret."
+id: "Antumbra"
 variables {
   name: "CarverOpinion"
   typeName: "int"
@@ -142,10 +142,12 @@ variables {
     }
   }
 }
+description: "Powerful foes plot to take down Seattle\'s newest nightclub."
 startScene: "Antumbra Exterior Night"
 allowCharacterGen: true
 allowFallbackCharacter: false
 useDefaultEquipment: false
+storyKarmaLevel: 42
 character_roster {
   roster_entries {
     reference_id: "lvl1_dwarf_rigger"

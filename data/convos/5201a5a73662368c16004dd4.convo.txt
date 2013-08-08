@@ -19,7 +19,7 @@ nodes {
     id: "5201a5eb3662368c16004ddd"
   }
   index: 1
-  text: "{{GM}}First came Nobilis, most graceful and wise.\nSoon followed wee folk, proud and stout and brave.\nGreen skins arrived next, angry their war cries.\nIngentis stomped in and brutal blows gave.\nLast of all came man, but do not despair.\nWhen all else vanish, they will still be there.{{/GM}}"
+  text: "{{GM}}First came Nobilis, most graceful and wise.\nSoon followed wee folk, proud and stout and brave.\nGreen skins arrived next, angry their war cries.\nIngentis stomped in and brutal blows gave.\nLast of all came man, but do not despair.\nWhen all others leave, they will still be there.{{/GM}}"
   nodeType: ConversationNodeType_Simple
 }
 roots {

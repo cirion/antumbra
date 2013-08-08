@@ -1,9 +1,10 @@
 project_id: "51f7429764343188990041a8"
 project_name: "Antumbra"
-project_version: "1"
+project_version: "0.5.0"
 author_name: "Seberin"
-synopsis: "Seattle\'s newest nightclub hides a secret."
+synopsis: "Antumbra"
 has_story: true
+read_only: false
 preview_image: "preview"
 content_pack_dependencies {
   package_id: "518d7671643431b03f0041a8"
