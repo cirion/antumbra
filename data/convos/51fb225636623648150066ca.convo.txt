@@ -760,11 +760,143 @@ nodes {
   }
   nodeType: ConversationNodeType_Simple
 }
+nodes {
+  idRef {
+    id: "5202f59b3662365410003a4e"
+  }
+  index: 17
+  text: "{{GM}}Was you ever bit by a dead bee?{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 18
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5202f5a93662365410003a51"
+  }
+  index: 18
+  text: ""
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_Won"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "End Story With Epilogue"
+      args {
+        string_value: ""
+      }
+    }
+  }
+}
 roots {
   responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_KilledBoss"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
   nextNodeIndex: 0
   onlyOnce: true
   idRef {
-    id: "51fb2ad03662364815006768"
+    id: "5202f57e3662365410003a4c"
   }
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_KilledBoss"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 17
 }
