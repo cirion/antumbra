@@ -117,6 +117,94 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -699,7 +787,7 @@ triggers {
             string_value: "WithOrWithout"
           }
           args {
-            int_value: 1
+            int_value: 0
           }
         }
       }
@@ -867,7 +955,7 @@ regions {
   loop_default_music: false
 }
 regions {
-  name: "New Region"
+  name: "Guard Marshaling Area"
   position {
     x: 23
     y: -1
@@ -933,10 +1021,10 @@ regions {
     a: 0.88235295
   }
   ambience_template: ""
-  combat_music: ""
-  default_music: ""
+  combat_music: "Seattle-Set7-Combat"
+  default_music: "Seattle-Set8-Legwork"
   loop_combat_music: true
-  loop_default_music: false
+  loop_default_music: true
 }
 regions {
   name: "Kali Conversation Start"
@@ -1049,9 +1137,9 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 40
+    x: 0
     y: 0
-    z: 52
+    z: -4
   }
   orientation: ORIENTATION_S
   displayName: "Player 0"
@@ -1967,9 +2055,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 39
+    x: 0
     y: 0
-    z: 48
+    z: -2
   }
   orientation: ORIENTATION_S
   displayName: "Player 1"
@@ -2039,9 +2127,9 @@ worldMapLocation {
 }
 mapName: "Antumbra Office"
 parentStory: ""
-scene_title: "New Scene"
-scene_subtitle: ""
-scene_synopsis: ""
+scene_title: "Antumbra Offices"
+scene_subtitle: "The Business of Pleasure"
+scene_synopsis: "You pass through deserted hallways awash in the dead light of energy-saving bulbs. As you make your way up the building, the furnishings grow nicer and the carpet thicker. You must be getting close to the executive suite.\n\nSure enough, you have arrived in the nexus of Kali\'s entertainment empire. Here is where art meets commerce, her legacy as a singer enshrined and capitalized for increasing marginal revenues. New artists are identified in these rooms by the latest algorithms and Kali\'s own perceptive ear, then are recorded and distributed across all forms of media in all territories.\n\nYou\'ve been lucky so far, but it can\'t hold for much longer. The real world isn\'t allowed to intrude on such a rarefied atmosphere..."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -2065,7 +2153,7 @@ team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
   affiliation: 1
-  affiliation: 1
+  affiliation: 0
   affiliation: 0
 }
 team_affiliations {
@@ -2077,7 +2165,7 @@ team_affiliations {
 }
 team_affiliations {
   team_name: "LoneStar"
-  affiliation: 1
+  affiliation: 0
   affiliation: 1
   affiliation: 0
   affiliation: 0
@@ -2091,8 +2179,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

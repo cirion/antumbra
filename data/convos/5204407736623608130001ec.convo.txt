@@ -73,7 +73,7 @@ nodes {
     auxiliaryLink: true
   }
   branches {
-    responseText: "{{DM}}Remain silent.{{/DM}}"
+    responseText: "{{GM}}Remain silent.{{/GM}}"
     nextNodeIndex: 1
     auxiliaryLink: true
   }

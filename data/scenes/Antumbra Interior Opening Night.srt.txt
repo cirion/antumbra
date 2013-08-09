@@ -1174,9 +1174,9 @@ regions {
     b: 0.36470589
     a: 0.50196081
   }
-  ambience_template: ""
+  ambience_template: "office-quiet"
   combat_music: "Seattle-Set9-Combat"
-  default_music: "Seattle-Set8-MatrixLoop"
+  default_music: "Seattle-Set3-Combat"
   loop_combat_music: true
   loop_default_music: true
 }
@@ -1884,9 +1884,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -15
+    x: -2
     y: 0
-    z: 8
+    z: 11
   }
   orientation: ORIENTATION_E
   idRef {
@@ -1962,9 +1962,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -14
+    x: 17
     y: 0
-    z: 11
+    z: 28
   }
   orientation: ORIENTATION_N
   idRef {
@@ -2184,9 +2184,9 @@ worldMapLocation {
 }
 mapName: "Antumbra Interior Opening Night"
 parentStory: ""
-scene_title: "New Scene"
-scene_subtitle: ""
-scene_synopsis: ""
+scene_title: "Antumbra"
+scene_subtitle: "Opening Night in Everett\'s Newest Nightclub"
+scene_synopsis: "A wave of sound hits you as you step through the door. Everything inside is so... shiny. Plenty of money went into making this place, and it\'s designed to extract as much nuyen as possible from each person walking through its doors. \n\nDespite the tempting distractions, you\'ll need to find a way into the adjoining offices in order to deliver Johnson\'s box..."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false

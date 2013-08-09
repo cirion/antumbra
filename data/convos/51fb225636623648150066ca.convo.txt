@@ -96,7 +96,7 @@ nodes {
     nextNodeIndex: 5
   }
   branches {
-    responseText: "{{CC}}Not a Shadowrunner{{/CC}} I\'ll need an advance."
+    responseText: "I\'ll need an advance."
     conditions {
       ops {
         functionName: "Compare Actor Skill"
@@ -146,7 +146,7 @@ nodes {
     nextNodeIndex: 6
     onlyOnce: true
     idRef {
-      id: "51fb2dc636623648150067ad"
+      id: "5204778d3662361c21000332"
     }
   }
   branches {

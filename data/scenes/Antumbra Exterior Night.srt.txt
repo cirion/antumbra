@@ -339,6 +339,34 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set10"
+          }
+          args {
+            string_value: "Seattle-Set10-Legwork"
+          }
+        }
+      }
+      args {
+        float_value: 100
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -521,10 +549,71 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "Give Initial Nuyen"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_KilledBoss"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Add Nuyen"
+      args {
+        int_value: 1200
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520477503662361c210002ea"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera"
   position {
-    x: 20
+    x: 17
     y: 19
     width: -30
     height: -87
@@ -553,16 +642,16 @@ regions {
   }
   ambience_template: ""
   combat_music: ""
-  default_music: ""
+  default_music: "Seattle-Set3-Legwork"
   loop_combat_music: true
-  loop_default_music: false
+  loop_default_music: true
 }
 regions {
   name: "Carver Hiss"
   position {
     x: 9
     y: -30
-    width: 11
+    width: 8
     height: 6
   }
   enabledAtStart: true
@@ -596,7 +685,7 @@ regions {
 regions {
   name: "Sewer Entrance"
   position {
-    x: 16
+    x: 15
     y: -58
     width: 2
     height: 2
@@ -813,9 +902,9 @@ worldMapLocation {
 }
 mapName: "Antumbra Exterior Night"
 parentStory: ""
-scene_title: "New Scene"
-scene_subtitle: ""
-scene_synopsis: ""
+scene_title: "Everett"
+scene_subtitle: "A Neighborhood in Transition"
+scene_synopsis: "Far from the gritty glamour of downtown Seattle, Everett is mostly just gritty. That\'s been changing in recent years as money from the Mafia and UCAS filters down to street level. Lately, everyone has been talking about Antumbra, an elaborate new nightclub built in the middle of a dilapidated neighborhood. Backed by the glamorous entertainment magnate known as Kali, Antumbra seeks to make a splash on local society.\n\nYou hop out of a taxi and take in the scene. Somewhere in this chaos waits Mr. Johnson. He was vague about your job, but insisted it would be easy for the pay. You know better than that. Nobody ever bothers hiring a shadowrunner for the easy stuff."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -866,8 +955,6 @@ team_affiliations {
 scene_dimensions {
   dimension_name: "Default"
 }
-character_roster {
-}
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
   prereq_description: ""
@@ -876,7 +963,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 25
+hiring_maximum_karma: 0
 roster_overrides {
 }
 use_hiring_cost_warning: false

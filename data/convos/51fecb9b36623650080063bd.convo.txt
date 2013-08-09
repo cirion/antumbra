@@ -7,7 +7,7 @@ nodes {
     id: "51fecba436623650080063c3"
   }
   index: 0
-  text: "Hey, $(l.guy). What can I get you?"
+  text: "Hey, $(l.guy). Want a drink? Or maybe some hardware?"
   branches {
     responseText: "{{CC}}\302\24510{{/CC}} Give me a beer."
     conditions {
@@ -33,7 +33,7 @@ nodes {
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
-      id: "51fece3a3662365008006425"
+      id: "520477d13662361c2100038b"
     }
   }
   branches {
@@ -227,7 +227,11 @@ nodes {
     }
   }
   branches {
-    responseText: "Got anything else for sale behind that bar of yours?"
+    responseText: "What kind of music are you listening to these days?"
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "{{GM}}Check out his inventory.{{/GM}}"
     actions {
       ops {
         functionName: "Open Store Screen From Actor"
@@ -242,10 +246,6 @@ nodes {
       }
     }
     nextNodeIndex: -1
-  }
-  branches {
-    responseText: "What kind of music are you listening to these days?"
-    nextNodeIndex: 4
   }
   branches {
     responseText: "{{GM}}Leave the bar.{{/GM}}"

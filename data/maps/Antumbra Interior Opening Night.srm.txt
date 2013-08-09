@@ -8423,7 +8423,7 @@ props {
       }
     }
     transitionPoint {
-      scene_name: "Caves"
+      scene_name: "Antumbra Office"
       confirmation_text: "Are you ready to enter the office? Security will likely prevent you from returning to the club."
     }
   }
@@ -9080,4 +9080,28 @@ props {
     z: 26.8
   }
   orientation: ORIENTATION_S
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: 17
+    y: 0
+    z: 35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520462973662361c21000266"
+  }
+}
+props {
+  name: "secretLab_wall_4x4fill"
+  gridPoint {
+    x: 21
+    y: 0
+    z: 35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5204629c3662361c21000267"
+  }
 }

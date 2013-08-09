@@ -3005,6 +3005,34 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Title"
+          }
+          args {
+            string_value: "Seattle-TitleTheme"
+          }
+        }
+      }
+      args {
+        float_value: 100
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -4000,6 +4028,94 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "Boss Fight Starts Environment"
+  events {
+    ops {
+      functionName: "On Conversation Complete"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Compare Actor Team"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201c2993662368c16004e54"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set6"
+          }
+          args {
+            string_value: "Seattle-Set6-Combat"
+          }
+        }
+      }
+      args {
+        float_value: 100
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5204640e3662361c2100027d"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
 regions {
   name: "Camera Region"
   position {
@@ -4031,10 +4147,10 @@ regions {
     a: 0.50196081
   }
   ambience_template: ""
-  combat_music: ""
-  default_music: ""
+  combat_music: "Seattle-Set5-Combat"
+  default_music: "Seattle-Set9-Legwork"
   loop_combat_music: true
-  loop_default_music: false
+  loop_default_music: true
 }
 regions {
   name: "puzzle1_area1"
@@ -4399,9 +4515,9 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -82
+    x: 1
     y: 0
-    z: -27
+    z: 8
   }
   orientation: ORIENTATION_N
   idRef {
@@ -5094,9 +5210,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -85
+    x: 1
     y: 0
-    z: -28
+    z: 10
   }
   orientation: ORIENTATION_N
   idRef {
@@ -6034,9 +6150,9 @@ worldMapLocation {
 }
 mapName: "Caves"
 parentStory: ""
-scene_title: "Cave System"
-scene_subtitle: ""
-scene_synopsis: ""
+scene_title: "The Caves"
+scene_subtitle: "Antumbra\'s Hidden Underbelly"
+scene_synopsis: "The elevator takes you down to a carport, then a service elevator takes you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a cave system that has certainly been here for far longer than the building above..."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -6086,8 +6202,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

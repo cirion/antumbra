@@ -1,6 +1,6 @@
 minX: -77
 minZ: -105
-numX: 110
+numX: 104
 numZ: 134
 props {
   name: "barrens_building_01base01"
@@ -3593,7 +3593,10 @@ props {
   interactionRoot {
     isEnabled: false
     interactionRadius: 1
-    interactionIcon: InteractionIcon_SceneTransition
+    transitionPoint {
+      scene_name: "Antumbra Interior Opening Night"
+      confirmation_text: "Enter the club?"
+    }
   }
 }
 props {
@@ -5505,18 +5508,6 @@ props {
   }
 }
 props {
-  name: "barrens_ground_twoLaneSingle01"
-  gridPoint {
-    x: 14
-    y: 0
-    z: -80
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5202f22336623654100039f4"
-  }
-}
-props {
   name: "barrens_ground_twoLaneDouble01"
   gridPoint {
     x: 20
@@ -5526,18 +5517,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5202f22836623654100039f5"
-  }
-}
-props {
-  name: "barrens_ground_twoLaneDouble01"
-  gridPoint {
-    x: 26
-    y: 0
-    z: -68
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5202f22b36623654100039f6"
   }
 }
 props {

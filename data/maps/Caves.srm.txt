@@ -15664,11 +15664,11 @@ props {
 props {
   name: "secretLab_magic_bookPedestal"
   gridPoint {
-    x: -67
+    x: -25
     y: 0
-    z: -26
+    z: -36
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
   displayName: "Book Clue for Second Door"
   idRef {
     id: "5201af143662368c16004de7"
@@ -16959,5 +16959,118 @@ props {
   }
   idRef {
     id: "5202551c36623654100039d2"
+  }
+}
+props {
+  name: "cemetery_ground_grave03"
+  gridPoint {
+    x: -74
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52045a4b3662361c21000263"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    summonPoint {
+      hasCharacter: true
+      summon_icon: "Earth Spirit"
+      max_summon_force: 2
+    }
+  }
+  character_instance {
+    prefab_name: "Spirit/SpiritEarth"
+    character_sheet_id: "Spirit Earth"
+    equipment_sheet_id: "Spirit Earth F6 Gear"
+    character_mod {
+      stats {
+        body: -7
+        quickness: -4
+        strength: -6
+        willpower: -4
+        hp: 0
+        morale: 49
+        discipline: 0
+        awareness: 49
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 3
+      }
+      skills {
+        close_combat: -4
+        spellcasting: -3
+        dodge: -3
+      }
+      specializations {
+        unarmed: -3
+      }
+    }
+    char_name: "Earth Spirit"
+    portrait {
+      filename: "Generic_Spirit_Earth"
+    }
+    karma: 87
+  }
+}
+props {
+  name: "cemetery_ground_grave01"
+  gridPoint {
+    x: -31
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52045b393662361c21000265"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    summonPoint {
+      hasCharacter: true
+      summon_icon: "Abomination"
+      max_summon_force: 1
+    }
+  }
+  character_instance {
+    prefab_name: "Spirit/SpiritAbomination"
+    character_sheet_id: "Spirit Abomination"
+    equipment_sheet_id: "Spirit Abomination F6 Gear"
+    character_mod {
+      stats {
+        body: -4
+        quickness: -5
+        strength: -5
+        charisma: -5
+        intelligence: -5
+        willpower: -4
+        hp: 0
+        armor: -4
+        morale: 24
+        discipline: 0
+        awareness: 19
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 3
+      }
+      skills {
+        close_combat: -4
+        spellcasting: -3
+        dodge: -4
+      }
+      specializations {
+        unarmed: -4
+      }
+    }
+    char_name: "Abomination Spirit"
+    portrait {
+      filename: "Generic_Spirit_Abomination"
+    }
+    karma: 44
   }
 }
