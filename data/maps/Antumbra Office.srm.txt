@@ -10232,3 +10232,15 @@ props {
     id: "5202f0ee36623654100039ef"
   }
 }
+props {
+  name: "telestrianEstate_floor_marbleTile03"
+  gridPoint {
+    x: 42
+    y: 0
+    z: 49
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52044a59366236081300053e"
+  }
+}

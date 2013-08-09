@@ -1049,9 +1049,9 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 41
+    x: 40
     y: 0
-    z: 51
+    z: 52
   }
   orientation: ORIENTATION_S
   displayName: "Player 0"
@@ -1967,9 +1967,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 38
+    x: 39
     y: 0
-    z: 49
+    z: 48
   }
   orientation: ORIENTATION_S
   displayName: "Player 1"

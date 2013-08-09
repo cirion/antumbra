@@ -7,52 +7,89 @@ nodes {
     id: "5202f4b43662365410003a06"
   }
   index: 0
-  text: "{{GM}}Food goes in here!{{/GM}}"
+  text: "{{GM}}Kali breaks off a conversation with her assistants and turns to face you.{{/GM}}\n\nYou made it out in one piece! What did you find?"
   branches {
-    responseText: ""
+    responseText: "All sorts of awakened creatures, and even a spirit of some sort."
     nextNodeIndex: 1
+  }
+  branches {
+    responseText: "Lady, you built your palace on top of a death trap. I\'m lucky to have escaped."
+    nextNodeIndex: 5
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5202f4db3662365410003a0a"
+    id: "5204482f36623608130004ba"
   }
   index: 1
-  text: ""
+  text: "You don\'t say! That sounds dangerous. Well, I\'m glad that you made it out in one piece."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5204483836623608130004bd"
+  }
+  index: 2
+  text: "I must admit, I feel just a little out of my depth here. I know melodies and moods, but magic? Never go near the stuff when I can help it.\n\nI think I\'ll give a ring to Mr. Santo. He\'s been very helpful in putting together the assets for this place, and he has connections that will be very interested in such a powerful site under our doorstep."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5204484a36623608130004c0"
+  }
+  index: 3
+  text: "Here, take this reward - you\'ve certainly earned it.\n\nI\'ll even do you one better and tell Mr. Santo what you\'ve accomplished here. A discovery like this will open many opportunities for an ambitious runner like you. Expect to hear from him soon."
+  branches {
+    responseText: "{{GM}}Leave.{{/GM}}"
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
   actions {
     ops {
-      functionName: "Set Variable (bool)"
+      functionName: "Add Nuyen"
       args {
-        call_value {
-          functionName: "Get Story Variable (bool)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "A1_Bool_Won"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
+        int_value: 20000
       }
     }
+  }
+}
+nodes {
+  idRef {
+    id: "5204485336623608130004c3"
+  }
+  index: 4
+  text: ""
+  nodeType: ConversationNodeType_Simple
+  actions {
     ops {
       functionName: "End Story With Epilogue"
       args {
-        string_value: ""
+        string_value: "kali"
       }
     }
   }
+}
+nodes {
+  idRef {
+    id: "520448a236623608130004d3"
+  }
+  index: 5
+  text: "I assure you, I thoroughly vetted this location before closing on the property. Whatever\'s going on down there must have happened very suddenly and very recently."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
 }
 roots {
   responseText: ""

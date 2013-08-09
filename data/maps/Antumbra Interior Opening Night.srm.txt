@@ -8423,7 +8423,7 @@ props {
       }
     }
     transitionPoint {
-      scene_name: "Antumbra Office"
+      scene_name: "Caves"
       confirmation_text: "Are you ready to enter the office? Security will likely prevent you from returning to the club."
     }
   }

@@ -1886,7 +1886,7 @@ characters {
   gridPoint {
     x: -15
     y: 0
-    z: 9
+    z: 8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -1962,11 +1962,11 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -16
+    x: -14
     y: 0
     z: 11
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   idRef {
     id: "51fd5dfe3662367c0900738b"
   }
@@ -1980,9 +1980,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -15
+    x: 2
     y: 0
-    z: 15
+    z: 45
   }
   orientation: ORIENTATION_W
   idRef {

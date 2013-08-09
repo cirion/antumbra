@@ -70,7 +70,7 @@ nodes {
     id: "51fb245836623648150066e0"
   }
   index: 1
-  text: "We\342\200\231ve got a job to do. It\342\200\231s a delivery run of sorts. Should be even easier than your standard extraction, huh?\n\nClub Antumbra is still busy with its opening-night crowd, so this will be your best chance to slip in unnoticed. \n\nOr shoot up the joint, if you want. I could care less.\n\nJust make sure that this box gets delivered to the Metahuman Resources department on the third floor. "
+  text: "We\342\200\231ve got a job to do. It\342\200\231s a delivery run of sorts. Should be even easier than your standard extraction, huh?\n\nClub Antumbra is still busy with its opening-night crowd, so this will be your best chance to slip in unnoticed. \n\nOr shoot up the joint, if you want. I could care less.\n\nJust make sure that this box gets delivered to Kali\'s office on the third floor. "
   branches {
     responseText: ""
     nextNodeIndex: 2
@@ -765,49 +765,114 @@ nodes {
     id: "5202f59b3662365410003a4e"
   }
   index: 17
-  text: "{{GM}}Was you ever bit by a dead bee?{{/GM}}"
+  text: "Well? What\'s the word?"
   branches {
-    responseText: ""
+    responseText: "It\'s done."
     nextNodeIndex: 18
+    hideIfUnavailable: true
+  }
+  branches {
+    responseText: "It\'s done."
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "51f7429764343188990041a8"
+            }
+            args {
+              string_value: "CarverOpinion"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+        args {
+          int_value: 0
+        }
+      }
+    }
+    nextNodeIndex: 19
+    hideIfUnavailable: true
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 20
+    auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "5202f5a93662365410003a51"
+    id: "5204463436623608130003c3"
   }
   index: 18
+  text: "Good $(l.guy)! Here\'s your fee as discussed."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "520445fe36623608130003be"
+  }
+  index: 19
+  text: "I may not like you, but I can respect someone who gets the job done. My organization may have some more challenging runs for you in the future. Don\342\200\231t get yourself shot before then."
+  branches {
+    responseText: ""
+    nextNodeIndex: 20
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5204462836623608130003c1"
+  }
+  index: 20
+  text: "You seem efficient. Maybe I can trust you a bit more.\n\nYou\342\200\231ve done Aztechnology a good service tonight. That\342\200\231s right, you\342\200\231re playing with the big boys now.\n\nYou might be hearing from me or Morgan Tooms soon. Pick up the call. It will be worth your while.\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 21
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5204468a36623608130003c6"
+  }
+  index: 21
+  text: "Take care of yourself, $(l.name). A valuable asset like you shouldn\'t go to waste."
+  branches {
+    responseText: ""
+    nextNodeIndex: 22
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "520446b036623608130003c9"
+  }
+  index: 22
   text: ""
   actions {
     ops {
-      functionName: "Set Variable (bool)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (bool)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "A1_Bool_Won"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
       functionName: "End Story With Epilogue"
       args {
-        string_value: ""
+        string_value: "carver"
       }
     }
   }
@@ -855,7 +920,7 @@ roots {
   nextNodeIndex: 0
   onlyOnce: true
   idRef {
-    id: "5202f57e3662365410003a4c"
+    id: "5204470e3662360813000468"
   }
 }
 roots {

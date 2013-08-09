@@ -328,6 +328,17 @@ triggers {
         float_value: 0
       }
     }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -657,9 +668,9 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 6
+    x: 12
     y: 0
-    z: -31
+    z: 9
   }
   orientation: ORIENTATION_W
   idRef {
