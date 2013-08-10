@@ -613,10 +613,10 @@ triggers {
 regions {
   name: "Camera"
   position {
-    x: 17
-    y: 19
-    width: -30
-    height: -87
+    x: 2
+    y: -60
+    width: 15
+    height: 71
   }
   enabledAtStart: true
   is_camera_region: true
@@ -649,10 +649,10 @@ regions {
 regions {
   name: "Carver Hiss"
   position {
-    x: 9
+    x: 11
     y: -30
-    width: 8
-    height: 6
+    width: 12
+    height: 7
   }
   enabledAtStart: true
   is_camera_region: false
@@ -686,7 +686,7 @@ regions {
   name: "Sewer Entrance"
   position {
     x: 15
-    y: -58
+    y: -53
     width: 2
     height: 2
   }
@@ -757,7 +757,7 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 12
+    x: 15
     y: 0
     z: 9
   }
