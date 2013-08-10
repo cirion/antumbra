@@ -22,7 +22,7 @@ triggers {
         }
       }
       args {
-        int_value: 100
+        int_value: 200
       }
     }
     ops {
@@ -45,6 +45,27 @@ triggers {
             int_value: 1
           }
         }
+      }
+    }
+    ops {
+      functionName: "Add Actor Karma"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 4
       }
     }
   }
@@ -4116,6 +4137,74 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "DEATH"
+  events {
+    ops {
+      functionName: "On Actor Downed"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Triggering Target Actor"
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "You died."
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5205a9ce366236601b003911"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
 regions {
   name: "Camera Region"
   position {
@@ -5198,7 +5287,7 @@ characters {
       archetypeName: "Guard - Hunt And Destroy"
       attitude: AttitudeAggressive
     }
-    team_id: "LoneStar"
+    team_id: "Civilians"
     char_name: "Mr. Johnson"
     pc_spawn_number: -1
     portrait {
@@ -5239,10 +5328,9 @@ characters {
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
-    equipment_sheet_id: "Hellhound Critter Powers"
     character_mod {
       stats {
-        body: -1
+        body: -2
         quickness: -1
         strength: -2
         charisma: 0
@@ -5264,7 +5352,7 @@ characters {
         ranged_combat: 0
         close_combat: -2
         throwing_weapons: 0
-        spellcasting: -3
+        spellcasting: -4
         decking: 0
         conjuring: 0
         spirit_summoning: 0
@@ -5294,11 +5382,14 @@ characters {
       archetypeName: "Guard - Seek And Destroy"
       attitude: AttitudeAggressive
     }
+    equipment {
+      prefab_name: "Chomp"
+    }
     team_id: "Gangers"
     char_name: "Hellhound"
     pc_spawn_number: -1
     hiring_type: HiringType_None
-    karma: 45
+    karma: 39
     hiring_cost_override: 1000
   }
 }
@@ -5307,7 +5398,7 @@ characters {
   gridPoint {
     x: -35
     y: 0
-    z: -27
+    z: -31
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5316,11 +5407,10 @@ characters {
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
-    equipment_sheet_id: "Hellhound Critter Powers"
     character_mod {
       stats {
-        body: -1
-        quickness: -1
+        body: -2
+        quickness: -2
         strength: -2
         charisma: 0
         intelligence: 0
@@ -5341,7 +5431,7 @@ characters {
         ranged_combat: 0
         close_combat: -2
         throwing_weapons: 0
-        spellcasting: -3
+        spellcasting: -4
         decking: 0
         conjuring: 0
         spirit_summoning: 0
@@ -5371,10 +5461,13 @@ characters {
       archetypeName: "Guard - Seek And Destroy"
       attitude: AttitudeAggressive
     }
+    equipment {
+      prefab_name: "Chomp"
+    }
     team_id: "Gangers"
     char_name: "Hellhound"
     pc_spawn_number: -1
-    karma: 45
+    karma: 36
   }
 }
 characters {
@@ -5391,10 +5484,9 @@ characters {
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
-    equipment_sheet_id: "Hellhound Critter Powers"
     character_mod {
       stats {
-        body: -1
+        body: -2
         quickness: -1
         strength: -2
         charisma: 0
@@ -5416,7 +5508,7 @@ characters {
         ranged_combat: 0
         close_combat: -2
         throwing_weapons: 0
-        spellcasting: -3
+        spellcasting: -4
         decking: 0
         conjuring: 0
         spirit_summoning: 0
@@ -5446,10 +5538,13 @@ characters {
       archetypeName: "Guard - Seek And Destroy"
       attitude: AttitudeAggressive
     }
+    equipment {
+      prefab_name: "Chomp"
+    }
     team_id: "Gangers"
     char_name: "Hellhound"
     pc_spawn_number: -1
-    karma: 45
+    karma: 39
   }
 }
 characters {
@@ -5469,7 +5564,7 @@ characters {
     equipment_sheet_id: "Basilisk Critter Powers"
     character_mod {
       stats {
-        body: 0
+        body: -1
         quickness: 0
         strength: -3
         charisma: 0
@@ -5493,7 +5588,7 @@ characters {
         ranged_combat: 0
         close_combat: -1
         throwing_weapons: 0
-        spellcasting: -2
+        spellcasting: -4
         decking: 0
         conjuring: 0
         spirit_summoning: 0
@@ -5526,7 +5621,7 @@ characters {
     team_id: "Gangers"
     char_name: "Basilisk"
     pc_spawn_number: -1
-    karma: 51
+    karma: 40
   }
 }
 characters {
@@ -5545,7 +5640,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5591,7 +5686,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -5606,7 +5701,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -5625,7 +5720,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5671,7 +5766,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -5686,7 +5781,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -5705,7 +5800,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5751,7 +5846,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -5766,7 +5861,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -5785,7 +5880,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5831,7 +5926,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -5846,7 +5941,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -5865,7 +5960,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5911,7 +6006,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -5926,7 +6021,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -5945,7 +6040,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -5991,7 +6086,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -6006,7 +6101,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 characters {
@@ -6025,7 +6120,7 @@ characters {
     character_sheet_id: "Ghoul (Human)"
     character_mod {
       stats {
-        body: -3
+        body: -5
         quickness: -2
         strength: -2
         charisma: 0
@@ -6071,7 +6166,7 @@ characters {
         shotgun: 0
         smg: 0
         edged: 0
-        unarmed: -2
+        unarmed: -3
         spirit_control: 0
         esp_control: 0
         drone_combat: 0
@@ -6086,7 +6181,7 @@ characters {
     team_id: "Gangers"
     char_name: "Ghoul"
     pc_spawn_number: -1
-    karma: 65
+    karma: 58
   }
 }
 variables {
@@ -6141,6 +6236,11 @@ mapEvents: "Puzzle1_Updated"
 mapEvents: "Puzzle2_Advance"
 mapEvents: "Puzzle2_Fail"
 mapEvents: "Puzzle2_CheckComplete"
+goals {
+  name: "You died."
+  type: GoalType_Primary
+  status: GoalStatus_Hidden
+}
 worldMapLocation {
   filename: ""
   location {
@@ -6202,6 +6302,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

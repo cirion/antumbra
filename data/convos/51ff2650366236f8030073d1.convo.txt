@@ -64,7 +64,7 @@ nodes {
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
-      id: "51ff29da366236f80300740c"
+      id: "5205abb9366236601b003935"
     }
   }
   branches {
@@ -74,6 +74,10 @@ nodes {
   branches {
     responseText: "Everything\'s good, boss."
     nextNodeIndex: 12
+  }
+  branches {
+    responseText: "{{GM}}Disconnect the comm.{{/GM}}"
+    nextNodeIndex: -1
   }
 }
 nodes {
@@ -149,7 +153,7 @@ nodes {
     id: "51ff2880366236f8030073fa"
   }
   index: 7
-  text: "You were hired to do a job, and I still expect you to do it. If you back out of your contract, I\342\200\231ll see that you never work in Seattle again.\n\nBut... if it\342\200\231s nuyen you want, we can work something out. I was planning to hire a second shadowrunner to clear out the area around the Site of Power."
+  text: "You were hired to do a job, and I still expect you to do it. If you back out of your contract, I\342\200\231ll see that you never work in Seattle again.\n\nBut... if it\342\200\231s nuyen you want, we can work something out."
   branches {
     responseText: ""
     nextNodeIndex: 8
@@ -161,7 +165,7 @@ nodes {
     id: "51ff28b3366236f8030073fe"
   }
   index: 8
-  text: "Those Sites tend to attract awakened critters, and we can\342\200\231t start tapping it if they\342\200\231re chewing on us.\n\nAfter dropping off the box, head down to the caves. Take care of the critters there, and I\342\200\231ll double your pay."
+  text: "I\'ll monitor your progress and check in after you drop off that parcel. You may end up playing a larger role in all of this, thanks to your nosiness."
   branches {
     responseText: ""
     nextNodeIndex: 9
@@ -174,6 +178,7 @@ nodes {
   }
   index: 9
   text: "Now scram before I change my mind and bring in a more reliable runner!"
+  nodeType: ConversationNodeType_Simple
   actions {
     ops {
       functionName: "Set Variable (bool)"
@@ -234,8 +239,4 @@ nodes {
 roots {
   responseText: ""
   nextNodeIndex: 0
-}
-roots {
-  responseText: ""
-  nextNodeIndex: -1
 }

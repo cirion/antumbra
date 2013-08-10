@@ -10,10 +10,58 @@ nodes {
   text: "Are you $(l.name)?"
   branches {
     responseText: "In the flesh."
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
     nextNodeIndex: 1
   }
   branches {
     responseText: "Maybe, maybe not. Who wants to know?"
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
     nextNodeIndex: 15
   }
   branches {
@@ -84,18 +132,6 @@ nodes {
   index: 2
   text: "Are we clear?"
   branches {
-    responseText: "Crystal."
-    nextNodeIndex: 3
-  }
-  branches {
-    responseText: "Like mud."
-    nextNodeIndex: 4
-  }
-  branches {
-    responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 5
-  }
-  branches {
     responseText: "I\'ll need an advance."
     conditions {
       ops {
@@ -143,15 +179,63 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 6
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
     onlyOnce: true
     idRef {
-      id: "5204778d3662361c21000332"
+      id: "5205ad10366236601b0039d5"
     }
   }
   branches {
     responseText: "What\'s in the package?"
-    nextNodeIndex: 9
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 6
     onlyOnce: true
     idRef {
       id: "51fb39ce36623648150068b2"
@@ -159,7 +243,31 @@ nodes {
   }
   branches {
     responseText: "What\'s the scene like inside?"
-    nextNodeIndex: 13
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 10
     onlyOnce: true
     idRef {
       id: "51fb399f36623648150068ab"
@@ -167,11 +275,264 @@ nodes {
   }
   branches {
     responseText: "Who do you work for?"
-    nextNodeIndex: 14
+    actions {
+      ops {
+        functionName: "Set Variable (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "RepliedToCarter"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 11
     onlyOnce: true
     idRef {
       id: "51fb39c936623648150068b1"
     }
+  }
+  branches {
+    responseText: "Crystal."
+    nextNodeIndex: 12
+  }
+  branches {
+    responseText: "Like mud."
+    nextNodeIndex: 13
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 14
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fb358d36623648150067af"
+  }
+  index: 3
+  text: "Frag you! What for?"
+  branches {
+    responseText: "I may need to hire some more runners."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "Never mind."
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add To Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "CarverOpinion"
+          }
+        }
+      }
+      args {
+        int_value: -1
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fb365e36623648150067b3"
+  }
+  index: 4
+  text: "What for? It\342\200\231s the simplest job on the planet! A blind beagle could do it without help!\n\nFine... this is coming out of your final payment, though!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "CarverAdvanced"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Add Nuyen"
+      args {
+        int_value: 500
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fb36da36623648150067c7"
+  }
+  index: 5
+  text: "Good! That\342\200\231s why I asked for you. Stealthy $(l.race) like you should get the job done cheap and neat."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fb377e36623648150067de"
+  }
+  index: 6
+  text: "{{GM}}Mr. Johnson grunts in frustration.{{/GM}}\n\nI thought you were a professional. Is this your first run?\n\nWhat did I get myself into?"
+  branches {
+    responseText: "What should I tell the guards if they stop me?"
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "A dangerous package should pay a premium."
+    nextNodeIndex: 8
+  }
+  branches {
+    responseText: "Never mind."
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add To Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "CarverOpinion"
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fb37ff36623648150067e3"
+  }
+  index: 7
+  text: "Say it\342\200\231s a case of medical supplies. Or a gift for Kali.\n\nOr you could just shoot them in the face before they stop you.\n\nYou\342\200\231re the runner. Only I need to care about what\342\200\231s in the box. Only you need to care about how you deliver it."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fb38fc36623648150068a1"
+  }
+  index: 8
+  text: "I suppose that\342\200\231s true. And, if it were dangerous, why would I tell you? You\342\200\231ll do the job for what I offered. No more."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add To Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "CarverOpinion"
+          }
+        }
+      }
+      args {
+        int_value: -1
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fb391736623648150068a5"
+  }
+  index: 9
+  text: "Glad that\'s taken care of."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fb398236623648150068aa"
+  }
+  index: 10
+  text: "I\342\200\231m keeping my distance. A man like me shouldn\342\200\231t show his face in there.\n\nIt sounds like quite a party, though. All sorts of trash has been coming in and out. You\342\200\231ll fit right in on the dance floor.\n\nIf we\342\200\231re lucky, they will have pulled security from the upstairs office to help cover the main floor. It might make things easier for you."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fb39bc36623648150068b0"
+  }
+  index: 11
+  text: "Interested parties."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -179,7 +540,7 @@ nodes {
   idRef {
     id: "51fb258036623648150066fe"
   }
-  index: 3
+  index: 12
   text: "Pleasure doing business with you. I\'ll be here with your payment when you\'re done."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -284,7 +645,7 @@ nodes {
   idRef {
     id: "51fb284f3662364815006727"
   }
-  index: 4
+  index: 13
   text: "If you didn\342\200\231t like the mud, you shouldn\342\200\231t have become a runner.\n\nNow go do your job!"
   nodeType: ConversationNodeType_Simple
   actions {
@@ -433,7 +794,7 @@ nodes {
   idRef {
     id: "51fb2d3c36623648150067ab"
   }
-  index: 5
+  index: 14
   text: "You\'re a creepy $(l.guy), you know that?\n\nAs long as you get the job done, you can be as strange as you want."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -516,223 +877,6 @@ nodes {
       }
     }
   }
-}
-nodes {
-  idRef {
-    id: "51fb358d36623648150067af"
-  }
-  index: 6
-  text: "Frag you! What for?"
-  branches {
-    responseText: "I may need to hire some more runners."
-    nextNodeIndex: 7
-  }
-  branches {
-    responseText: "Never mind."
-    nextNodeIndex: 8
-  }
-  nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Add To Variable (int)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (int)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "CarverOpinion"
-          }
-        }
-      }
-      args {
-        int_value: -1
-      }
-    }
-  }
-}
-nodes {
-  idRef {
-    id: "51fb365e36623648150067b3"
-  }
-  index: 7
-  text: "What for? It\342\200\231s the simplest job on the planet! A blind beagle could do it without help!\n\nFine... this is coming out of your final payment, though!"
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Set Variable (bool)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (bool)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "CarverAdvanced"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Add Nuyen"
-      args {
-        int_value: 500
-      }
-    }
-  }
-}
-nodes {
-  idRef {
-    id: "51fb36da36623648150067c7"
-  }
-  index: 8
-  text: "Good! That\342\200\231s why I asked for you. Stealthy $(l.race) like you should get the job done cheap and neat."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fb377e36623648150067de"
-  }
-  index: 9
-  text: "{{GM}}Mr. Johnson grunts in frustration.{{/GM}}\n\nI thought you were a professional. Is this your first run?\n\nWhat did I get myself into?"
-  branches {
-    responseText: "What should I tell the guards if they stop me?"
-    nextNodeIndex: 10
-  }
-  branches {
-    responseText: "A dangerous package should pay a premium."
-    nextNodeIndex: 11
-  }
-  branches {
-    responseText: "Never mind."
-    nextNodeIndex: 12
-  }
-  nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Add To Variable (int)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (int)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "CarverOpinion"
-          }
-        }
-      }
-      args {
-        int_value: 0
-      }
-    }
-  }
-}
-nodes {
-  idRef {
-    id: "51fb37ff36623648150067e3"
-  }
-  index: 10
-  text: "Say it\342\200\231s a case of medical supplies. Or a gift for Kali.\n\nOr you could just shoot them in the face before they stop you.\n\nYou\342\200\231re the runner. Only I need to care about what\342\200\231s in the box. Only you need to care about how you deliver it."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fb38fc36623648150068a1"
-  }
-  index: 11
-  text: "I suppose that\342\200\231s true. And, if it were dangerous, why would I tell you? You\342\200\231ll do the job for what I offered. No more."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Add To Variable (int)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (int)"
-          args {
-            string_value: "51f7429764343188990041a8"
-          }
-          args {
-            string_value: "CarverOpinion"
-          }
-        }
-      }
-      args {
-        int_value: -1
-      }
-    }
-  }
-}
-nodes {
-  idRef {
-    id: "51fb391736623648150068a5"
-  }
-  index: 12
-  text: "Glad that\'s taken care of."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fb398236623648150068aa"
-  }
-  index: 13
-  text: "I\342\200\231m keeping my distance. A man like me shouldn\342\200\231t show his face in there.\n\nIt sounds like quite a party, though. All sorts of trash has been coming in and out. You\342\200\231ll fit right in on the dance floor.\n\nIf we\342\200\231re lucky, they will have pulled security from the upstairs office to help cover the main floor. It might make things easier for you."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fb39bc36623648150068b0"
-  }
-  index: 14
-  text: "Interested parties."
-  branches {
-    responseText: ""
-    nextNodeIndex: 2
-    auxiliaryLink: true
-  }
-  nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {

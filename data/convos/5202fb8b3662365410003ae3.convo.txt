@@ -7,7 +7,7 @@ nodes {
     id: "5202fb993662365410003ae9"
   }
   index: 0
-  text: "I noticed the alarm went off. Is everything OK?"
+  text: "{{GM}}You slip the package into a desk drawer before answering the comm.{{/GM}}\n\nI noticed the alarm went off. Is everything OK?"
   branches {
     responseText: "I took care of it."
     nextNodeIndex: 1
@@ -146,6 +146,7 @@ nodes {
     nextNodeIndex: 5
     auxiliaryLink: true
   }
+  nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
