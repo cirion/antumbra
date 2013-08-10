@@ -1,8 +1,0 @@
-id: "TUT-s02-SecurityCode"
-type: ItemType_QuestItem
-uirep {
-  name: "Security Code"
-  description: "Access codes for the Security Lab doors."
-}
-credentials: 0
-sorting_group: "Quest"

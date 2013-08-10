@@ -16586,27 +16586,6 @@ props {
 props {
   name: "tempbad_leyline_heavy"
   gridPoint {
-    x: -92
-    y: -0.5
-    z: -11
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "leyline_fx_on_tile"
-    string_value: "LeyLineHigh"
-  }
-  properties {
-    property_id: "leyline_sfx_on_tile"
-    string_value: "StandOnLeylineClose"
-  }
-  properties {
-    property_id: "leyline_fx_on_visible"
-    string_value: "LeyLineTileHigh"
-  }
-}
-props {
-  name: "tempbad_leyline_heavy"
-  gridPoint {
     x: -76
     y: 0
     z: 4
@@ -17133,5 +17112,26 @@ props {
       filename: "Generic_Spirit_Abomination"
     }
     karma: 261
+  }
+}
+props {
+  name: "tempbad_leyline_light"
+  gridPoint {
+    x: -92
+    y: -0.3
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "leyline_fx_on_tile"
+    string_value: "LeyLineLow"
+  }
+  properties {
+    property_id: "leyline_sfx_on_tile"
+    string_value: "StandOnLeylineFar"
+  }
+  properties {
+    property_id: "leyline_fx_on_visible"
+    string_value: "LeyLineTileLow"
   }
 }
