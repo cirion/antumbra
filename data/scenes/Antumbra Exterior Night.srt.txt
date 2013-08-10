@@ -610,6 +610,134 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "Start Wandering"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "wanderer"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Actor Run Speed"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "wanderer"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "RunSpeedMethod"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Actor Wander Range"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "wanderer"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
+    }
+    ops {
+      functionName: "No Effect"
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206b0883662360411002fb9"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera"
   position {
@@ -757,9 +885,9 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 14
+    x: 15
     y: 0
-    z: -57
+    z: -21
   }
   orientation: ORIENTATION_W
   idRef {
@@ -890,6 +1018,671 @@ characters {
       filename: "pc_humanfemale_04c_whitebob"
     }
     portrait_code_override: "s6h5c14"
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "wanderer"
+  idRef {
+    id: "5206b04b3662360411002fb8"
+  }
+  character_instance {
+    prefab_name: "Homeless/DwarfMaleHomelessBald"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "Homeless Dwarf"
+    GeneralTags: "wanderer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 26
+    y: 0
+    z: -76
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "wanderer"
+  idRef {
+    id: "5206b3e83662360411002fba"
+  }
+  character_instance {
+    prefab_name: "Homeless/HumanMaleHomelessBackpack"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "Homeless Dwarf"
+    GeneralTags: "wanderer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -46
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "patron"
+  displayName: "patron_longhair_punk_female"
+  idRef {
+    id: "5206b4863662360411002fbb"
+  }
+  character_instance {
+    prefab_name: "Punk/HumanFemaleLonghairPunk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -47
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b4a63662360411002fbc"
+  }
+  character_instance {
+    prefab_name: "Punk/HumanMaleSpikyPunk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -49
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b4d63662360411002fbd"
+  }
+  character_instance {
+    prefab_name: "Story/HumanFemaleFixer"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -51
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b4f03662360411002fbe"
+  }
+  character_instance {
+    prefab_name: "Story/Priest"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -53
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  displayName: "patron_troll"
+  idRef {
+    id: "5206b52f3662360411002fbf"
+  }
+  character_instance {
+    prefab_name: "Story/TrollMaleHawaiianShirt"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -56
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b5423662360411002fc0"
+  }
+  character_instance {
+    prefab_name: "Story/WeaponsDealer"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -58
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b5763662360411002fc1"
+  }
+  character_instance {
+    prefab_name: "Story/TelestrainCorp"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -58
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b5fc3662360411002fc2"
+  }
+  character_instance {
+    prefab_name: "Story/TechDealer"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -34
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "patron"
+  idRef {
+    id: "5206b6913662360411002fc3"
+  }
+  character_instance {
+    prefab_name: "Punk/HumanFemaleSkirtGrayPunk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -42
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "patron"
+  displayName: "bouncer"
+  idRef {
+    id: "5206b7c43662360411002fc4"
+  }
+  character_instance {
+    prefab_name: "Core/TrollMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    equipment {
+      prefab_name: "Outfit_Security"
+    }
+    team_id: "Civilians"
+    char_name: "Bouncer"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    portrait_code_override: "s6h6c1b1t2"
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "patron"
+  GeneralTags: "wanderer"
+  displayName: "bouncer"
+  idRef {
+    id: "5206ba723662360411002fd0"
+  }
+  character_instance {
+    prefab_name: "Core/TrollFemale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    equipment {
+      prefab_name: "Outfit_Security"
+    }
+    team_id: "Civilians"
+    char_name: "Bouncer"
+    GeneralTags: "patron"
+    GeneralTags: "wanderer"
+    pc_spawn_number: -1
+    portrait_code_override: "s3h5c12b0t4"
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 35
+    y: 0
+    z: -56
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "patron"
+  GeneralTags: "wanderer"
+  displayName: "bouncer"
+  idRef {
+    id: "5206bac83662360411002fd1"
+  }
+  character_instance {
+    prefab_name: "Core/TrollMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    equipment {
+      prefab_name: "Outfit_Security"
+    }
+    team_id: "Civilians"
+    char_name: "Parking Guard"
+    GeneralTags: "patron"
+    GeneralTags: "wanderer"
+    pc_spawn_number: -1
+    portrait_code_override: "s4h1c6b8t5"
     karma: 6
   }
 }

@@ -2429,56 +2429,56 @@ props {
 props {
   name: "pikePlace_buildingOrnament_cyberpunkPlates03"
   gridPoint {
-    x: -47
+    x: -62
     y: 0
-    z: -99
+    z: -81
   }
   orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_buildingOrnament_cyberpunkPlates03_lights"
   gridPoint {
-    x: -43
+    x: -55
     y: 0
-    z: -94
+    z: -63
   }
   orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_buildingOrnament_led01"
   gridPoint {
-    x: -46
+    x: -57
     y: 0
-    z: -94
+    z: -77
   }
   orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_buildingOrnament_led02"
   gridPoint {
-    x: -44
+    x: -59
     y: 0
-    z: -93
+    z: -75
   }
   orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_buildingOrnament_ledCorner01"
   gridPoint {
-    x: -42
+    x: -64
     y: 0
-    z: -91
+    z: -76
   }
   orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_buildingOrnament_ledPanel01"
   gridPoint {
-    x: -39
-    y: 0
-    z: -88
+    x: -4.2
+    y: 15.2
+    z: -33.1
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
 }
 props {
   name: "pikePlace_building_03base03"
@@ -2507,9 +2507,9 @@ props {
 props {
   name: "barrens_street_scaffolding01"
   gridPoint {
-    x: -36
+    x: -57
     y: 0
-    z: -93
+    z: -63
   }
   orientation: ORIENTATION_S
 }
@@ -3143,7 +3143,7 @@ props {
 props {
   name: "barrens_ground_sidewalkdarkgrey05"
   gridPoint {
-    x: 5
+    x: -4
     y: 0
     z: -32
   }
@@ -13919,15 +13919,6 @@ props {
 props {
   name: "barrens_street_atm"
   gridPoint {
-    x: 4
-    y: 0
-    z: -32
-  }
-  orientation: ORIENTATION_E
-}
-props {
-  name: "barrens_street_atm"
-  gridPoint {
     x: 6
     y: 0
     z: -34
@@ -14761,4 +14752,397 @@ props {
     z: 5
   }
   orientation: ORIENTATION_E
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -41
+    y: 16
+    z: -66
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206aec63662360411002fa2"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: 6
+    y: 16
+    z: -41
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206aede3662360411002fa3"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: 5
+    y: 15.5
+    z: -43.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206aee73662360411002fa4"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: 6
+    y: 16
+    z: -37
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206af023662360411002fa5"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: 6
+    y: 16
+    z: -33
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206af083662360411002fa6"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: 5
+    y: 15.5
+    z: -39.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206af103662360411002fa7"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: 5
+    y: 15.5
+    z: -35.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206af123662360411002fa8"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: 3.4
+    y: 15
+    z: -32.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af3f3662360411002fa9"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_ledPanel01"
+  gridPoint {
+    x: 4.5
+    y: 15
+    z: -46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af593662360411002faa"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -0.5999999
+    y: 15
+    z: -32.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af773662360411002fab"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -40.6
+    y: 15
+    z: -52.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af793662360411002fac"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: 0.6
+    y: 14.4
+    z: -33.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af833662360411002fad"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: -3.4
+    y: 14.4
+    z: -33.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206af963662360411002fae"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -41
+    y: 16
+    z: -55
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002faf"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: -5
+    y: 15.5
+    z: -35.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002fb0"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -4
+    y: 16
+    z: -37
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002fb1"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: -5
+    y: 15.5
+    z: -39.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002fb2"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
+  gridPoint {
+    x: -4
+    y: 16
+    z: -41
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002fb3"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: -5
+    y: 15.5
+    z: -43.7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afa13662360411002fb4"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_ledPanel01"
+  gridPoint {
+    x: -5.5
+    y: 15
+    z: -46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206afa13662360411002fb5"
+  }
+}
+props {
+  name: "pikePlace_buildingOrnament_led02"
+  gridPoint {
+    x: -5
+    y: 15.5
+    z: -34.3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206afd63662360411002fb6"
+  }
+}
+props {
+  name: "barrens_street_payPhone"
+  gridPoint {
+    x: 24
+    y: 0
+    z: -37
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "barrens_street_payPhone"
+  gridPoint {
+    x: 36.9
+    y: -0.3
+    z: -62
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206b0213662360411002fb7"
+  }
+}
+props {
+  name: "barrens_street_bench02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206b8b33662360411002fc5"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -44
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b8f33662360411002fc6"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b8f53662360411002fc7"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b9033662360411002fc9"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b9053662360411002fca"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b90a3662360411002fcb"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -35
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b90a3662360411002fcc"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b90a3662360411002fcd"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey05"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -41
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b90d3662360411002fce"
+  }
+}
+props {
+  name: "barrens_ground_sidewalkdarkgrey01"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206b9df3662360411002fcf"
+  }
 }
