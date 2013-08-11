@@ -93,7 +93,7 @@ triggers {
       }
     }
     ops {
-      functionName: "Order Actor to Move To (Region)"
+      functionName: "Order Actor to Hunt And Destroy (Team)"
       args {
         call_value {
           functionName: "All Actors With Tag"
@@ -120,20 +120,20 @@ triggers {
       }
       args {
         call_value {
-          functionName: "Get Map Item (Region)"
+          functionName: "Get Preset Value (string)"
           args {
-            string_value: "51ff169b366236f8030072f8"
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
           }
         }
       }
       args {
         call_value {
-          functionName: "Get Preset Value (int)"
+          functionName: "Get Map Item (SceneDimension)"
           args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 0
+            string_value: "Default"
           }
         }
       }
@@ -1183,6 +1183,52 @@ triggers {
         float_value: 0
       }
     }
+    ops {
+      functionName: "Order Actor to Hunt And Destroy (Team)"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "squad2"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -2202,6 +2248,46 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "Gain Karma on Entry"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Add Actor Karma"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5207fea53662364c0d003d79"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Enter Conference Room"
   position {
@@ -3160,9 +3246,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: 39
+    x: 38
     y: 0
-    z: 32
+    z: 34
   }
   orientation: ORIENTATION_W
   GeneralTags: "squad2"
@@ -3243,7 +3329,7 @@ characters {
   gridPoint {
     x: 41
     y: 0
-    z: 33
+    z: 34
   }
   orientation: ORIENTATION_W
   GeneralTags: "squad2"

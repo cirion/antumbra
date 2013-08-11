@@ -2399,6 +2399,49 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Display Text over Prop"
+      args {
+        call_value {
+          functionName: "Triggering Prop"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
   }
   isActive: true
   idRef {
@@ -2498,6 +2541,49 @@ triggers {
             int_value: 0
           }
         }
+      }
+    }
+    ops {
+      functionName: "Display Text over Prop"
+      args {
+        call_value {
+          functionName: "Triggering Prop"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
       }
     }
   }
@@ -2601,6 +2687,49 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Display Text over Prop"
+      args {
+        call_value {
+          functionName: "Triggering Prop"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
   }
   isActive: true
   idRef {
@@ -2680,10 +2809,10 @@ triggers {
         call_value {
           functionName: "Get Map Item (Sound)"
           args {
-            string_value: "chicasting"
+            string_value: "props"
           }
           args {
-            string_value: "ChiCast_BuffStart"
+            string_value: "Door_RockSlide"
           }
         }
       }
@@ -2700,6 +2829,49 @@ triggers {
             int_value: 0
           }
         }
+      }
+    }
+    ops {
+      functionName: "Display Text over Prop"
+      args {
+        call_value {
+          functionName: "Triggering Prop"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
       }
     }
   }
@@ -4046,6 +4218,190 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "PoseStatues"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201a3603662368c16004dd2"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201a2203662368c16004dcf"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201a1d73662368c16004dce"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201b2423662368c16004df5"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5201a2333662368c16004dd1"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520801b83662364c0d003d7d"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera Region"
   position {
@@ -4447,7 +4803,7 @@ characters {
   gridPoint {
     x: 1
     y: 0
-    z: 8
+    z: 9
   }
   orientation: ORIENTATION_N
   idRef {
@@ -4509,7 +4865,7 @@ characters {
         spellcasting: 0
         decking: 0
         conjuring: 0
-        spirit_summoning: 0
+        spirit_summoning: -1
         drone_control: 0
         biotech: 0
         dodge: 0
@@ -4529,7 +4885,7 @@ characters {
         smg: 0
         edged: 0
         unarmed: 0
-        spirit_control: 0
+        spirit_control: -1
         esp_control: 0
         drone_combat: 0
       }
@@ -4538,15 +4894,6 @@ characters {
     }
     equipment {
       prefab_name: "ShamanUrban"
-    }
-    equipment {
-      prefab_name: "Bound Air Spirit 1"
-    }
-    equipment {
-      prefab_name: "Bound Earth Spirit 1"
-    }
-    equipment {
-      prefab_name: "HealthPack"
     }
     team_id: "Civilians"
     char_name: "Ork"
@@ -4686,7 +5033,7 @@ characters {
         body: 0
         quickness: 0
         strength: 0
-        charisma: 0
+        charisma: -2
         intelligence: 0
         willpower: 0
         essence: 0
@@ -4709,8 +5056,8 @@ characters {
         throwing_weapons: 0
         spellcasting: 0
         decking: 0
-        conjuring: 0
-        spirit_summoning: 0
+        conjuring: -1
+        spirit_summoning: -1
         drone_control: 0
         biotech: 0
         dodge: 0
@@ -4736,27 +5083,6 @@ characters {
       }
       archetypeName: "Guard - Protect"
       attitude: AttitudeAggressive
-    }
-    equipment {
-      prefab_name: "Killing Hands"
-    }
-    equipment {
-      prefab_name: "Spell Powerbolt 1"
-    }
-    equipment {
-      prefab_name: "Spell Haste 1"
-    }
-    equipment {
-      prefab_name: "Spell Flamethrower 1"
-    }
-    equipment {
-      prefab_name: "Bound Air Spirit 1"
-    }
-    equipment {
-      prefab_name: "HealthPack"
-    }
-    equipment {
-      prefab_name: "Bound Air Spirit 1"
     }
     equipment {
       prefab_name: "Outfit_Corporate Salaryman"
@@ -4945,12 +5271,6 @@ characters {
       }
       archetypeName: "Guard - Protect"
       attitude: AttitudeAggressive
-    }
-    equipment {
-      prefab_name: "HealthPack"
-    }
-    equipment {
-      prefab_name: "Grenade 1 (Frag)"
     }
     team_id: "Civilians"
     char_name: "Troll"
@@ -5382,9 +5702,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -23
+    x: -29
     y: 0
-    z: -29
+    z: -25
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6084,7 +6404,7 @@ mapName: "Caves"
 parentStory: ""
 scene_title: "The Caves"
 scene_subtitle: "Antumbra\'s Hidden Underbelly"
-scene_synopsis: "The elevator takes you down to a carport, then a service elevator takes you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a cave system that has certainly been here for far longer than the building above..."
+scene_synopsis: "The elevator takes you to an underground garage, where a service elevator whisks you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a cave system that has certainly been here for far longer than the building above..."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -6107,13 +6427,13 @@ allow_drawn_weapons: false
 team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
-  affiliation: 0
+  affiliation: 1
   affiliation: 1
   affiliation: 0
 }
 team_affiliations {
   team_name: "Gangers"
-  affiliation: 0
+  affiliation: 1
   affiliation: 0
   affiliation: 1
   affiliation: 0
