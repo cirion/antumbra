@@ -1198,7 +1198,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Prop)"
           args {
-            string_value: "51fd257e366236700700190a"
+            string_value: "5206ddac366236b01400391f"
           }
         }
       }
@@ -1236,7 +1236,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Prop)"
           args {
-            string_value: "5206d8bd366236b014003917"
+            string_value: "5206ddb8366236b014003921"
           }
         }
       }
@@ -1247,7 +1247,7 @@ triggers {
             call_value {
               functionName: "Get Map Item (Region)"
               args {
-                string_value: "5206d9b6366236b01400391a"
+                string_value: "5206de5c366236b014003922"
               }
             }
           }
@@ -1296,7 +1296,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Prop)"
           args {
-            string_value: "51fd257e366236700700190a"
+            string_value: "5206ddac366236b01400391f"
           }
         }
       }
@@ -1307,7 +1307,7 @@ triggers {
             call_value {
               functionName: "Get Map Item (Region)"
               args {
-                string_value: "5206d9b6366236b01400391a"
+                string_value: "5206de5c366236b014003922"
               }
             }
           }
@@ -1320,7 +1320,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Prop)"
           args {
-            string_value: "5206d8bd366236b014003917"
+            string_value: "5206ddb8366236b014003921"
           }
         }
       }
@@ -1380,6 +1380,339 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "CycleLights"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Cycle Lights"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Directional Light Color"
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0.1
+          }
+          args {
+            float_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0.1
+          }
+          args {
+            float_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0.1
+          }
+          args {
+            float_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0.75
+          }
+          args {
+            float_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0
+          }
+          args {
+            float_value: -1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0
+          }
+          args {
+            float_value: -1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 0
+          }
+          args {
+            float_value: -1
+          }
+        }
+      }
+      args {
+        float_value: 0.75
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (CameraRegion)"
+          args {
+            string_value: "51fd33ab3662367007001abc"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Cycle Lights"
+          }
+        }
+      }
+      args {
+        float_value: 2.5
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e098366236b01400392d"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Start Light Cycle"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Cycle Lights"
+          }
+        }
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e19e366236b01400392e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Open Door to Dance 1"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "51fd65743662362c23007347"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Door Opened"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e5c8366236b014003938"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Open Door to Dance 2"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "51fdddfd366236181b007d83"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Door Opened"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e5eb366236b014003939"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "TURN IT UP!!!"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Door Opened"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set8"
+          }
+          args {
+            string_value: "Seattle-Set8-Combat"
+          }
+        }
+      }
+      args {
+        float_value: 200
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e60d366236b01400393a"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Quiet Music at Start"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set3"
+          }
+          args {
+            string_value: "Seattle-Set3-Combat"
+          }
+        }
+      }
+      args {
+        float_value: 0.3
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206e6a6366236b01400393b"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region Door Lobby to Dining"
   position {
@@ -1417,7 +1750,7 @@ regions {
   loop_default_music: false
 }
 regions {
-  name: "New Region"
+  name: "Camera"
   position {
     x: -26
     y: -3
@@ -1444,13 +1777,13 @@ regions {
     r: 0.082352944
     g: 0.19607843
     b: 0.36470589
-    a: 0.50196081
+    a: 1
   }
   ambience_template: "office-quiet"
   combat_music: "Seattle-Set9-Combat"
-  default_music: "Seattle-Set3-Combat"
+  default_music: ""
   loop_combat_music: true
-  loop_default_music: true
+  loop_default_music: false
 }
 regions {
   name: "Region Door Lobby to Dance"
@@ -1608,6 +1941,42 @@ regions {
   is_camera_region: false
   idRef {
     id: "5206d9b6366236b01400391a"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "Light Switch 2"
+  position {
+    x: -42
+    y: 5
+    width: 1
+    height: 3
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "5206de5c366236b014003922"
   }
   directional_light_dir {
     x: -0.5
@@ -2306,9 +2675,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -8
+    x: 10
     y: 0
-    z: 38
+    z: 29
   }
   orientation: ORIENTATION_N
   idRef {
@@ -2521,6 +2890,8 @@ variables {
 }
 mapEvents: "Toggle Light On"
 mapEvents: "Toggle Light Off"
+mapEvents: "Cycle Lights"
+mapEvents: "Door Opened"
 goals {
   name: "You died."
   type: GoalType_Primary
