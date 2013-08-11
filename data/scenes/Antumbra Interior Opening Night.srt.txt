@@ -2675,9 +2675,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 10
+    x: -1
     y: 0
-    z: 29
+    z: 9
   }
   orientation: ORIENTATION_N
   idRef {
@@ -2838,6 +2838,58 @@ characters {
     }
     karma: 6
     is_prop_character: true
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "BystanderVanish"
+  displayName: "DJ"
+  idRef {
+    id: "5206e92a366236b01400394c"
+  }
+  character_instance {
+    prefab_name: "Core/ElfMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+    }
+    equipment {
+      prefab_name: "SamuraiBunny"
+    }
+    team_id: "Civilians"
+    char_name: "DJ"
+    GeneralTags: "BystanderVanish"
+    pc_spawn_number: -1
+    portrait_code_override: "s2h2b4"
+    karma: 6
   }
 }
 variables {

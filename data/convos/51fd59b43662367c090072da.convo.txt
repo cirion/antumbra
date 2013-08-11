@@ -521,7 +521,7 @@ nodes {
   text: "That\'s a shame. I assure you that I\'m worth every credit."
   branches {
     responseText: ""
-    nextNodeIndex: 8
+    nextNodeIndex: 1
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
