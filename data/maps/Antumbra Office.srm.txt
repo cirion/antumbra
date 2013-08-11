@@ -11727,7 +11727,7 @@ props {
     id: "5207c6273662364c0d003be0"
   }
   light {
-    range: 3
+    range: 2
     color {
       r: 0.77254903
       g: 1
@@ -11815,5 +11815,56 @@ props {
       b: 1
     }
     intensity: 4
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: 14.8
+    y: 0.9
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: 38
+    y: 3.7
+    z: 38.6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+}
+props {
+  name: "vfx_fx_trivid"
+  gridPoint {
+    x: 39
+    y: 0
+    z: 23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopTriVid"
+  }
+}
+props {
+  name: "telestrianEstate_wall_woodPanelEdge03"
+  gridPoint {
+    x: 19
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207d12d3662364c0d003be8"
   }
 }
