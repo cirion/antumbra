@@ -563,6 +563,34 @@ nodes {
           }
         }
       }
+      ops {
+        functionName: "Play Music"
+        args {
+          call_value {
+            functionName: "Get Map Item (Music)"
+            args {
+              string_value: "Seattle_Set9"
+            }
+            args {
+              string_value: "Seattle-Set9-Combat"
+            }
+          }
+        }
+        args {
+          float_value: 1
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
     }
     nextNodeIndex: -1
   }

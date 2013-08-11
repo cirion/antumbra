@@ -2699,7 +2699,7 @@ regions {
     b: 0.36470589
     a: 1
   }
-  ambience_template: "office-quiet"
+  ambience_template: "bar-busy"
   combat_music: "Seattle-Set9-Combat"
   default_music: ""
   loop_combat_music: true
@@ -3642,9 +3642,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 7
+    x: 16
     y: 0
-    z: 48
+    z: 28
   }
   orientation: ORIENTATION_N
   idRef {
@@ -4003,7 +4003,24 @@ characters {
     id: "5207034b366236541200166b"
   }
   character_instance {
+    prefab_name: "Extras/HumanFemaleDancer"
+    character_sheet_id: "BaseCivilian"
     character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        awareness: 24
+        protect_tether_range: 5
+        move_speed: 6
+      }
       archetypeName: "Non-Combatant"
     }
     team_id: "Civilians"
@@ -4011,6 +4028,7 @@ characters {
     GeneralTags: "bystander"
     GeneralTags: "wanderer"
     pc_spawn_number: -1
+    karma: 6
     is_prop_character: true
   }
 }

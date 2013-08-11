@@ -3889,6 +3889,7 @@ props {
   }
   orientation: ORIENTATION_S
   GeneralTags: "BystanderProp"
+  displayName: "Dwarf Booth"
 }
 props {
   name: "diveBar_furniture_booth01"
@@ -10047,11 +10048,12 @@ props {
     string_value: "DancingManBar"
   }
   GeneralTags: "BystanderProp"
+  displayName: "Dancing Man"
 }
 props {
   name: "vfx_fx_flashingAlarm"
   gridPoint {
-    x: 4
+    x: 4.5
     y: 2
     z: 6
   }
@@ -10181,7 +10183,7 @@ props {
 props {
   name: "vfx_fx_flashingAlarm"
   gridPoint {
-    x: -8
+    x: -7.5
     y: 2
     z: 6
   }
@@ -10197,7 +10199,7 @@ props {
 props {
   name: "vfx_fx_flashingAlarm"
   gridPoint {
-    x: -18
+    x: -17.5
     y: 2
     z: 6
   }
@@ -10215,7 +10217,7 @@ props {
   gridPoint {
     x: -19
     y: 2
-    z: 15
+    z: 15.5
   }
   orientation: ORIENTATION_S
   properties {
@@ -10231,7 +10233,7 @@ props {
   gridPoint {
     x: -19
     y: 2
-    z: 23
+    z: 23.5
   }
   orientation: ORIENTATION_S
   properties {

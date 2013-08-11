@@ -124,6 +124,28 @@ triggers {
         int_value: 75
       }
     }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "LightningPreFlash"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 5
+          }
+          args {
+            float_value: 30
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -659,44 +681,6 @@ triggers {
       }
     }
     ops {
-      functionName: "Set Actor Run Speed"
-      args {
-        call_value {
-          functionName: "All Actors With Tag"
-          args {
-            call_value {
-              functionName: "Get Map Item (SenseTagList)"
-              args {
-                string_value: "wanderer"
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Preset Value (int)"
-              args {
-                string_value: "AllOrAny"
-              }
-              args {
-                int_value: 0
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "RunSpeedMethod"
-          }
-          args {
-            int_value: 2
-          }
-        }
-      }
-    }
-    ops {
       functionName: "Set Actor Wander Range"
       args {
         call_value {
@@ -723,16 +707,548 @@ triggers {
         }
       }
       args {
-        int_value: 3
+        int_value: 7
       }
-    }
-    ops {
-      functionName: "No Effect"
     }
   }
   isActive: true
   idRef {
     id: "5206b0883662360411002fb9"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Lightning Flash"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Lightning"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "LightningPreFlash"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Random (float)"
+          args {
+            float_value: 10
+          }
+          args {
+            float_value: 60
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Directional Light Color"
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0.1
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (CameraRegion)"
+          args {
+            string_value: "51fb193736623648150066bc"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "LightningFade"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Thunderclap"
+          }
+        }
+      }
+      args {
+        float_value: 1.25
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "52071e7636623654120017e0"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Lightning Fade"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "LightningFade"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Directional Light Color"
+      args {
+        float_value: 0.67
+      }
+      args {
+        float_value: 0.84
+      }
+      args {
+        float_value: 0.74
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: -0.5
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        float_value: -0.75
+      }
+      args {
+        float_value: 0.5
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (CameraRegion)"
+          args {
+            string_value: "51fb193736623648150066bc"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520720be36623654120017e1"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Thunderclap"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Thunderclap"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "spellcasting"
+          }
+          args {
+            string_value: "FireboltExplosion"
+          }
+        }
+      }
+      args {
+        float_value: 0.25
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520720c536623654120017e2"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Lightning Flash 0"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "LightningPreFlash"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Directional Light Color"
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0.05
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (CameraRegion)"
+          args {
+            string_value: "51fb193736623648150066bc"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Lightning"
+          }
+        }
+      }
+      args {
+        float_value: 0.2
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5207263036623654120017e3"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "Start Actor Animations"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b7c43662360411002fc4"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "bouncer"
+          }
+          args {
+            string_value: "bouncer"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5207a1c43662364c0d003b26"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "btltweaking"
+          }
+          args {
+            string_value: "btltweaking"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b4a63662360411002fbc"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "talking"
+          }
+          args {
+            string_value: "talking"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b4863662360411002fbb"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "flirty"
+          }
+          args {
+            string_value: "flirty"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b52f3662360411002fbf"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "relaxed"
+          }
+          args {
+            string_value: "calm"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b4f03662360411002fbe"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "poised"
+          }
+          args {
+            string_value: "poised"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b5423662360411002fc0"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "preen"
+          }
+          args {
+            string_value: "preen"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5207a2133662364c0d003b27"
   }
   elseActions {
   }
@@ -887,7 +1403,7 @@ characters {
   gridPoint {
     x: 12
     y: 0
-    z: -54
+    z: -41
   }
   orientation: ORIENTATION_W
   idRef {
@@ -1122,7 +1638,7 @@ characters {
   }
   orientation: ORIENTATION_W
   GeneralTags: "patron"
-  displayName: "patron_longhair_punk_female"
+  displayName: "Couple 1 Woman"
   idRef {
     id: "5206b4863662360411002fbb"
   }
@@ -1169,6 +1685,7 @@ characters {
   }
   orientation: ORIENTATION_E
   GeneralTags: "patron"
+  displayName: "Couple 1 Man"
   idRef {
     id: "5206b4a63662360411002fbc"
   }
@@ -1261,6 +1778,7 @@ characters {
   }
   orientation: ORIENTATION_E
   GeneralTags: "patron"
+  displayName: "Patron Poised"
   idRef {
     id: "5206b4f03662360411002fbe"
   }
@@ -1307,7 +1825,7 @@ characters {
   }
   orientation: ORIENTATION_E
   GeneralTags: "patron"
-  displayName: "patron_troll"
+  displayName: "Patron Troll"
   idRef {
     id: "5206b52f3662360411002fbf"
   }
@@ -1354,6 +1872,7 @@ characters {
   }
   orientation: ORIENTATION_E
   GeneralTags: "patron"
+  displayName: "Patron Something"
   idRef {
     id: "5206b5423662360411002fc0"
   }
@@ -1590,7 +2109,7 @@ characters {
   orientation: ORIENTATION_W
   GeneralTags: "patron"
   GeneralTags: "wanderer"
-  displayName: "bouncer"
+  displayName: "Parking Guard 1"
   idRef {
     id: "5206ba723662360411002fd0"
   }
@@ -1611,7 +2130,7 @@ characters {
         morale: 24
         discipline: 0
         awareness: 24
-        perception: 0
+        perception: -20
         authority: 0
         protect_tether_range: 5
         move_speed: 6
@@ -1620,6 +2139,7 @@ characters {
       }
       specializations {
       }
+      archetypeName: "Non-Combatant"
     }
     equipment {
       prefab_name: "Outfit_Security"
@@ -1631,6 +2151,7 @@ characters {
     pc_spawn_number: -1
     portrait_code_override: "s3h5c12b0t4"
     karma: 6
+    is_prop_character: true
   }
 }
 characters {
@@ -1643,7 +2164,7 @@ characters {
   orientation: ORIENTATION_N
   GeneralTags: "patron"
   GeneralTags: "wanderer"
-  displayName: "bouncer"
+  displayName: "Parking Guard 2"
   idRef {
     id: "5206bac83662360411002fd1"
   }
@@ -1686,6 +2207,53 @@ characters {
     karma: 6
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -44
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "patron"
+  displayName: "Impatient"
+  idRef {
+    id: "5207a1c43662364c0d003b26"
+  }
+  character_instance {
+    prefab_name: "Story/WeaponsDealer"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 24
+        discipline: 0
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 6
+      }
+      skills {
+      }
+      specializations {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "patron"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -1694,6 +2262,10 @@ variables {
     typeName: "bool"
   }
 }
+mapEvents: "Lightning"
+mapEvents: "LightningFade"
+mapEvents: "Thunderclap"
+mapEvents: "LightningPreFlash"
 worldMapLocation {
   filename: ""
   location {
