@@ -4387,7 +4387,7 @@ props {
   name: "office_wall_glassEdge05"
   gridPoint {
     x: 16
-    y: 0
+    y: -0.3
     z: 12
   }
   orientation: ORIENTATION_S
@@ -4399,7 +4399,7 @@ props {
   name: "office_wall_glassEnd01"
   gridPoint {
     x: 16
-    y: 0
+    y: -0.3
     z: 10
   }
   orientation: ORIENTATION_N
@@ -4423,7 +4423,7 @@ props {
   name: "office_wall_glassDoor01"
   gridPoint {
     x: 16
-    y: 0
+    y: -0.3
     z: 14
   }
   orientation: ORIENTATION_S
@@ -4435,7 +4435,7 @@ props {
   name: "office_wall_glassEdge05"
   gridPoint {
     x: 16
-    y: 0
+    y: -0.3
     z: 16
   }
   orientation: ORIENTATION_S
@@ -4447,7 +4447,7 @@ props {
   name: "office_wall_glassEnd01"
   gridPoint {
     x: 16
-    y: 0
+    y: -0.3
     z: 18
   }
   orientation: ORIENTATION_S
