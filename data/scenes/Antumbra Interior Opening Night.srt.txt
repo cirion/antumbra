@@ -1176,6 +1176,210 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "LightingTestTurnOn"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Toggle Light On"
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "No Condition"
+    }
+  }
+  actions {
+    ops {
+      functionName: "Move Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "51fd257e366236700700190a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5206d892366236b014003915"
+              }
+            }
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Toggle Light Off"
+          }
+        }
+      }
+      args {
+        float_value: 4
+      }
+    }
+    ops {
+      functionName: "Move Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5206d8bd366236b014003917"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5206d9b6366236b01400391a"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206d887366236b014003914"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "LightingTestTurnOff"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Toggle Light Off"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Toggle Light On"
+          }
+        }
+      }
+      args {
+        float_value: 4
+      }
+    }
+    ops {
+      functionName: "Move Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "51fd257e366236700700190a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5206d9b6366236b01400391a"
+              }
+            }
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Move Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "5206d8bd366236b014003917"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5206d892366236b014003915"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206d974366236b014003919"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "StartTogglingLights"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Toggle Light On"
+          }
+        }
+      }
+      args {
+        float_value: 2
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5206da4a366236b01400391b"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region Door Lobby to Dining"
   position {
@@ -1332,6 +1536,78 @@ regions {
   is_camera_region: false
   idRef {
     id: "51febd3d3662365008006239"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "Light Switch Holder"
+  position {
+    x: -45
+    y: 23
+    width: 4
+    height: 5
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "5206d892366236b014003915"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "Light Switch 1"
+  position {
+    x: -12
+    y: 41
+    width: 1
+    height: 3
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "5206d9b6366236b01400391a"
   }
   directional_light_dir {
     x: -0.5
@@ -2030,9 +2306,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 17
+    x: -8
     y: 0
-    z: 28
+    z: 38
   }
   orientation: ORIENTATION_N
   idRef {
@@ -2243,6 +2519,8 @@ variables {
     typeName: "bool"
   }
 }
+mapEvents: "Toggle Light On"
+mapEvents: "Toggle Light Off"
 goals {
   name: "You died."
   type: GoalType_Primary
