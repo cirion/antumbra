@@ -5624,9 +5624,9 @@ props {
 props {
   name: "hive_floor_dirt06"
   gridPoint {
-    x: -36
+    x: -39
     y: 0
-    z: -19
+    z: -16
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6164,7 +6164,7 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -18
+    x: -17
     y: 0
     z: -28
   }
@@ -6248,7 +6248,7 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -16
+    x: -19
     y: 0
     z: -28
   }
@@ -6862,7 +6862,7 @@ props {
   gridPoint {
     x: -36
     y: 0
-    z: -17
+    z: -18
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7004,9 +7004,9 @@ props {
 props {
   name: "hive_floor_dirt05"
   gridPoint {
-    x: -31
+    x: -35
     y: 0
-    z: -23
+    z: -26
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7066,7 +7066,7 @@ props {
   gridPoint {
     x: -33
     y: 0
-    z: -19
+    z: -18
   }
   orientation: ORIENTATION_E
   idRef {
@@ -9800,9 +9800,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -35
+    x: -30
     y: 0
-    z: -26
+    z: -22
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9812,9 +9812,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -33
+    x: -14
     y: 0
-    z: -26
+    z: -12
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9824,9 +9824,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -31
+    x: -32
     y: 0
-    z: -26
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9860,9 +9860,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -36
+    x: -30
     y: 0
-    z: -25
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9872,9 +9872,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -34
+    x: -11
     y: 0
-    z: -25
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9884,9 +9884,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -32
+    x: -8
     y: 0
-    z: -25
+    z: -26
   }
   orientation: ORIENTATION_S
   idRef {
@@ -9896,9 +9896,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -30
+    x: -34
     y: 0
-    z: -24
+    z: -20
   }
   orientation: ORIENTATION_S
   idRef {
@@ -13484,7 +13484,7 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -37
+    x: -38
     y: 0
     z: -23
   }
@@ -13496,9 +13496,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -35
+    x: -32
     y: 0
-    z: -23
+    z: -22
   }
   orientation: ORIENTATION_S
   idRef {
@@ -13976,9 +13976,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -20
+    x: -11
     y: 0
-    z: -27
+    z: -28
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14036,9 +14036,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -33
+    x: -32
     y: 0
-    z: -23
+    z: -20
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14048,9 +14048,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -29
+    x: -31
     y: 0
-    z: -23
+    z: -26
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14120,9 +14120,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -30
+    x: -36
     y: 0
-    z: -21
+    z: -20
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14144,9 +14144,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -32
+    x: -34
     y: 0
-    z: -21
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14156,9 +14156,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -34
+    x: -33
     y: 0
-    z: -21
+    z: -26
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14170,7 +14170,7 @@ props {
   gridPoint {
     x: -36
     y: 0
-    z: -21
+    z: -22
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14180,9 +14180,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -35
+    x: -34
     y: 0
-    z: -19
+    z: -22
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14194,7 +14194,7 @@ props {
   gridPoint {
     x: -35
     y: 0
-    z: -17
+    z: -18
   }
   orientation: ORIENTATION_S
   idRef {
@@ -14216,9 +14216,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -31
+    x: -36
     y: 0
-    z: -19
+    z: -24
   }
   orientation: ORIENTATION_S
   idRef {
@@ -16295,7 +16295,7 @@ props {
 props {
   name: "tempbad_leyline_light"
   gridPoint {
-    x: -24
+    x: -25
     y: 0
     z: -15
   }
@@ -19839,5 +19839,44 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5207ed233662364c0d003cf3"
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -23
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 10
+    color {
+      r: 0.73725492
+      g: 0.29803923
+      b: 0.12156863
+    }
+    intensity: 2
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -33
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207ef003662364c0d003cf4"
+  }
+  light {
+    range: 10
+    color {
+      r: 0.73725492
+      g: 0.29803923
+      b: 0.12156863
+    }
+    intensity: 2
   }
 }

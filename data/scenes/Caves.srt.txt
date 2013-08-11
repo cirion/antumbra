@@ -4065,9 +4065,9 @@ regions {
     z: -0.75
   }
   directional_light_color {
-    r: 0.78431374
-    g: 0.25882354
-    b: 0
+    r: 0.33333334
+    g: 0.21568628
+    b: 0.11372549
     a: 0.50196081
   }
   ambient_light_color {
@@ -6107,13 +6107,13 @@ allow_drawn_weapons: false
 team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
-  affiliation: 1
+  affiliation: 0
   affiliation: 1
   affiliation: 0
 }
 team_affiliations {
   team_name: "Gangers"
-  affiliation: 1
+  affiliation: 0
   affiliation: 0
   affiliation: 1
   affiliation: 0
@@ -6134,8 +6134,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

@@ -591,12 +591,69 @@ nodes {
           }
         }
       }
+      ops {
+        functionName: "Order Actor to Seek And Destroy (Team)"
+        args {
+          call_value {
+            functionName: "All Actors on Team"
+            args {
+              call_value {
+                functionName: "Get Preset Value (string)"
+                args {
+                  string_value: "FactionList"
+                }
+                args {
+                  int_value: 2
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "AllOrAny"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Map Item (SceneDimension)"
+                args {
+                  string_value: "Default"
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (string)"
+            args {
+              string_value: "FactionList"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
     }
-    nextNodeIndex: -1
+    nextNodeIndex: 16
   }
   branches {
     responseText: "Keep up the good work."
-    nextNodeIndex: 16
+    nextNodeIndex: 17
   }
   branches {
     responseText: "{{GM}}Move along.{{/GM}}"
@@ -1029,9 +1086,57 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fea5d03662365008006094"
+    id: "5207fabe3662364c0d003d4c"
   }
   index: 16
+  text: "{{GM}}The guard yells out in anger and cocks his gun. Screams of panic fill the air as the patrons rush for the exit, fleeing the oncoming carnage.{{/GM}}"
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "bystander"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "51fea5d03662365008006094"
+  }
+  index: 17
   text: "He nods gravely, and returns to scanning the dance floor."
   nodeType: ConversationNodeType_Simple
 }
