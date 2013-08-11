@@ -13919,7 +13919,7 @@ props {
 props {
   name: "barrens_street_atm"
   gridPoint {
-    x: 6
+    x: 6.5
     y: 0
     z: -34
   }

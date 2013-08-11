@@ -1245,6 +1245,39 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5206b6913662360411002fc3"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "repairing"
+          }
+          args {
+            string_value: "repairing"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -2011,6 +2044,7 @@ characters {
   }
   orientation: ORIENTATION_N
   GeneralTags: "patron"
+  displayName: "ATM patron"
   idRef {
     id: "5206b6913662360411002fc3"
   }
