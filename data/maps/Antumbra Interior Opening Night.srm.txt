@@ -9709,6 +9709,7 @@ props {
     property_id: "fxScript"
     string_value: "DancingWomanBar"
   }
+  GeneralTags: "BystanderProp"
 }
 props {
   name: "diveBar_tech_dancePodBottom01"
@@ -9734,6 +9735,7 @@ props {
     property_id: "fxScript"
     string_value: "DancingWomanBar"
   }
+  GeneralTags: "BystanderProp"
   idRef {
     id: "5206f10a366236b014003aa7"
   }
@@ -9995,4 +9997,496 @@ props {
     z: 40
   }
   orientation: ORIENTATION_S
+}
+props {
+  name: "telestrianEstate_furniture_hallwayTable02"
+  gridPoint {
+    x: -7
+    y: 0
+    z: 33
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206fb5c366236541200164a"
+  }
+}
+props {
+  name: "vfx_fx_dancingMan"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "DancingManBar"
+  }
+  GeneralTags: "BystanderProp"
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: 4
+    y: 2
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+}
+props {
+  name: "vfx_fx_flies"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SpotlightFliesEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_lowmist"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopLowMistBank"
+  }
+}
+props {
+  name: "vfx_fx_poisongasvent"
+  gridPoint {
+    x: -3
+    y: 2
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "PoisonGasVentEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_smallfire"
+  gridPoint {
+    x: -5
+    y: 3
+    z: 4.8
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "CampfireEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_steam"
+  gridPoint {
+    x: -4
+    y: 0
+    z: 13
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SteamEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_trivid"
+  gridPoint {
+    x: -16
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopTriVid"
+  }
+}
+props {
+  name: "vfx_fx_watersplashes"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopWaterSplashes"
+  }
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: -8
+    y: 2
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+  idRef {
+    id: "5206fe26366236541200164d"
+  }
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: -18
+    y: 2
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+  idRef {
+    id: "5206fe2d366236541200164e"
+  }
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: -19
+    y: 2
+    z: 15
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+  idRef {
+    id: "5206fe37366236541200164f"
+  }
+}
+props {
+  name: "vfx_fx_flashingAlarm"
+  gridPoint {
+    x: -19
+    y: 2
+    z: 23
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlashingAlarm"
+  }
+  idRef {
+    id: "5206fe3b3662365412001650"
+  }
+}
+props {
+  name: "vfx_fx_smallfire"
+  gridPoint {
+    x: -1.8000002
+    y: 3
+    z: 4.8
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "CampfireEnvironment"
+  }
+  idRef {
+    id: "5206fea43662365412001651"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: -11
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "5206ffb83662365412001653"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "5206ffbb3662365412001654"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "5206ffbe3662365412001655"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "5206ffc23662365412001656"
+  }
+}
+props {
+  name: "vfx_fx_poisongasvent"
+  gridPoint {
+    x: 7
+    y: 2
+    z: 24
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "PoisonGasVentEnvironment"
+  }
+  idRef {
+    id: "5206ffd53662365412001658"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: -3
+    y: 2
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+  idRef {
+    id: "5207003d3662365412001659"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: 0
+    y: 2
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+  idRef {
+    id: "5207006f366236541200165a"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: -5.8
+    y: 2
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+  idRef {
+    id: "52070072366236541200165b"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: -7
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+  idRef {
+    id: "5207007c366236541200165c"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+  idRef {
+    id: "5207007e366236541200165d"
+  }
+}
+props {
+  name: "vfx_fx_lowmist"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 21
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopLowMistBank"
+  }
+  idRef {
+    id: "52070112366236541200165e"
+  }
+}
+props {
+  name: "vfx_fx_lowmist"
+  gridPoint {
+    x: -11
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopLowMistBank"
+  }
+  idRef {
+    id: "52070116366236541200165f"
+  }
+}
+props {
+  name: "vfx_fx_lowmist"
+  gridPoint {
+    x: -17
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopLowMistBank"
+  }
+  idRef {
+    id: "5207011e3662365412001660"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 29
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "520701223662365412001661"
+  }
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  idRef {
+    id: "520701293662365412001662"
+  }
+}
+props {
+  name: "vfx_fx_trivid"
+  gridPoint {
+    x: -16
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopTriVid"
+  }
+  idRef {
+    id: "5207027a3662365412001663"
+  }
 }
