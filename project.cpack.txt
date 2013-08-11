@@ -1,7 +1,7 @@
 project_id: "51f7429764343188990041a8"
 project_name: "Antumbra"
-project_version: "0.5.0"
-author_name: "Seberin"
+project_version: "0.5.1"
+author_name: "Cirion"
 synopsis: "Antumbra"
 has_story: true
 read_only: false

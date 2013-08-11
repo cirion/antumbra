@@ -527,7 +527,7 @@ props {
 props {
   name: "office_wall_glassEnd01"
   gridPoint {
-    x: -1
+    x: -0.6
     y: 0
     z: -5
   }
@@ -536,7 +536,7 @@ props {
 props {
   name: "office_wall_glassEnd01"
   gridPoint {
-    x: -1
+    x: -0.6
     y: 0
     z: -1
   }
@@ -9702,15 +9702,6 @@ props {
   orientation: ORIENTATION_W
 }
 props {
-  name: "office_tech_computer01"
-  gridPoint {
-    x: 0.5
-    y: 0.3
-    z: 1.5
-  }
-  orientation: ORIENTATION_W
-}
-props {
   name: "telestrianEstate_floor_woodTile05"
   gridPoint {
     x: 38
@@ -10575,9 +10566,9 @@ props {
 props {
   name: "telestrianEstate_decor_pottedPalm"
   gridPoint {
-    x: 11
-    y: 0.1
-    z: -11
+    x: 12
+    y: 0
+    z: -10
   }
   orientation: ORIENTATION_S
 }
@@ -11563,5 +11554,266 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "5207c1a83662364c0d003bd8"
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 0
+    y: -3
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 3
+    color {
+      r: 0.77254903
+      g: 1
+      b: 1
+    }
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 7
+    y: -3
+    z: 1.4
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 3
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -2.6
+    y: 3
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207c3723662364c0d003bda"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -2.6
+    y: 3
+    z: -4.8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207c37a3662364c0d003bdb"
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 8
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 4
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c5303662364c0d003bdc"
+  }
+  light {
+    range: 8
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 4
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 21
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c5363662364c0d003bdd"
+  }
+  light {
+    range: 8
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 4
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 25
+    y: -3
+    z: 11.4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c5bf3662364c0d003bde"
+  }
+  light {
+    range: 3
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 17
+    y: -3
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c61f3662364c0d003bdf"
+  }
+  light {
+    range: 3
+    color {
+      r: 0.77254903
+      g: 1
+      b: 1
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 18
+    y: -3
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c6273662364c0d003be0"
+  }
+  light {
+    range: 3
+    color {
+      r: 0.77254903
+      g: 1
+      b: 1
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 33
+    y: -3
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c8443662364c0d003be2"
+  }
+  light {
+    range: 4
+    color {
+      r: 0.77254903
+      g: 1
+      b: 1
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 37
+    y: -4
+    z: 48
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 10
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 8
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 26
+    y: -4
+    z: 51
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207cc433662364c0d003be5"
+  }
+  light {
+    range: 10
+    color {
+      r: 0.89019608
+      g: 0.27058825
+      b: 1
+    }
+    intensity: 8
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 8
+    y: -4
+    z: 50
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207cd993662364c0d003be7"
+  }
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 4
   }
 }
