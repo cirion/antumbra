@@ -3969,12 +3969,36 @@ props {
     interactionRadius: 1
     prerequisites {
       ops {
-        functionName: "No Condition"
+        functionName: "Comparison (Actor)"
+        args {
+          call_value {
+            functionName: "Triggering Actor"
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "52071163366236541200172b"
+            }
+          }
+        }
       }
     }
     doorPoint {
       doorState: false
-      aiOnlyDoor: true
+      aiOnlyDoor: false
       doorSound: "DoorSlide"
       doorSoundBundle: "props"
     }
@@ -10131,7 +10155,7 @@ props {
 props {
   name: "vfx_fx_trivid"
   gridPoint {
-    x: -16
+    x: -14
     y: 0
     z: 6
   }
@@ -10475,18 +10499,74 @@ props {
   }
 }
 props {
-  name: "vfx_fx_trivid"
+  name: "diveBar_clutter_wineGlass01"
   gridPoint {
-    x: -16
+    x: 1.4
     y: 0
-    z: 6
+    z: 44.1
   }
   orientation: ORIENTATION_S
-  properties {
-    property_id: "fxScript"
-    string_value: "EnvironmentLoopTriVid"
-  }
   idRef {
-    id: "5207027a3662365412001663"
+    id: "520716433662365412001738"
+  }
+}
+props {
+  name: "diveBar_clutter_bottle02"
+  gridPoint {
+    x: 2
+    y: 1
+    z: 43.8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520716503662365412001739"
+  }
+}
+props {
+  name: "diveBar_clutter_bottle04"
+  gridPoint {
+    x: 1.8999996
+    y: 1.2
+    z: 43.8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207165d366236541200173a"
+  }
+}
+props {
+  name: "diveBar_clutter_bottle02"
+  gridPoint {
+    x: 1.6999998
+    y: 1.1
+    z: 43.8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207165d366236541200173b"
+  }
+}
+props {
+  name: "diveBar_clutter_bottle02"
+  gridPoint {
+    x: 1.6999998
+    y: 1
+    z: 44
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207165d366236541200173c"
+  }
+}
+props {
+  name: "diveBar_clutter_bottle03"
+  gridPoint {
+    x: 2
+    y: 1
+    z: 43.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207165d366236541200173d"
   }
 }
