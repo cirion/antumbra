@@ -7853,7 +7853,7 @@ parentStory: ""
 scene_title: "The Caves"
 scene_subtitle: "Antumbra\'s Hidden Underbelly"
 scene_synopsis: "The elevator takes you to an underground garage, where a service elevator whisks you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a cave system that has certainly been here for far longer than the building above..."
-scene_image: ""
+scene_image: "loadingimage_a1_04"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
@@ -7902,8 +7902,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

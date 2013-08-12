@@ -1004,7 +1004,7 @@ parentStory: ""
 scene_title: "Everett"
 scene_subtitle: "A Triumphant Return"
 scene_synopsis: "You crawl through the narrow passages until you can stand, then find a series of tunnels gradually sloping up towards the surface. After an unpleasant interval sloshing through the sewers, you pop open a manhole and ascend, blinking as some rare sunlight hits your face."
-scene_image: ""
+scene_image: "loadingimage_a1_05"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
@@ -1053,8 +1053,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

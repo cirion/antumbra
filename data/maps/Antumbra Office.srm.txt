@@ -9996,9 +9996,9 @@ props {
 props {
   name: "telestrianEstate_tech_soundSystem"
   gridPoint {
-    x: 10
+    x: 10.3
     y: 0
-    z: 11
+    z: 11.5
   }
   orientation: ORIENTATION_E
   idRef {

@@ -4730,7 +4730,7 @@ parentStory: ""
 scene_title: "Antumbra Offices"
 scene_subtitle: "The Business of Pleasure"
 scene_synopsis: "You pass through deserted hallways awash in the dead light of energy-saving bulbs. As you make your way up the building, the furnishings grow nicer and the carpet thicker. You must be getting close to the executive suite.\n\nSure enough, you have arrived in the nexus of Kali\'s entertainment empire. Here is where art meets commerce, her legacy as a singer enshrined and capitalized for increasing marginal revenues. New artists are identified in these rooms by the latest algorithms and Kali\'s own perceptive ear, then are recorded and distributed across all forms of media in all territories.\n\nYou\'ve been lucky so far, but it can\'t hold for much longer. The real world isn\'t allowed to intrude on such a rarefied atmosphere..."
-scene_image: ""
+scene_image: "loadingimage_a1_03"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
@@ -4779,8 +4779,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

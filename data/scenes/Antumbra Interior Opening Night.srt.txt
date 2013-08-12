@@ -3564,9 +3564,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -2
+    x: -1
     y: 0
-    z: 11
+    z: 13
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4046,7 +4046,7 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -3
+    x: -4
     y: 0
     z: 10
   }
@@ -4247,7 +4247,7 @@ characters {
   gridPoint {
     x: 1
     y: 0
-    z: 11
+    z: 10
   }
   orientation: ORIENTATION_S
   GeneralTags: "bystander"
@@ -4372,7 +4372,7 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -4
+    x: -7
     y: 0
     z: 12
   }
@@ -5326,7 +5326,7 @@ parentStory: ""
 scene_title: "Antumbra"
 scene_subtitle: "Opening Night in Everett\'s Newest Nightclub"
 scene_synopsis: "A wave of sound hits you as you step through the door. Everything inside is so... shiny. Plenty of money went into making this place, and it\'s designed to extract as much nuyen as possible from each person walking through its doors. \n\nDespite the tempting distractions, you\'ll need to find a way into the adjoining offices in order to deliver Johnson\'s box..."
-scene_image: ""
+scene_image: "loadingimage_a1_02"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
