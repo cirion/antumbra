@@ -255,7 +255,7 @@ nodes {
     id: "51feca833662365008006364"
   }
   index: 8
-  text: "Sometimes I agree with you. But as long as people can hear it, there\342\200\231s nothing to worry about. Excuse me."
+  text: "On certain nights I\'d be inclined to agree with you. But as long as people can hear it, there\342\200\231s nothing to worry about. Excuse me."
   nodeType: ConversationNodeType_Simple
 }
 nodes {

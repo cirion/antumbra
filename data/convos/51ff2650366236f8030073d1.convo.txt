@@ -225,7 +225,7 @@ nodes {
     id: "51ff2a2f366236f803007411"
   }
   index: 11
-  text: "I don\'t suppose you thought to bring a cutting torch, did you? Of course not. Runners always forget the cutting torch.\n\nLet\'s see... if I were you, I\'d check the desk drawers. One of them might have left a keycard behind.\n\nNow get to it! Time\'s wasting, and I only pay for results."
+  text: "I don\'t suppose you thought to bring a cutting torch, did you? Of course not. Runners always forget the cutting torch.\n\nLet\'s see... if I were you, I\'d check the desk drawers. One of the employees might have left a keycard behind.\n\nNow get to it! Time\'s wasting, and I only pay for results."
   nodeType: ConversationNodeType_Simple
 }
 nodes {

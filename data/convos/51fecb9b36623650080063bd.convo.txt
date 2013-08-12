@@ -374,7 +374,7 @@ nodes {
     id: "51fecd6336623650080063d6"
   }
   index: 4
-  text: "I enjoy all kinds of stuff. I\342\200\231m a screenwriter, and like listening to Neo-Jazz like Total Commitment while I\342\200\231m writing. When I want to feel energized, I turn on some loud Deconsecrated or other Thrumming music. Most of my friends enjoy Chromatic metal, especially Transtalker. And at the end of the day, I unwind with Toxic House music like DJ Omphalos or DJ Phizbort."
+  text: "I enjoy all kinds of stuff. I prefer listening to Neo-Jazz like Total Commitment while working on my screenplay. When I want to feel energized, I turn on some loud Deconsecrated or other Thrumming music. Most of my friends enjoy Chromatic metal, especially Transtalker. And at the end of the day, I unwind with Toxic House music like DJ Omphalos or DJ Phizbort."
   branches {
     responseText: ""
     nextNodeIndex: 0

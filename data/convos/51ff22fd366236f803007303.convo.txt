@@ -1367,7 +1367,7 @@ nodes {
     id: "51ff23b3366236f803007315"
   }
   index: 21
-  text: "I might believe you if I hadn\'t just taken a delivery an hour ago."
+  text: "I might believe you if we hadn\'t just taken a delivery an hour ago."
   branches {
     responseText: ""
     nextNodeIndex: 2

@@ -2108,7 +2108,7 @@ mapName: "Antumbra Exterior Night"
 parentStory: ""
 scene_title: "Everett"
 scene_subtitle: "A Neighborhood in Transition"
-scene_synopsis: "Far from the gritty glamour of downtown Seattle, Everett is mostly just gritty. That\'s been changing in recent years as money from the Mafia and UCAS filters down to street level. Lately, everyone has been talking about Antumbra, an elaborate new nightclub built in the middle of a dilapidated neighborhood. Backed by the glamorous entertainment magnate known as Kali, Antumbra seeks to make a splash on local society.\n\nYou hop out of a taxi and take in the scene. Somewhere in this chaos waits Mr. Johnson. He was vague about your job, but insisted it would be easy for the pay. You know better than that. Nobody ever bothers hiring a shadowrunner for the easy stuff."
+scene_synopsis: "Far from the gritty glamor of downtown Seattle, Everett is mostly just gritty. That\'s been changing in recent years as money from the Mafia and UCAS filters down to street level. Lately, everyone has been talking about Antumbra, an elaborate new nightclub built in the middle of a dilapidated neighborhood. Backed by the infamous entertainment magnate known as Kali, Antumbra seeks to make a splash on local society.\n\nYou hop out of a taxi and take in the scene. Somewhere in this chaos waits Mr. Johnson. He was vague about your job, but insisted it would be easy for the pay. You know better than that. Nobody ever bothers hiring a shadowrunner for the easy stuff."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -2158,8 +2158,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

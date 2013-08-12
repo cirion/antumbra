@@ -246,7 +246,7 @@ nodes {
     id: "51fec2803662365008006265"
   }
   index: 7
-  text: "{{GM}}A few tears start to trickle down his face.{{/GM}}\n\nYou\342\200\231re... you\342\200\231re so much nicer than the other serversh. You should getta job here. Tell Branda I said sho.\n\n{{GM}}Overcome with emotion, or something, he lays his head on the table and begins softly snoring.{{/GM}}\n"
+  text: "{{GM}}A few tears start trickling down his face.{{/GM}}\n\nYou\342\200\231re... you\342\200\231re so much nicer than the other serversh. You should getta job here. Tell Branda I said sho.\n\n{{GM}}Overcome with emotion, or something, he lays his head on the table and begins softly snoring.{{/GM}}\n"
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
