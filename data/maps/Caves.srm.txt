@@ -4965,8 +4965,8 @@ props {
       }
     }
     transitionPoint {
-      scene_name: "Antumbra Exterior Night"
-      confirmation_text: "The narrow passage slopes steeply up to the surface. Are you ready to return?"
+      scene_name: "Antumbra Exterior Morning"
+      confirmation_text: "This tunnel appears to head upwards. Do you want to follow it?"
     }
   }
 }

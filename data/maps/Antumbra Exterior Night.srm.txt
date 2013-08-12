@@ -1,6 +1,6 @@
-minX: -77
+minX: -70
 minZ: -145
-numX: 176
+numX: 169
 numZ: 213
 props {
   name: "barrens_building_01base01"
@@ -252,30 +252,6 @@ props {
   }
 }
 props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -22
-    y: 10
-    z: 5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f8805f3662360c0f004866"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -27
-    y: 10
-    z: 5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f880d83662360c0f004867"
-  }
-}
-props {
   name: "pikePlace_building_02roofCenter01"
   gridPoint {
     x: -12
@@ -348,132 +324,6 @@ props {
   }
 }
 props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -25
-    y: 10
-    z: 5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f8810e3662360c0f00486e"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -19
-    y: 10
-    z: 2
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f881123662360c0f00486f"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -19
-    y: 10
-    z: -1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f8811c3662360c0f004870"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -19
-    y: 10
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f881253662360c0f004872"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -29
-    y: 10
-    z: 5
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f8812c3662360c0f004873"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -29
-    y: 10
-    z: 2
-  }
-  orientation: ORIENTATION_E
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -29
-    y: 10
-    z: 0
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f8816b3662360c0f004875"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -28
-    y: 10
-    z: -3
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f8816f3662360c0f004876"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -22
-    y: 10
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f881723662360c0f004877"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -25
-    y: 10
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f881733662360c0f004878"
-  }
-}
-props {
-  name: "pikePlace_building_02roofBackCorner01"
-  gridPoint {
-    x: -29
-    y: 10
-    z: -3
-  }
-  orientation: ORIENTATION_S
-}
-props {
   name: "pikePlace_building_02corner04"
   gridPoint {
     x: 4
@@ -490,30 +340,6 @@ props {
     z: 3
   }
   orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofCorner"
-  gridPoint {
-    x: -19
-    y: 10
-    z: 5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f882fc366236fc22002cd7"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCorner"
-  gridPoint {
-    x: -23
-    y: 15
-    z: 2
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f88302366236fc22002cd8"
-  }
 }
 props {
   name: "barrens_building_01edge02"
@@ -537,54 +363,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "51f883f5366236fc22002cda"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -22
-    y: 16
-    z: 1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f88400366236fc22002cdb"
-  }
-}
-props {
-  name: "pikePlace_building_02roofBackCorner01"
-  gridPoint {
-    x: -28
-    y: 13
-    z: -3
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f88416366236fc22002cdc"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -27
-    y: 14
-    z: 1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f88443366236fc22002cdd"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -24
-    y: 14
-    z: -2
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f88455366236fc22002cde"
   }
 }
 props {
@@ -1170,60 +948,6 @@ props {
   }
 }
 props {
-  name: "barrens_building_06fragmentedge01"
-  gridPoint {
-    x: -48
-    y: 0
-    z: -22
-  }
-  orientation: ORIENTATION_E
-}
-props {
-  name: "barrens_building_06wallbalcony01"
-  gridPoint {
-    x: -62
-    y: 0
-    z: -31
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "barrens_building_06corner02"
-  gridPoint {
-    x: -42
-    y: 0
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d3d3366236e41800484e"
-  }
-}
-props {
-  name: "barrens_building_06walldoor02"
-  gridPoint {
-    x: -40
-    y: 0
-    z: -27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d40f366236e41800484f"
-  }
-}
-props {
-  name: "barrens_building_06longwalldoubledoor01"
-  gridPoint {
-    x: -40
-    y: 0
-    z: -33
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d428366236e418004850"
-  }
-}
-props {
   name: "barrens_building_06corner01"
   gridPoint {
     x: -57
@@ -1257,18 +981,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "51f9d517366236e418004856"
-  }
-}
-props {
-  name: "barrens_building_06wallbalcony02"
-  gridPoint {
-    x: -40
-    y: 0
-    z: -36
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d532366236e418004857"
   }
 }
 props {
@@ -1449,411 +1161,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "51f9d6de366236e418004866"
-  }
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -40
-    y: 4
-    z: -24
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -42
-    y: 4
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9d915366236e418004867"
-  }
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -42
-    y: 10
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9d92a366236e41800486a"
-  }
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -40
-    y: 10
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d92a366236e41800486b"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -42
-    y: 7
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9d968366236e41800486d"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -40
-    y: 7
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d968366236e41800486e"
-  }
-}
-props {
-  name: "barrens_building_03edge07"
-  gridPoint {
-    x: -40
-    y: 4
-    z: -27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d9ae366236e418004873"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -40
-    y: 4
-    z: -30
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d9ae366236e418004874"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -40
-    y: 4
-    z: -33
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d9ae366236e418004875"
-  }
-}
-props {
-  name: "barrens_building_03edge04"
-  gridPoint {
-    x: -40
-    y: 4
-    z: -36
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9d9ae366236e418004876"
-  }
-}
-props {
-  name: "barrens_building_03edge04"
-  gridPoint {
-    x: -45
-    y: 6
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9da07366236e418004883"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -45
-    y: 4
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9da1e366236e418004884"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -48
-    y: 4
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9da1e366236e418004885"
-  }
-}
-props {
-  name: "barrens_building_03edge04"
-  gridPoint {
-    x: -40
-    y: 7
-    z: -30
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9da1e366236e418004886"
-  }
-}
-props {
-  name: "barrens_building_03edge07"
-  gridPoint {
-    x: -48
-    y: 7
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9da1e366236e418004887"
-  }
-}
-props {
-  name: "barrens_building_03edge01"
-  gridPoint {
-    x: -45
-    y: 7
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9da4d366236e418004888"
-  }
-}
-props {
-  name: "barrens_building_03edge01"
-  gridPoint {
-    x: -40
-    y: 7
-    z: -27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9da5a366236e41800488b"
-  }
-}
-props {
-  name: "barrens_building_03edge07"
-  gridPoint {
-    x: -40
-    y: 7
-    z: -33
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9daaf366236e41800488c"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -40
-    y: 7
-    z: -36
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dabb366236e41800488d"
-  }
-}
-props {
-  name: "barrens_building_03edge04"
-  gridPoint {
-    x: -40
-    y: 10
-    z: -36
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9db21366236e418004890"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -45
-    y: 10
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9db40366236e418004891"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -48
-    y: 10
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9db4b366236e418004892"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -40
-    y: 10
-    z: -27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9db66366236e418004893"
-  }
-}
-props {
-  name: "barrens_building_03edge07"
-  gridPoint {
-    x: -40
-    y: 10
-    z: -30
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9db78366236e418004894"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -40
-    y: 10
-    z: -33
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9db89366236e418004895"
-  }
-}
-props {
-  name: "barrens_building_03edge04"
-  gridPoint {
-    x: -40
-    y: 13
-    z: -36
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dbd1366236e418004896"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -40
-    y: 13
-    z: -33
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dbd1366236e418004897"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -40
-    y: 13
-    z: -30
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dbd1366236e418004898"
-  }
-}
-props {
-  name: "barrens_building_03edge07"
-  gridPoint {
-    x: -40
-    y: 13
-    z: -27
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dbd1366236e418004899"
-  }
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -40
-    y: 13
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dbd1366236e41800489a"
-  }
-}
-props {
-  name: "barrens_building_03corner06"
-  gridPoint {
-    x: -42
-    y: 13
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9dbd1366236e41800489b"
-  }
-}
-props {
-  name: "barrens_building_03edge05"
-  gridPoint {
-    x: -45
-    y: 13
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9dbd1366236e41800489c"
-  }
-}
-props {
-  name: "barrens_building_03edge12"
-  gridPoint {
-    x: -48
-    y: 13
-    z: -22
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9dbd1366236e41800489d"
-  }
-}
-props {
-  name: "barrens_building_06corner02"
-  gridPoint {
-    x: -42
-    y: 0
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9dcd3366236e41800489e"
   }
 }
 props {
@@ -2418,60 +1725,6 @@ props {
   }
 }
 props {
-  name: "pikePlace_building_03baseCorner01"
-  gridPoint {
-    x: -68
-    y: 0
-    z: -49
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
-  gridPoint {
-    x: -62
-    y: 0
-    z: -81
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_cyberpunkPlates03_lights"
-  gridPoint {
-    x: -55
-    y: 0
-    z: -63
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_led01"
-  gridPoint {
-    x: -57
-    y: 0
-    z: -77
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_led02"
-  gridPoint {
-    x: -59
-    y: 0
-    z: -75
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_ledCorner01"
-  gridPoint {
-    x: -64
-    y: 0
-    z: -76
-  }
-  orientation: ORIENTATION_S
-}
-props {
   name: "pikePlace_buildingOrnament_ledPanel01"
   gridPoint {
     x: -4.2
@@ -2495,48 +1748,6 @@ props {
 props {
   name: "pikePlace_building_03base01"
   gridPoint {
-    x: -66
-    y: 0
-    z: -55
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e0a4366236e4180048cf"
-  }
-}
-props {
-  name: "barrens_street_scaffolding01"
-  gridPoint {
-    x: -57
-    y: 0
-    z: -63
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03base02"
-  gridPoint {
-    x: -66
-    y: 0
-    z: -61
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e10e366236e4180048d1"
-  }
-}
-props {
-  name: "barrens_building_04door01"
-  gridPoint {
-    x: -67
-    y: 0
-    z: -52
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03base01"
-  gridPoint {
     x: -8
     y: 0
     z: -58
@@ -2544,420 +1755,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "51f9e18f366236e4180048d2"
-  }
-}
-props {
-  name: "pikePlace_building_03edgeFrontCorner"
-  gridPoint {
-    x: -68
-    y: 4
-    z: -49
-  }
-  orientation: ORIENTATION_E
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -71
-    y: 4
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e204366236e4180048d3"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -77
-    y: 4
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e209366236e4180048d4"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 4
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e214366236e4180048d5"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 4
-    z: -52
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e21d366236e4180048d6"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 4
-    z: -58
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e229366236e4180048d7"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 4
-    z: -61
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e22c366236e4180048d8"
-  }
-}
-props {
-  name: "pikePlace_building_03base01"
-  gridPoint {
-    x: -66
-    y: 0
-    z: -58
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e236366236e4180048d9"
-  }
-}
-props {
-  name: "pikePlace_building_03edgeFrontCorner02"
-  gridPoint {
-    x: -68
-    y: 7
-    z: -49
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e241366236e4180048da"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -71
-    y: 7
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e249366236e4180048db"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -77
-    y: 7
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e24e366236e4180048dc"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -66
-    y: 7
-    z: -52
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e254366236e4180048dd"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -66
-    y: 7
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e258366236e4180048de"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -66
-    y: 7
-    z: -58
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e25a366236e4180048df"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -66
-    y: 7
-    z: -61
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e25b366236e4180048e0"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 10
-    z: -61
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e260366236e4180048e1"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 10
-    z: -58
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e263366236e4180048e2"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 10
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e266366236e4180048e3"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -66
-    y: 10
-    z: -52
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e26a366236e4180048e4"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -71
-    y: 10
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e26d366236e4180048e5"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -77
-    y: 10
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e270366236e4180048e6"
-  }
-}
-props {
-  name: "pikePlace_building_03edgeFrontCorner"
-  gridPoint {
-    x: -68
-    y: 10
-    z: -49
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e278366236e4180048e7"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCorner"
-  gridPoint {
-    x: -68
-    y: 14
-    z: -49
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -71
-    y: 14
-    z: -49
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e386366236e4180048e8"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -68
-    y: 14
-    z: -52
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e38a366236e4180048ea"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -68
-    y: 14
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e38e366236e4180048eb"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -68
-    y: 14
-    z: -58
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e390366236e4180048ec"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -77
-    y: 14
-    z: -49
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e3b5366236e4180048ee"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -77
-    y: 14
-    z: -52
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e3c0366236e4180048ef"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -77
-    y: 14
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e3c2366236e4180048f0"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -77
-    y: 14
-    z: -58
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e3c3366236e4180048f1"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -77
-    y: 14
-    z: -61
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e3c5366236e4180048f2"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -74
-    y: 10
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3e6366236e4180048f3"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -74
-    y: 7
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3e7366236e4180048f4"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: -74
-    y: 4
-    z: -47
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3e8366236e4180048f5"
   }
 }
 props {
@@ -2970,126 +1767,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "51f9e3ea366236e4180048f6"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -71
-    y: 14
-    z: -52
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3f4366236e4180048f7"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -74
-    y: 14
-    z: -52
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3f6366236e4180048f8"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -74
-    y: 14
-    z: -55
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3f9366236e4180048fa"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -71
-    y: 14
-    z: -55
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3fb366236e4180048fb"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -71
-    y: 14
-    z: -58
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3fc366236e4180048fc"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -74
-    y: 14
-    z: -58
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e3fe366236e4180048fd"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -74
-    y: 14
-    z: -49
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e400366236e4180048fe"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -68
-    y: 14
-    z: -61
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "51f9e407366236e4180048ff"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -71
-    y: 14
-    z: -61
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e409366236e418004900"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -74
-    y: 14
-    z: -61
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51f9e413366236e418004902"
   }
 }
 props {
@@ -6107,9 +4784,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 30
-    y: 1
-    z: -28
+    x: 29
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6131,9 +4808,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 24
-    y: 1
-    z: -28
+    x: 23
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6143,9 +4820,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 27
-    y: 1
-    z: -28
+    x: 26
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -7268,15 +5945,6 @@ props {
     x: 20
     y: 0
     z: -28
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "barrens_ground_sidewalk04"
-  gridPoint {
-    x: 46
-    y: 0
-    z: -29
   }
   orientation: ORIENTATION_S
 }
@@ -11516,9 +10184,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 33
-    y: 1
-    z: -28
+    x: 32
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -11540,9 +10208,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 45
-    y: 1
-    z: -28
+    x: 44
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -11552,9 +10220,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 42
-    y: 1
-    z: -28
+    x: 41
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -11564,9 +10232,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 39
-    y: 1
-    z: -28
+    x: 38
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -11720,9 +10388,9 @@ props {
 props {
   name: "docks_wall_securityFenceEdge04"
   gridPoint {
-    x: 36
-    y: 1
-    z: -28
+    x: 35
+    y: 0
+    z: -29
   }
   orientation: ORIENTATION_E
   idRef {
@@ -13630,15 +12298,6 @@ props {
   orientation: ORIENTATION_S
 }
 props {
-  name: "telestrianEstate_vehicle_kMoneyMotorcycle02"
-  gridPoint {
-    x: 24
-    y: 0
-    z: -53
-  }
-  orientation: ORIENTATION_S
-}
-props {
   name: "telestrianEstate_vehicle_motorcycle01"
   gridPoint {
     x: 27.1
@@ -14086,6 +12745,7 @@ props {
     z: -44
   }
   orientation: ORIENTATION_S
+  displayName: "S"
   idRef {
     id: "52068a4a3662360411002f80"
   }
@@ -14756,18 +13416,6 @@ props {
 props {
   name: "pikePlace_buildingOrnament_cyberpunkPlates03"
   gridPoint {
-    x: -41
-    y: 16
-    z: -66
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5206aec63662360411002fa2"
-  }
-}
-props {
-  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
-  gridPoint {
     x: 6
     y: 16
     z: -41
@@ -14874,18 +13522,6 @@ props {
   }
 }
 props {
-  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
-  gridPoint {
-    x: -40.6
-    y: 15
-    z: -52.9
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5206af793662360411002fac"
-  }
-}
-props {
   name: "pikePlace_buildingOrnament_led02"
   gridPoint {
     x: 0.6
@@ -14907,18 +13543,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5206af963662360411002fae"
-  }
-}
-props {
-  name: "pikePlace_buildingOrnament_cyberpunkPlates03"
-  gridPoint {
-    x: -41
-    y: 16
-    z: -55
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "5206afa13662360411002faf"
   }
 }
 props {
@@ -15219,6 +13843,16 @@ props {
     z: -32
   }
   orientation: ORIENTATION_S
+  displayName: "Street Light 1"
+  idRef {
+    id: "520814d73662364c0d003db1"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
   light {
     range: 8
     color {
@@ -15237,8 +13871,15 @@ props {
     z: -44
   }
   orientation: ORIENTATION_S
+  displayName: "Street Light 2"
   idRef {
     id: "5206d485366236b01400390e"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    dummyInteraciton {
+    }
   }
   light {
     range: 8
@@ -15298,8 +13939,15 @@ props {
     z: -44
   }
   orientation: ORIENTATION_S
+  displayName: "Street Light 3"
   idRef {
     id: "5206d521366236b014003911"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    dummyInteraciton {
+    }
   }
   light {
     range: 8
@@ -15309,5 +13957,534 @@ props {
       b: 0.55686277
     }
     intensity: 2
+  }
+}
+props {
+  name: "vfx_fx_barrelFire"
+  gridPoint {
+    x: -2
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopBarrelFire"
+  }
+}
+props {
+  name: "vfx_fx_barrelFire"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -72
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopBarrelFire"
+  }
+}
+props {
+  name: "vfx_fx_crows"
+  gridPoint {
+    x: 26
+    y: 0
+    z: -75
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopCrowGroup"
+  }
+}
+props {
+  name: "vfx_fx_crows"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 12
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopCrowGroup"
+  }
+}
+props {
+  name: "vfx_fx_fallingsparks"
+  gridPoint {
+    x: 4
+    y: 12
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SparksEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_flies"
+  gridPoint {
+    x: 3
+    y: -1
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SpotlightFliesEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_flies"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 24
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SpotlightFliesEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_flies"
+  gridPoint {
+    x: 8
+    y: -1
+    z: -76
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SpotlightFliesEnvironment"
+  }
+}
+props {
+  name: "vfx_fx_steam"
+  gridPoint {
+    x: 16
+    y: 0
+    z: -52
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SteamEnvironment"
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 9
+    y: 8
+    z: -41
+  }
+  orientation: ORIENTATION_S
+  displayName: "Club Light S"
+  idRef {
+    id: "52081fd03662364c0d003e68"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+  light {
+    range: 10
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 8
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 2
+    z: -46
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 1"
+  idRef {
+    id: "52081f803662364c0d003e5a"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 2
+    z: -43
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  idRef {
+    id: "52081c703662364c0d003e48"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 2
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  idRef {
+    id: "52081c733662364c0d003e49"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 4
+    y: 2
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  idRef {
+    id: "52081c753662364c0d003e4a"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 1
+    y: 2
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  idRef {
+    id: "52081c7a3662364c0d003e4b"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  idRef {
+    id: "52081c7c3662364c0d003e4c"
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: -2
+    y: 8
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 11"
+  idRef {
+    id: "52081c7e3662364c0d003e4d"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: -4
+    y: 8
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 12"
+  idRef {
+    id: "52081c833662364c0d003e4e"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 2
+    y: 8
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 10"
+  idRef {
+    id: "52081c853662364c0d003e4f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 8
+    z: -34
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 9"
+  idRef {
+    id: "52081c873662364c0d003e50"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 8
+    z: -36
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 8"
+  idRef {
+    id: "52081c8a3662364c0d003e51"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 8
+    z: -42
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 7"
+  idRef {
+    id: "52081c8e3662364c0d003e52"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 8
+    z: -45
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 6"
+  idRef {
+    id: "52081c913662364c0d003e53"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 0
+    y: 8
+    z: -30
+  }
+  orientation: ORIENTATION_S
+  displayName: "Club Light E"
+  idRef {
+    id: "52081df03662364c0d003e54"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+  light {
+    range: 10
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 8
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 2
+    z: -43
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 2"
+  idRef {
+    id: "52081e883662364c0d003e55"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 6
+    y: 2
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 3"
+  idRef {
+    id: "52081e883662364c0d003e56"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 4
+    y: 2
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 4"
+  idRef {
+    id: "52081e883662364c0d003e57"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
+  }
+}
+props {
+  name: "vfx_fx_flickerFill"
+  gridPoint {
+    x: 1
+    y: 2
+    z: -32
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "EnvironmentLoopFlickeringLightFill"
+  }
+  displayName: "Flash 5"
+  idRef {
+    id: "52081e883662364c0d003e58"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    dummyInteraciton {
+    }
   }
 }
