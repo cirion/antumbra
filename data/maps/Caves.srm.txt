@@ -1,7 +1,7 @@
-minX: -129
+minX: -154
 minZ: -42
-numX: 141
-numZ: 68
+numX: 166
+numZ: 67
 props {
   name: "hive_wall_edge04"
   gridPoint {
@@ -3832,18 +3832,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "52006506366236b01900399f"
-  }
-}
-props {
-  name: "secretLab_wall_fill"
-  gridPoint {
-    x: -61
-    y: 0
-    z: -6
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52006508366236b0190039a0"
   }
 }
 props {
@@ -8888,30 +8876,6 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -54
-    y: 0
-    z: -10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007014366236b019003b5d"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
-    x: -56
-    y: 0
-    z: -8
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007014366236b019003b5e"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
     x: -40
     y: 0
     z: -19
@@ -9812,18 +9776,6 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -14
-    y: 0
-    z: -12
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007057366236b019003bb2"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
     x: -32
     y: 0
     z: -24
@@ -9867,30 +9819,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "52007059366236b019003bb6"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
-    x: -11
-    y: 0
-    z: -24
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007059366236b019003bb7"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
-    x: -8
-    y: 0
-    z: -26
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007059366236b019003bb8"
   }
 }
 props {
@@ -11480,9 +11408,9 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -129
+    x: -154
     y: 0
-    z: -32
+    z: -23
   }
   orientation: ORIENTATION_S
   idRef {
@@ -13184,18 +13112,6 @@ props {
 props {
   name: "hive_floor_dirt02"
   gridPoint {
-    x: -51
-    y: 0
-    z: -11
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "520071eb366236b019003ccb"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
     x: -58
     y: 0
     z: -32
@@ -13335,18 +13251,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "52007202366236b019003cd7"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
-    x: -58
-    y: 0
-    z: -9
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007202366236b019003cd8"
   }
 }
 props {
@@ -13971,18 +13875,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "52007257366236b019003d0c"
-  }
-}
-props {
-  name: "hive_floor_dirt02"
-  gridPoint {
-    x: -11
-    y: 0
-    z: -28
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52007258366236b019003d0d"
   }
 }
 props {
@@ -15695,19 +15587,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5201b72d3662368c16004e10"
-  }
-}
-props {
-  name: "matrix_floor_2x4bluehole"
-  gridPoint {
-    x: -92
-    y: 0
-    z: 22
-  }
-  orientation: ORIENTATION_E
-  displayName: "Magic Floor SE"
-  idRef {
-    id: "5201b73a3662368c16004e13"
   }
 }
 props {
@@ -18497,69 +18376,6 @@ props {
     x: -12
     y: 0
     z: 7
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble07"
-  gridPoint {
-    x: -59
-    y: 0
-    z: 6
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble06"
-  gridPoint {
-    x: -57
-    y: 0
-    z: 3
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble05"
-  gridPoint {
-    x: -61
-    y: 0
-    z: 0
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble04"
-  gridPoint {
-    x: -60
-    y: 0
-    z: 2
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble03"
-  gridPoint {
-    x: -64
-    y: 0
-    z: 1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble02"
-  gridPoint {
-    x: -63
-    y: 0
-    z: -2
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "hive_clutter_rubble01"
-  gridPoint {
-    x: -59
-    y: 0
-    z: -1
   }
   orientation: ORIENTATION_S
 }

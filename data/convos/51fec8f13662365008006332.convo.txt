@@ -17,7 +17,7 @@ nodes {
     }
   }
   branches {
-    responseText: "The... gentleman over there said I should get a job here."
+    responseText: "The... gentleman over there said I should speak with you about employment."
     conditions {
       ops {
         functionName: "Comparison (bool)"
@@ -57,7 +57,7 @@ nodes {
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
-      id: "51fec9ac366236500800634a"
+      id: "5208740d366236301d0026e0"
     }
   }
   branches {

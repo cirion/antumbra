@@ -454,7 +454,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Item)"
           args {
-            string_value: "Office Keycard"
+            string_value: "Executive Suite Keycard"
           }
         }
       }
@@ -3265,42 +3265,6 @@ regions {
   loop_default_music: false
 }
 regions {
-  name: "Camera Region"
-  position {
-    x: -4
-    y: -14
-    width: 50
-    height: 75
-  }
-  enabledAtStart: true
-  is_camera_region: true
-  idRef {
-    id: "51ff20d2366236f803007300"
-  }
-  directional_light_dir {
-    x: -0.85
-    y: -0.7
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.11372549
-    g: 0.11372549
-    b: 0.39215687
-    a: 0.88235295
-  }
-  ambient_light_color {
-    r: 0.58431375
-    g: 0.48627451
-    b: 0.64705884
-    a: 0.88235295
-  }
-  ambience_template: "office-quiet"
-  combat_music: "Seattle-Set7-Combat"
-  default_music: "Seattle-Set8-Legwork"
-  loop_combat_music: true
-  loop_default_music: true
-}
-regions {
   name: "Kali Conversation Start"
   position {
     x: 37
@@ -3731,6 +3695,42 @@ regions {
   default_music: ""
   loop_combat_music: true
   loop_default_music: false
+}
+regions {
+  name: "Camera Region"
+  position {
+    x: -4
+    y: -14
+    width: 50
+    height: 75
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  idRef {
+    id: "52087e6a366236301d002723"
+  }
+  directional_light_dir {
+    x: -0.85
+    y: -0.7
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.11372549
+    g: 0.11372549
+    b: 0.39215687
+    a: 0.88235295
+  }
+  ambient_light_color {
+    r: 0.58431375
+    g: 0.48627451
+    b: 0.64705884
+    a: 0.88235295
+  }
+  ambience_template: "office-quiet"
+  combat_music: "Seattle-Set7-Combat"
+  default_music: "Seattle-Set8-Legwork"
+  loop_combat_music: true
+  loop_default_music: true
 }
 characters {
   name: "system_spawner_playerSpawner"
@@ -4779,6 +4779,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

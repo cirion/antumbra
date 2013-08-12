@@ -35,7 +35,7 @@ nodes {
     id: "5204483836623608130004bd"
   }
   index: 2
-  text: "I must admit, I feel just a little out of my depth here. I know melodies and moods, but magic? Never go near the stuff when I can help it.\n\nI think I\'ll give a ring to Mr. Santo. He\'s been very helpful in putting together the assets for this place, and he has connections that will be very interested in such a powerful site under our doorstep."
+  text: "I must admit, I feel just a little out of my depth here. I know melodies and moods, but magic? Never go near the stuff when I can help it.\n\nI think I\'ll ring up Mr. Santo. He\'s been very helpful in putting together the assets for this place, and he has connections that will be very interested in such a powerful site under our doorstep."
   branches {
     responseText: ""
     nextNodeIndex: 3

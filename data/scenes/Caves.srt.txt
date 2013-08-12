@@ -5292,7 +5292,7 @@ triggers {
     ops {
       functionName: "Comparison (int)"
       args {
-        int_value: 2
+        int_value: 3
       }
       args {
         call_value {
@@ -6088,42 +6088,6 @@ regions {
   loop_default_music: false
 }
 regions {
-  name: "Magic Floor Holder SE"
-  position {
-    x: -102
-    y: 20
-    width: 6
-    height: 2
-  }
-  enabledAtStart: true
-  is_camera_region: false
-  idRef {
-    id: "5201b7a13662368c16004e16"
-  }
-  directional_light_dir {
-    x: -0.5
-    y: -1
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambience_template: ""
-  combat_music: ""
-  default_music: ""
-  loop_combat_music: true
-  loop_default_music: false
-}
-regions {
   name: "Johnson Spawn"
   position {
     x: -105
@@ -6803,9 +6767,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -129
+    x: -154
     y: 0
-    z: -32
+    z: -23
   }
   orientation: ORIENTATION_S
   displayName: "Carver Wells"
@@ -7902,6 +7866,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

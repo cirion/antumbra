@@ -2885,42 +2885,6 @@ regions {
   loop_combat_music: true
   loop_default_music: false
 }
-regions {
-  name: "Light Switch 2"
-  position {
-    x: -42
-    y: 5
-    width: 1
-    height: 3
-  }
-  enabledAtStart: true
-  is_camera_region: false
-  idRef {
-    id: "5206de5c366236b014003922"
-  }
-  directional_light_dir {
-    x: -0.5
-    y: -1
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambience_template: ""
-  combat_music: ""
-  default_music: ""
-  loop_combat_music: true
-  loop_default_music: false
-}
 patrolRoutes {
   name: "Waitress Route"
   pathType: 0
@@ -3686,6 +3650,7 @@ characters {
     character_mod {
       stats {
         body: 2
+        quickness: 1
         hp: 0
         morale: 24
         awareness: 19
@@ -3719,7 +3684,7 @@ characters {
     portrait {
       filename: "pc_trollfemale_01a_detective"
     }
-    karma: 49
+    karma: 52
   }
 }
 characters {
