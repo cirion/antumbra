@@ -3597,6 +3597,7 @@ characters {
       }
       skills {
         spellcasting: 3
+        conjuring: 2
         spirit_summoning: 2
       }
       specializations {
@@ -3624,13 +3625,13 @@ characters {
       prefab_name: "Spell Quiet Bomb 1"
     }
     equipment {
-      prefab_name: "Air Barrier 3"
-    }
-    equipment {
       prefab_name: "Spell Powerbolt 1"
     }
     equipment {
       prefab_name: "Bound Fire Spirit 1"
+    }
+    equipment {
+      prefab_name: "Air Barrier 3"
     }
     team_id: "Gangers"
     char_name: "Dalmin"
@@ -3638,15 +3639,15 @@ characters {
     portrait {
       filename: "pc_dwarfmale_03c_eastasian"
     }
-    karma: 47
+    karma: 52
   }
 }
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -19
+    x: 17
     y: 0
-    z: 25
+    z: 28
   }
   orientation: ORIENTATION_N
   idRef {
@@ -3701,13 +3702,16 @@ characters {
       }
     }
     equipment {
-      prefab_name: "HealthPack"
-    }
-    equipment {
       prefab_name: "Sword 1 Rebar Pipe"
     }
     equipment {
       prefab_name: "Kamikaze"
+    }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
+    equipment {
+      prefab_name: "Grenade 1 (Frag)"
     }
     team_id: "Gangers"
     char_name: "Turm"

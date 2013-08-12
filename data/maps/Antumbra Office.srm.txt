@@ -9728,7 +9728,7 @@ props {
     isEnabled: true
     interactionRadius: 1
     pickupItem {
-      itemName: "HealthPack"
+      itemName: "HealthPack_med"
       destroyOnPickup: true
     }
   }
@@ -9748,7 +9748,7 @@ props {
     isEnabled: true
     interactionRadius: 1
     pickupItem {
-      itemName: "HealthPack"
+      itemName: "HealthPack_med"
       destroyOnPickup: true
     }
   }
@@ -12799,5 +12799,17 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "520839d13662364c0d00417c"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 15.6
+    y: 0.3
+    z: 30.9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52085d3a36623694150039c6"
   }
 }
