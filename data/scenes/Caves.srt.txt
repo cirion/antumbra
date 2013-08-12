@@ -3452,19 +3452,15 @@ triggers {
       }
     }
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Comparison (bool)"
       args {
         call_value {
-          functionName: "Specific Actor"
+          functionName: "Get Story Variable (bool)"
           args {
-            call_value {
-              functionName: "Get Map Item (Player)"
-              args {
-                int_value: 1
-              }
-            }
+            string_value: "51f7429764343188990041a8"
           }
           args {
+            string_value: "A1_Bool_DalminDied"
           }
         }
       }
@@ -3476,6 +3472,17 @@ triggers {
           }
           args {
             int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
           }
         }
       }
@@ -3546,35 +3553,6 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Player)"
-              args {
-                int_value: 1
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-    ops {
       functionName: "Compare Actor Attribute"
       args {
         call_value {
@@ -3619,6 +3597,171 @@ triggers {
       }
       args {
         int_value: 3
+      }
+    }
+    ops {
+      functionName: "OR"
+      args {
+        call_value {
+          functionName: "OR"
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "A1_Bool_TurmDied"
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "A1_Bool_DalminDied"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "AND"
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "TurmJoined"
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 0
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "DalminJoined"
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 0
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -3737,35 +3880,6 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Player)"
-              args {
-                int_value: 1
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-    ops {
       functionName: "Compare Actor Attribute"
       args {
         call_value {
@@ -3810,6 +3924,171 @@ triggers {
       }
       args {
         int_value: 3
+      }
+    }
+    ops {
+      functionName: "OR"
+      args {
+        call_value {
+          functionName: "OR"
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "A1_Bool_TurmDied"
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "A1_Bool_DalminDied"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "AND"
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "TurmJoined"
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 0
+                  }
+                }
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Comparison (bool)"
+              args {
+                call_value {
+                  functionName: "Get Story Variable (bool)"
+                  args {
+                    string_value: "51f7429764343188990041a8"
+                  }
+                  args {
+                    string_value: "DalminJoined"
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "IsOrIsNot"
+                  }
+                  args {
+                    int_value: 1
+                  }
+                }
+              }
+              args {
+                call_value {
+                  functionName: "Get Preset Value (int)"
+                  args {
+                    string_value: "bool"
+                  }
+                  args {
+                    int_value: 0
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -3884,35 +4163,6 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "Actor is Player Controlled"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Player)"
-              args {
-                int_value: 1
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
       functionName: "Comparison (bool)"
       args {
         call_value {
@@ -3948,15 +4198,24 @@ triggers {
         }
       }
     }
-  }
-  actions {
     ops {
-      functionName: "Display Text at Screen Position"
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_TurmDied"
+          }
+        }
+      }
       args {
         call_value {
           functionName: "Get Preset Value (int)"
           args {
-            string_value: "TextPopupStyle"
+            string_value: "IsOrIsNot"
           }
           args {
             int_value: 1
@@ -3964,34 +4223,55 @@ triggers {
         }
       }
       args {
-        string_value: "Guys! Turm has something to say!"
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation Between Actors"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "520442d73662360813000228"
+          }
+        }
       }
       args {
-        float_value: 0
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
       }
       args {
-        float_value: 0
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 1
+          }
+        }
       }
       args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -5336,6 +5616,220 @@ triggers {
   isActive: true
   idRef {
     id: "52082c2d3662364c0d003fe1"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "DalminDies"
+  events {
+    ops {
+      functionName: "On Actor Death"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "DalminJoined"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Target Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_DalminDied"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520852da36623648100002a6"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "TurmDies"
+  events {
+    ops {
+      functionName: "On Actor Death"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "TurmJoined"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Target Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "51f7429764343188990041a8"
+          }
+          args {
+            string_value: "A1_Bool_TurmDied"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5208586f36623694150039a7"
   }
   elseActions {
   }

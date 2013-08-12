@@ -142,6 +142,28 @@ variables {
     }
   }
 }
+variables {
+  name: "A1_Bool_DalminDied"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_DalminDied"
+    }
+  }
+}
+variables {
+  name: "A1_Bool_TurmDied"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "A1_Bool_TurmDied"
+    }
+  }
+}
 description: "Powerful foes plot to take down Seattle\'s newest nightclub."
 startScene: "Antumbra Exterior Night"
 allowCharacterGen: true
