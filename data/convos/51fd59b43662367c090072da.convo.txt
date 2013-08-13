@@ -508,9 +508,6 @@ nodes {
         }
       }
     }
-    ops {
-      functionName: "No Effect"
-    }
   }
 }
 nodes {
