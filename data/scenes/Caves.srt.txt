@@ -3106,7 +3106,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Goal)"
           args {
-            string_value: "Escape the cave"
+            string_value: "Escape the site"
           }
         }
       }
@@ -7868,7 +7868,7 @@ goals {
   status: GoalStatus_Hidden
 }
 goals {
-  name: "Explore the caves"
+  name: "Explore the tunnels"
   type: GoalType_Primary
   status: GoalStatus_Started
 }
@@ -7878,7 +7878,7 @@ goals {
   status: GoalStatus_Hidden
 }
 goals {
-  name: "Escape the cave"
+  name: "Escape the site"
   type: GoalType_Primary
   status: GoalStatus_Hidden
 }
@@ -7916,13 +7916,13 @@ allow_drawn_weapons: false
 team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
-  affiliation: 0
+  affiliation: 1
   affiliation: 1
   affiliation: 0
 }
 team_affiliations {
   team_name: "Gangers"
-  affiliation: 0
+  affiliation: 1
   affiliation: 0
   affiliation: 1
   affiliation: 0

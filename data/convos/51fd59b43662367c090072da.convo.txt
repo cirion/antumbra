@@ -237,6 +237,7 @@ nodes {
     nextNodeIndex: 1
     auxiliaryLink: true
   }
+  nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
@@ -256,7 +257,7 @@ nodes {
     id: "51fdcffa366236181b007524"
   }
   index: 4
-  text: "{{GM}}You hand the box over to Dalmin, who stops dancing while hefting it up to eye level.{{/GM}}\n\nI\342\200\231d be happy to consult on your run. Let\342\200\231s take a look at it...\n\nOh.\n\nOh, dear."
+  text: "{{GM}}Dalmin stops dancing when you hand him the box.  His eyes grow unfocused and he seems a little less present than he did a few seconds ago.{{/GM}}\n\nI\342\200\231d be happy to consult on your run. Let\342\200\231s take a look at it...\n\nOh.\n\nOh, dear."
   branches {
     responseText: ""
     nextNodeIndex: 5
@@ -314,7 +315,7 @@ nodes {
     id: "51fdd0f7366236181b007535"
   }
   index: 8
-  text: "This thing is filled with biological nanites. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
+  text: "This thing is filled with nanites. Unbelievably small machines, and these ones are created to tear things apart. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
   branches {
     responseText: "I take it that\'s bad?"
     nextNodeIndex: 9
@@ -363,7 +364,7 @@ nodes {
     id: "51fdd132366236181b00753a"
   }
   index: 9
-  text: "I\342\200\231m no expert, but once this thing is opened, they\342\200\231ll swarm through the entire area. Just a couple of bio-nanites are plenty for implanting cyberware. With this many in a box, they must be for an attack.\n\nWho would do that, though? There\342\200\231s nothing in here but aspiring trideo stars and DJs. The whole building will be doomed to destruction."
+  text: "I\342\200\231m no expert, but once this thing is opened, they\342\200\231ll swarm through the entire area. Just a couple of nanites are plenty for implanting cyberware. With this many in a box, they must be for an attack.\n\nWho would do that, though? There\342\200\231s nothing in here but aspiring trideo stars and DJs. The whole building will be doomed to destruction."
   branches {
     responseText: "What do you suggest I do?"
     nextNodeIndex: 10
@@ -385,7 +386,7 @@ nodes {
     id: "51fdd18e366236181b00753f"
   }
   index: 10
-  text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say a mass bio-nanite-bomb certainly qualifies. This could be a rare opportunity for some prime blackmail."
+  text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say a mass nanite-bomb certainly qualifies. This could be a rare opportunity for some prime blackmail."
   branches {
     responseText: ""
     nextNodeIndex: 1

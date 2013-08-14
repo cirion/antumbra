@@ -3656,9 +3656,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -14
+    x: -16
     y: 0
-    z: 17
+    z: 24
   }
   orientation: ORIENTATION_S
   GeneralTags: "bystander"
@@ -3754,13 +3754,7 @@ characters {
       prefab_name: "HealthPack"
     }
     equipment {
-      prefab_name: "Sword 1 Machete"
-    }
-    equipment {
       prefab_name: "ShamanTotemCoat"
-    }
-    equipment {
-      prefab_name: "Pi 2 Cavalier Deputy"
     }
     equipment {
       prefab_name: "Spell Quiet Bomb 1"
@@ -3773,6 +3767,9 @@ characters {
     }
     equipment {
       prefab_name: "Air Barrier 3"
+    }
+    equipment {
+      prefab_name: "Fist"
     }
     team_id: "Gangers"
     char_name: "Dalmin"
@@ -4041,9 +4038,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -16
+    x: -14
     y: 0
-    z: 24
+    z: 17
   }
   orientation: ORIENTATION_S
   GeneralTags: "bystander"

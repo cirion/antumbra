@@ -21,7 +21,7 @@ nodes {
   index: 1
   text: "Do you need any assistance?"
   branches {
-    responseText: "Is it true that you handed me a box full of bio-nanites?"
+    responseText: "Is it true that you handed me a box full of weaponized nanites?"
     conditions {
       ops {
         functionName: "Comparison (bool)"
@@ -64,7 +64,7 @@ nodes {
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
-      id: "5205abb9366236601b003935"
+      id: "520af7ae366236f4100017c6"
     }
   }
   branches {
@@ -124,7 +124,7 @@ nodes {
     id: "51ff27cc366236f8030073eb"
   }
   index: 5
-  text: "While Kali likes to pretend that she started Antumbra by herself, she had help. Mitsuhama bought the land, paid for construction, and gets a piece of all the action.\n\nWhat they didn\342\200\231t realize, though, was that they hit the jackpot. A new Site of Power has emerged in the caves below Antumbra, and those morons are too busy making drekky music to notice it."
+  text: "While Kali likes to pretend that she started Antumbra by herself, she had help. Mitsuhama bought the land, paid for construction, and gets a piece of all the action.\n\nWhat they didn\342\200\231t realize, though, was that they hit the jackpot. A new Site of Power has emerged in the tunnels below Antumbra, and those morons are too busy making drekky music to notice it."
   branches {
     responseText: ""
     nextNodeIndex: 6

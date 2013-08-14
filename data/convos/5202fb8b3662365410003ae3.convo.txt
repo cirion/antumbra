@@ -132,7 +132,7 @@ nodes {
     id: "520449563662360813000500"
   }
   index: 3
-  text: "You didn\'t sign up for this, but I\'ll tell you what: if you can make care of any creatures down there, I\'ll double your pay for the job. That seems fair, right?"
+  text: "You didn\'t sign up for this, but I\'ll tell you what: if you can take care of any creatures down there, I\'ll double your pay for the job. That seems fair, right?"
   branches {
     responseText: "Always happy to take another job."
     nextNodeIndex: 4

@@ -382,7 +382,7 @@ nodes {
   index: 3
   text: "Is that so?"
   branches {
-    responseText: "This box is filled with bio-nanites. Someone wants your whole building gone."
+    responseText: "This box is filled with weaponized nanites. Someone wants your whole building gone."
     nextNodeIndex: 6
     auxiliaryLink: true
   }
@@ -410,7 +410,7 @@ nodes {
     id: "5202fd733662365410003b42"
   }
   index: 5
-  text: "Believe it. I checked the aura, and that little package has enough bio-nanites inside to condemn Antumbra for centuries."
+  text: "Believe it. I took a little trip to the astral plane, and found that this little package has enough nanites inside to condemn Antumbra for centuries."
   branches {
     responseText: ""
     nextNodeIndex: 6

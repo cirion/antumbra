@@ -21,7 +21,7 @@ nodes {
   index: 1
   text: "{{GM}}The spirit before you flickers through a variety of shapes before settling on one that seems pleasing to itself.{{/GM}}\n\nAnd so you approach, more moths to the flame. Enter my light and be consumed!"
   branches {
-    responseText: "Greetings, spirit. We need not fight. I merely wish to make this cave safe once more."
+    responseText: "Greetings, spirit. We need not fight. I merely wish to make this place safe once more."
     nextNodeIndex: 2
   }
   branches {
