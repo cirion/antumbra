@@ -1936,6 +1936,17 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Play Animation"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        string_value: "summon"
+      }
+    }
   }
   isActive: true
   idRef {
@@ -5835,6 +5846,44 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "Autosave and Load Boss Fight"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "520adb0a3662366c1f000127"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Open Scene"
+      args {
+        call_value {
+          functionName: "Get Map Item (Scene)"
+          args {
+            string_value: "Boss Fight"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "520ae6943662366c1f000163"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera Region"
   position {
@@ -6195,12 +6244,48 @@ regions {
   loop_combat_music: true
   loop_default_music: false
 }
+regions {
+  name: "Autosave"
+  position {
+    x: -79
+    y: -30
+    width: 4
+    height: 9
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "520adb0a3662366c1f000127"
+  }
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 1
+    x: -58
     y: 0
-    z: 9
+    z: -32
   }
   orientation: ORIENTATION_N
   idRef {
@@ -7773,14 +7858,6 @@ variables {
     typeName: "int"
   }
 }
-variables {
-  bool_value: false
-  variableref_value {
-    scope: TsVariableScope_Scene
-    name: "KilledBoss"
-    typeName: "bool"
-  }
-}
 mapEvents: "Puzzle1_Updated"
 mapEvents: "Puzzle2_Advance"
 mapEvents: "Puzzle2_Fail"
@@ -7814,9 +7891,9 @@ worldMapLocation {
 }
 mapName: "Caves"
 parentStory: ""
-scene_title: "The Caves"
+scene_title: "Below"
 scene_subtitle: "Antumbra\'s Hidden Underbelly"
-scene_synopsis: "The elevator takes you to an underground garage, where a service elevator whisks you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a cave system that has certainly been here for far longer than the building above..."
+scene_synopsis: "The elevator takes you to an underground garage, where a service elevator whisks you to the subbasement. As you walk along the unfinished floor, you realize that you are stepping into something old: a system of tunnels that has certainly been here for far longer than the building above..."
 scene_image: "loadingimage_a1_04"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -7839,13 +7916,13 @@ allow_drawn_weapons: false
 team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
-  affiliation: 1
+  affiliation: 0
   affiliation: 1
   affiliation: 0
 }
 team_affiliations {
   team_name: "Gangers"
-  affiliation: 1
+  affiliation: 0
   affiliation: 0
   affiliation: 1
   affiliation: 0
@@ -7866,8 +7943,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

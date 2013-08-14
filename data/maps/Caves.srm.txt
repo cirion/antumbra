@@ -20447,3 +20447,27 @@ props {
     id: "5209a4b53662363c1d001780"
   }
 }
+props {
+  name: "hive_floor_dirt02"
+  gridPoint {
+    x: -58
+    y: 0
+    z: -42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520ad8d93662366c1f000125"
+  }
+}
+props {
+  name: "hive_floor_dirt02"
+  gridPoint {
+    x: -56
+    y: 0
+    z: -42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520ad8d93662366c1f000126"
+  }
+}

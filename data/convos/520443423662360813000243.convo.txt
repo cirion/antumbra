@@ -113,7 +113,7 @@ nodes {
             call_value {
               functionName: "Get Map Item (Actor)"
               args {
-                string_value: "5201c2993662368c16004e54"
+                string_value: "520ade5f3662366c1f00012b"
               }
             }
           }
@@ -137,28 +137,6 @@ nodes {
           functionName: "Get Map Item (SceneDimension)"
           args {
             string_value: "Default"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Goal Status"
-      args {
-        call_value {
-          functionName: "Get Map Item (Goal)"
-          args {
-            string_value: "Explore the caves"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "GoalStatus"
-          }
-          args {
-            int_value: 2
           }
         }
       }
@@ -202,7 +180,7 @@ nodes {
         call_value {
           functionName: "Get Map Item (Actor)"
           args {
-            string_value: "5201c2993662368c16004e54"
+            string_value: "520ade5f3662366c1f00012b"
           }
         }
       }
