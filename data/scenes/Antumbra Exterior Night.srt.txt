@@ -168,6 +168,34 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set3"
+          }
+          args {
+            string_value: "Seattle-Set3-Legwork"
+          }
+        }
+      }
+      args {
+        float_value: 0.5
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -1056,9 +1084,9 @@ regions {
     b: 0.38431373
     a: 0.88235295
   }
-  ambience_template: ""
+  ambience_template: "barrens-night"
   combat_music: ""
-  default_music: "Seattle-Set3-Legwork"
+  default_music: ""
   loop_combat_music: true
   loop_default_music: true
 }
@@ -1181,6 +1209,7 @@ characters {
   idRef {
     id: "51f88762366236fc22002d07"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -1208,6 +1237,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv5_Captain"
@@ -1246,6 +1276,7 @@ characters {
   idRef {
     id: "5202f2e436623654100039fa"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -1273,6 +1304,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanFemale"
     character_sheet_id: "BaseCivilian"
@@ -1321,6 +1353,7 @@ characters {
   idRef {
     id: "5206b04b3662360411002fb8"
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/DwarfMaleHomelessBald"
     character_sheet_id: "BaseCivilian"
@@ -1367,6 +1400,7 @@ characters {
   idRef {
     id: "5206b3e83662360411002fba"
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessBackpack"
     character_sheet_id: "BaseCivilian"
@@ -1414,6 +1448,7 @@ characters {
   idRef {
     id: "5206b4863662360411002fbb"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanFemaleLonghairPunk"
     character_sheet_id: "BaseCivilian"
@@ -1461,6 +1496,7 @@ characters {
   idRef {
     id: "5206b4a63662360411002fbc"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanMaleSpikyPunk"
     character_sheet_id: "BaseCivilian"
@@ -1507,6 +1543,7 @@ characters {
   idRef {
     id: "5206b4d63662360411002fbd"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/HumanFemaleFixer"
     character_sheet_id: "BaseCivilian"
@@ -1554,6 +1591,7 @@ characters {
   idRef {
     id: "5206b4f03662360411002fbe"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/Priest"
     character_sheet_id: "BaseCivilian"
@@ -1601,6 +1639,7 @@ characters {
   idRef {
     id: "5206b52f3662360411002fbf"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/TrollMaleHawaiianShirt"
     character_sheet_id: "BaseCivilian"
@@ -1648,6 +1687,7 @@ characters {
   idRef {
     id: "5206b5423662360411002fc0"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/WeaponsDealer"
     character_sheet_id: "BaseCivilian"
@@ -1694,6 +1734,7 @@ characters {
   idRef {
     id: "5206b5763662360411002fc1"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/TelestrainCorp"
     character_sheet_id: "BaseCivilian"
@@ -1740,6 +1781,7 @@ characters {
   idRef {
     id: "5206b5fc3662360411002fc2"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/TechDealer"
     character_sheet_id: "BaseCivilian"
@@ -1787,6 +1829,7 @@ characters {
   idRef {
     id: "5206b6913662360411002fc3"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanFemaleSkirtGrayPunk"
     character_sheet_id: "BaseCivilian"
@@ -1834,6 +1877,7 @@ characters {
   idRef {
     id: "5206b7c43662360411002fc4"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/TrollMale"
     character_sheet_id: "BaseCivilian"
@@ -1886,6 +1930,7 @@ characters {
   idRef {
     id: "5206ba723662360411002fd0"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/TrollFemale"
     character_sheet_id: "BaseCivilian"
@@ -1941,6 +1986,7 @@ characters {
   idRef {
     id: "5206bac83662360411002fd1"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/TrollMale"
     character_sheet_id: "BaseCivilian"
@@ -1993,6 +2039,7 @@ characters {
   idRef {
     id: "5207a1c43662364c0d003b26"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/WeaponsDealer"
     character_sheet_id: "BaseCivilian"

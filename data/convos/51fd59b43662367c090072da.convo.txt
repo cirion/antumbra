@@ -315,7 +315,7 @@ nodes {
     id: "51fdd0f7366236181b007535"
   }
   index: 8
-  text: "This thing is filled with nanites. Unbelievably small machines, and these ones are created to tear things apart. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
+  text: "This package is filled with nanites. Unbelievably small machines, and these ones are created to tear things apart. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
   branches {
     responseText: "I take it that\'s bad?"
     nextNodeIndex: 9
@@ -386,7 +386,7 @@ nodes {
     id: "51fdd18e366236181b00753f"
   }
   index: 10
-  text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say a mass nanite-bomb certainly qualifies. This could be a rare opportunity for some prime blackmail."
+  text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say a mass nanite-bombing certainly qualifies. This could be a rare opportunity for some prime blackmail."
   branches {
     responseText: ""
     nextNodeIndex: 1

@@ -109,7 +109,7 @@ triggers {
         }
       }
       args {
-        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+        string_value: "The nearby pillar collapses into the pit. You hear a scream of rage."
       }
       args {
         float_value: 0
@@ -131,6 +131,72 @@ triggers {
       }
       args {
         float_value: 0
+      }
+    }
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc193366236f417004938"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Change Actor Control"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc193366236f417004938"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PlayerOrAI"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -253,7 +319,7 @@ triggers {
         }
       }
       args {
-        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+        string_value: "The nearby pillar collapses into the pit. You hear a scream of rage."
       }
       args {
         float_value: 0
@@ -275,6 +341,72 @@ triggers {
       }
       args {
         float_value: 0
+      }
+    }
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc187366236f417004937"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Change Actor Control"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc187366236f417004937"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PlayerOrAI"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -397,7 +529,7 @@ triggers {
         }
       }
       args {
-        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+        string_value: "The nearby pillar collapses into the pit. You hear a scream of rage."
       }
       args {
         float_value: 0
@@ -419,6 +551,72 @@ triggers {
       }
       args {
         float_value: 0
+      }
+    }
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc199366236f417004939"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Change Actor Control"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fc199366236f417004939"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PlayerOrAI"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -541,7 +739,7 @@ triggers {
         }
       }
       args {
-        string_value: "The nearby pillar collapses into the pit, opening a route to the center."
+        string_value: "The nearby pillar collapses into the pit. You hear a scream of rage."
       }
       args {
         float_value: 0
@@ -563,6 +761,72 @@ triggers {
       }
       args {
         float_value: 0
+      }
+    }
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fbb20366236f417004920"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Change Actor Control"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "520fbb20366236f417004920"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PlayerOrAI"
+          }
+          args {
+            int_value: 1
+          }
+        }
       }
     }
   }
@@ -833,6 +1097,65 @@ triggers {
             string_value: "52006b3e366236b019003a04"
           }
         }
+      }
+    }
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "EnslavedSpirit"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Add Actor Karma"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 5
       }
     }
   }
@@ -2001,6 +2324,7 @@ characters {
   idRef {
     id: "520add6d3662366c1f000129"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -2019,6 +2343,7 @@ characters {
   idRef {
     id: "520add723662366c1f00012a"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -2034,21 +2359,23 @@ characters {
     z: -11
   }
   orientation: ORIENTATION_W
+  displayName: "Boss Spirit"
   idRef {
     id: "520ade5f3662366c1f00012b"
   }
+  lod: 0
   character_instance {
-    prefab_name: "Spirit/SpiritEarth"
+    prefab_name: "Spirit/SpiritNature"
     character_sheet_id: "Spirit Nature"
     equipment_sheet_id: "Spirit Nature F3 Gear"
     character_mod {
       stats {
-        body: -2
+        body: -1
         quickness: -4
         strength: -3
         charisma: -3
         intelligence: -3
-        willpower: -6
+        willpower: -5
         essence: 0
         magic: -2
         hp: 0
@@ -2061,16 +2388,16 @@ characters {
         perception: 0
         authority: 0
         protect_tether_range: 0
-        move_speed: 0
+        move_speed: -1
         is_fearless: 0
       }
       skills {
         ranged_combat: 0
         close_combat: -7
         throwing_weapons: 0
-        spellcasting: -2
+        spellcasting: -5
         decking: 0
-        conjuring: -3
+        conjuring: -5
         spirit_summoning: 0
         drone_control: 0
         biotech: 0
@@ -2104,7 +2431,7 @@ characters {
     portrait {
       filename: "Generic_Spirit_Nature"
     }
-    karma: 80
+    karma: 64
   }
 }
 characters {
@@ -2119,6 +2446,7 @@ characters {
   idRef {
     id: "520ade5f3662366c1f00012c"
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv2_Captain"
@@ -2188,6 +2516,354 @@ characters {
     karma: 52
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -91
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "EnslavedSpirit"
+  displayName: "Enslaved Spirit 1"
+  idRef {
+    id: "520fbb20366236f417004920"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Spirit/SpiritAir"
+    character_sheet_id: "Spirit Air"
+    character_mod {
+      stats {
+        body: -6
+        quickness: -6
+        strength: 0
+        charisma: -3
+        intelligence: -3
+        willpower: -2
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -3
+        force: -3
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: -1
+      }
+      skills {
+        ranged_combat: -9
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: -6
+        decking: 0
+        conjuring: -6
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: -5
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: -6
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "SP Wind Blast"
+    }
+    team_id: "Gangers"
+    char_name: "Enslaved Spirit"
+    GeneralTags: "EnslavedSpirit"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    portrait {
+      filename: "Generic_Spirit_Air"
+    }
+    karma: 53
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -84
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "EnslavedSpirit"
+  displayName: "Enslaved Spirit 2"
+  idRef {
+    id: "520fc187366236f417004937"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Spirit/SpiritAir"
+    character_sheet_id: "Spirit Air"
+    character_mod {
+      stats {
+        body: -6
+        quickness: -6
+        strength: 0
+        charisma: -3
+        intelligence: -3
+        willpower: -2
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -3
+        force: -3
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: -1
+      }
+      skills {
+        ranged_combat: -9
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: -6
+        decking: 0
+        conjuring: -6
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: -5
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: -6
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "SP Wind Blast"
+    }
+    team_id: "Gangers"
+    char_name: "Enslaved Spirit"
+    GeneralTags: "EnslavedSpirit"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    portrait {
+      filename: "Generic_Spirit_Air"
+    }
+    karma: 53
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -90
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "EnslavedSpirit"
+  displayName: "Enslaved Spirit 3"
+  idRef {
+    id: "520fc193366236f417004938"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Spirit/SpiritAir"
+    character_sheet_id: "Spirit Air"
+    character_mod {
+      stats {
+        body: -6
+        quickness: -6
+        strength: 0
+        charisma: -3
+        intelligence: -3
+        willpower: -2
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -3
+        force: -3
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: -1
+      }
+      skills {
+        ranged_combat: -9
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: -6
+        decking: 0
+        conjuring: -6
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: -5
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: -6
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "SP Wind Blast"
+    }
+    team_id: "Gangers"
+    char_name: "Enslaved Spirit"
+    GeneralTags: "EnslavedSpirit"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    portrait {
+      filename: "Generic_Spirit_Air"
+    }
+    karma: 53
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -99
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "EnslavedSpirit"
+  displayName: "Enslaved Spirit 4"
+  idRef {
+    id: "520fc199366236f417004939"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Spirit/SpiritAir"
+    character_sheet_id: "Spirit Air"
+    character_mod {
+      stats {
+        body: -6
+        quickness: -6
+        strength: 0
+        charisma: -3
+        intelligence: -3
+        willpower: -2
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -3
+        force: -3
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: -1
+      }
+      skills {
+        ranged_combat: -9
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: -6
+        decking: 0
+        conjuring: -6
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: -6
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: -6
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "SP Wind Blast"
+    }
+    team_id: "Gangers"
+    char_name: "Enslaved Spirit"
+    GeneralTags: "EnslavedSpirit"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    portrait {
+      filename: "Generic_Spirit_Air"
+    }
+    karma: 51
+  }
+}
 goals {
   name: "You died. (If your health was low before encountering the spirit, you may want to rewind to an earlier point.)"
   type: GoalType_Primary
@@ -2240,6 +2916,7 @@ team_affiliations {
   affiliation: 1
   affiliation: 1
   affiliation: 0
+  affiliation: 1
 }
 team_affiliations {
   team_name: "Gangers"
@@ -2247,6 +2924,7 @@ team_affiliations {
   affiliation: 0
   affiliation: 1
   affiliation: 0
+  affiliation: 1
 }
 team_affiliations {
   team_name: "LoneStar"
@@ -2254,11 +2932,21 @@ team_affiliations {
   affiliation: 1
   affiliation: 0
   affiliation: 0
+  affiliation: 1
 }
 team_affiliations {
   team_name: "Civilians"
   affiliation: 0
   affiliation: 0
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Freed Spirits"
+  affiliation: 1
+  affiliation: 1
+  affiliation: 1
   affiliation: 0
   affiliation: 0
 }

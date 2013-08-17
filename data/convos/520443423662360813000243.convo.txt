@@ -89,7 +89,7 @@ nodes {
     id: "520443943662360813000252"
   }
   index: 2
-  text: "Safe? It\'s perfectly safe right now. All who fight do so at my bidding, for my pleasure."
+  text: "Safe? It is perfectly safe right now. All who fight do so at my bidding, for my pleasure."
   branches {
     responseText: ""
     nextNodeIndex: 3
@@ -181,6 +181,50 @@ nodes {
           functionName: "Get Map Item (Actor)"
           args {
             string_value: "520ade5f3662366c1f00012b"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Activate Actor Spawner"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor Reference)"
+          args {
+            string_value: "520fbb20366236f417004920"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Activate Actor Spawner"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor Reference)"
+          args {
+            string_value: "520fc187366236f417004937"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Activate Actor Spawner"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor Reference)"
+          args {
+            string_value: "520fc193366236f417004938"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Activate Actor Spawner"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor Reference)"
+          args {
+            string_value: "520fc199366236f417004939"
           }
         }
       }

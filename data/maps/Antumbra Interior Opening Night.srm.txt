@@ -10,6 +10,7 @@ props {
     z: 33
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -19,6 +20,7 @@ props {
     z: 23
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -31,6 +33,7 @@ props {
   idRef {
     id: "51fc6c7c366236881d006785"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -43,6 +46,7 @@ props {
   idRef {
     id: "51fc6c7d366236881d006786"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -55,6 +59,7 @@ props {
   idRef {
     id: "51fc6c7f366236881d006787"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -67,6 +72,7 @@ props {
   idRef {
     id: "51fc6c8f366236881d006788"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -79,6 +85,7 @@ props {
   idRef {
     id: "51fc6c92366236881d006789"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -91,6 +98,7 @@ props {
   idRef {
     id: "51fc6c99366236881d00678a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -103,6 +111,7 @@ props {
   idRef {
     id: "51fc6c9b366236881d00678b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -115,6 +124,7 @@ props {
   idRef {
     id: "51fc6ca6366236881d00678c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -127,6 +137,7 @@ props {
   idRef {
     id: "51fc6caa366236881d00678d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -139,6 +150,7 @@ props {
   idRef {
     id: "51fc6cb6366236881d00678e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -151,6 +163,7 @@ props {
   idRef {
     id: "51fc6cbb366236881d00678f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -163,6 +176,7 @@ props {
   idRef {
     id: "51fc6cbe366236881d006790"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -175,6 +189,7 @@ props {
   idRef {
     id: "51fc6cc9366236881d006791"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -187,6 +202,7 @@ props {
   idRef {
     id: "51fc6ccb366236881d006792"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -199,6 +215,7 @@ props {
   idRef {
     id: "51fc6ccd366236881d006793"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Back"
@@ -208,6 +225,7 @@ props {
     z: 32
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor02Back"
@@ -217,6 +235,7 @@ props {
     z: 27
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor02Front"
@@ -226,6 +245,7 @@ props {
     z: 28
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_dividerGroup"
@@ -235,6 +255,7 @@ props {
     z: 29
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_furniture_dividerGroup"
@@ -247,6 +268,7 @@ props {
   idRef {
     id: "51fc6e77366236881d006794"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -259,6 +281,7 @@ props {
   idRef {
     id: "51fc6e87366236881d006795"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -271,6 +294,7 @@ props {
   idRef {
     id: "51fc6e89366236881d006796"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -283,6 +307,7 @@ props {
   idRef {
     id: "51fc6e8b366236881d006797"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -295,6 +320,7 @@ props {
   idRef {
     id: "51fc6e8d366236881d006798"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -307,6 +333,7 @@ props {
   idRef {
     id: "51fc6e91366236881d006799"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd02"
@@ -319,6 +346,7 @@ props {
   idRef {
     id: "51fc753f366236881d0067a0"
   }
+  lod: 0
 }
 props {
   name: "office_furniture_execDesk"
@@ -328,6 +356,7 @@ props {
     z: 27
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -340,6 +369,7 @@ props {
   idRef {
     id: "51fc7893366236881d0067a6"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -352,6 +382,7 @@ props {
   idRef {
     id: "51fc789d366236881d0067a7"
   }
+  lod: 0
 }
 props {
   name: "cemetery_wall_gatePole01"
@@ -361,6 +392,7 @@ props {
     z: 25
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_glassDoor01"
@@ -384,6 +416,7 @@ props {
       doorSoundBundle: "props"
     }
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyDoorMid02"
@@ -393,6 +426,7 @@ props {
     z: 28
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Front"
@@ -405,6 +439,7 @@ props {
   idRef {
     id: "51fc7988366236881d0067a9"
   }
+  lod: 0
 }
 props {
   name: "office_wall_glassDoor01"
@@ -428,6 +463,7 @@ props {
       doorSoundBundle: "props"
     }
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Back"
@@ -440,6 +476,7 @@ props {
   idRef {
     id: "51fc7996366236881d0067ab"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -452,6 +489,7 @@ props {
   idRef {
     id: "51fc7a07366236881d0067ad"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -464,6 +502,7 @@ props {
   idRef {
     id: "51fc7a09366236881d0067ae"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -473,6 +512,7 @@ props {
     z: 32
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -485,6 +525,7 @@ props {
   idRef {
     id: "51fc7a37366236881d0067b2"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -497,6 +538,7 @@ props {
   idRef {
     id: "51fc7a3e366236881d0067b3"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -509,6 +551,7 @@ props {
   idRef {
     id: "51fc7a48366236881d0067b4"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Front"
@@ -518,6 +561,7 @@ props {
     z: 24
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -530,6 +574,7 @@ props {
   idRef {
     id: "51fc7b58366236881d0067b5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -542,6 +587,7 @@ props {
   idRef {
     id: "51fc7b5a366236881d0067b6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -554,6 +600,7 @@ props {
   idRef {
     id: "51fc7b5d366236881d0067b7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -566,6 +613,7 @@ props {
   idRef {
     id: "51fc7b5f366236881d0067b8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -578,6 +626,7 @@ props {
   idRef {
     id: "51fc7b61366236881d0067b9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -590,6 +639,7 @@ props {
   idRef {
     id: "51fc7b63366236881d0067ba"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -602,6 +652,7 @@ props {
   idRef {
     id: "51fc7b65366236881d0067bb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -614,6 +665,7 @@ props {
   idRef {
     id: "51fc7b67366236881d0067bc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile02"
@@ -626,6 +678,7 @@ props {
   idRef {
     id: "51fc7b69366236881d0067bd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -638,6 +691,7 @@ props {
   idRef {
     id: "51fc7b6b366236881d0067be"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile03"
@@ -650,6 +704,7 @@ props {
   idRef {
     id: "51fc7b77366236881d0067bf"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -662,6 +717,7 @@ props {
   idRef {
     id: "51fc7b79366236881d0067c0"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -674,6 +730,7 @@ props {
   idRef {
     id: "51fc7b97366236881d0067c1"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -686,6 +743,7 @@ props {
   idRef {
     id: "51fc7ba1366236881d0067c2"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -698,6 +756,7 @@ props {
   idRef {
     id: "51fc7ba5366236881d0067c3"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -710,6 +769,7 @@ props {
   idRef {
     id: "51fc7bd7366236881d0067c7"
   }
+  lod: 0
 }
 props {
   name: "secretLab_tech_largeWallMonitor03_lights"
@@ -719,6 +779,7 @@ props {
     z: 24.400002
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -728,6 +789,7 @@ props {
     z: 26
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge14"
@@ -740,6 +802,7 @@ props {
   idRef {
     id: "51fc7fb4366236881d0067c8"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge14"
@@ -752,6 +815,7 @@ props {
   idRef {
     id: "51fc7fb7366236881d0067c9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -764,6 +828,7 @@ props {
   idRef {
     id: "51fc8114366236881d0067ca"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -776,6 +841,7 @@ props {
   idRef {
     id: "51fc8116366236881d0067cb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -788,6 +854,7 @@ props {
   idRef {
     id: "51fc8119366236881d0067cc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -800,6 +867,7 @@ props {
   idRef {
     id: "51fc811a366236881d0067cd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -812,6 +880,7 @@ props {
   idRef {
     id: "51fc811b366236881d0067ce"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -824,6 +893,7 @@ props {
   idRef {
     id: "51fc811c366236881d0067cf"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -836,6 +906,7 @@ props {
   idRef {
     id: "51fc811e366236881d0067d0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -848,6 +919,7 @@ props {
   idRef {
     id: "51fc8120366236881d0067d1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -860,6 +932,7 @@ props {
   idRef {
     id: "51fc8123366236881d0067d3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -872,6 +945,7 @@ props {
   idRef {
     id: "51fc8124366236881d0067d4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -884,6 +958,7 @@ props {
   idRef {
     id: "51fc8125366236881d0067d5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -896,6 +971,7 @@ props {
   idRef {
     id: "51fc8127366236881d0067d6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -908,6 +984,7 @@ props {
   idRef {
     id: "51fc8128366236881d0067d7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -920,6 +997,7 @@ props {
   idRef {
     id: "51fc8129366236881d0067d8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -932,6 +1010,7 @@ props {
   idRef {
     id: "51fc812c366236881d0067d9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -944,6 +1023,7 @@ props {
   idRef {
     id: "51fc812d366236881d0067da"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -956,6 +1036,7 @@ props {
   idRef {
     id: "51fc813e366236881d0067db"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -968,6 +1049,7 @@ props {
   idRef {
     id: "51fc813f366236881d0067dc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -980,6 +1062,7 @@ props {
   idRef {
     id: "51fc8143366236881d0067dd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -992,6 +1075,7 @@ props {
   idRef {
     id: "51fc8145366236881d0067de"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1004,6 +1088,7 @@ props {
   idRef {
     id: "51fc8145366236881d0067df"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1016,6 +1101,7 @@ props {
   idRef {
     id: "51fc8148366236881d0067e0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1028,6 +1114,7 @@ props {
   idRef {
     id: "51fc8148366236881d0067e1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1040,6 +1127,7 @@ props {
   idRef {
     id: "51fc814a366236881d0067e2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1052,6 +1140,7 @@ props {
   idRef {
     id: "51fc814a366236881d0067e3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1064,6 +1153,7 @@ props {
   idRef {
     id: "51fc814b366236881d0067e4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1076,6 +1166,7 @@ props {
   idRef {
     id: "51fc814d366236881d0067e5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1088,6 +1179,7 @@ props {
   idRef {
     id: "51fc814e366236881d0067e6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1100,6 +1192,7 @@ props {
   idRef {
     id: "51fc8150366236881d0067e7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1112,6 +1205,7 @@ props {
   idRef {
     id: "51fc8151366236881d0067e8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1124,6 +1218,7 @@ props {
   idRef {
     id: "51fc8152366236881d0067e9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1136,6 +1231,7 @@ props {
   idRef {
     id: "51fc8161366236881d0067ea"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1148,6 +1244,7 @@ props {
   idRef {
     id: "51fc8162366236881d0067eb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1160,6 +1257,7 @@ props {
   idRef {
     id: "51fc8163366236881d0067ec"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1172,6 +1270,7 @@ props {
   idRef {
     id: "51fc8164366236881d0067ed"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1184,6 +1283,7 @@ props {
   idRef {
     id: "51fc8165366236881d0067ee"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1196,6 +1296,7 @@ props {
   idRef {
     id: "51fc8167366236881d0067ef"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1208,6 +1309,7 @@ props {
   idRef {
     id: "51fc8168366236881d0067f0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1220,6 +1322,7 @@ props {
   idRef {
     id: "51fc8169366236881d0067f1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1232,6 +1335,7 @@ props {
   idRef {
     id: "51fc816b366236881d0067f2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1244,6 +1348,7 @@ props {
   idRef {
     id: "51fc816c366236881d0067f3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1256,6 +1361,7 @@ props {
   idRef {
     id: "51fc816d366236881d0067f4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1268,6 +1374,7 @@ props {
   idRef {
     id: "51fc816f366236881d0067f5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1280,6 +1387,7 @@ props {
   idRef {
     id: "51fc8170366236881d0067f6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1292,6 +1400,7 @@ props {
   idRef {
     id: "51fc8172366236881d0067f7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1304,6 +1413,7 @@ props {
   idRef {
     id: "51fc817a366236881d0067f8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1316,6 +1426,7 @@ props {
   idRef {
     id: "51fc817b366236881d0067f9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1328,6 +1439,7 @@ props {
   idRef {
     id: "51fc817d366236881d0067fa"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1340,6 +1452,7 @@ props {
   idRef {
     id: "51fc8181366236881d0067fb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1352,6 +1465,7 @@ props {
   idRef {
     id: "51fc8182366236881d0067fc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1364,6 +1478,7 @@ props {
   idRef {
     id: "51fc8183366236881d0067fd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1376,6 +1491,7 @@ props {
   idRef {
     id: "51fc8185366236881d0067fe"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1388,6 +1504,7 @@ props {
   idRef {
     id: "51fc8186366236881d0067ff"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1400,6 +1517,7 @@ props {
   idRef {
     id: "51fc8187366236881d006800"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1412,6 +1530,7 @@ props {
   idRef {
     id: "51fc8188366236881d006801"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1424,6 +1543,7 @@ props {
   idRef {
     id: "51fc8188366236881d006802"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1436,6 +1556,7 @@ props {
   idRef {
     id: "51fc8189366236881d006803"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1448,6 +1569,7 @@ props {
   idRef {
     id: "51fc818a366236881d006804"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1460,6 +1582,7 @@ props {
   idRef {
     id: "51fc819c366236881d006805"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1472,6 +1595,7 @@ props {
   idRef {
     id: "51fc819e366236881d006806"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1484,6 +1608,7 @@ props {
   idRef {
     id: "51fc819f366236881d006807"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1496,6 +1621,7 @@ props {
   idRef {
     id: "51fc81a0366236881d006808"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1508,6 +1634,7 @@ props {
   idRef {
     id: "51fc81a1366236881d006809"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1520,6 +1647,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006814"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1532,6 +1660,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006815"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1544,6 +1673,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006816"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1556,6 +1686,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006817"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1568,6 +1699,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006818"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1580,6 +1712,7 @@ props {
   idRef {
     id: "51fc81bc366236881d006819"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1592,6 +1725,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1604,6 +1738,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1616,6 +1751,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1628,6 +1764,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1640,6 +1777,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1652,6 +1790,7 @@ props {
   idRef {
     id: "51fc81bc366236881d00681f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1664,6 +1803,7 @@ props {
   idRef {
     id: "51fc81be366236881d006823"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1676,6 +1816,7 @@ props {
   idRef {
     id: "51fc81be366236881d006824"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1688,6 +1829,7 @@ props {
   idRef {
     id: "51fc81be366236881d006825"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1700,6 +1842,7 @@ props {
   idRef {
     id: "51fc81be366236881d006826"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1712,6 +1855,7 @@ props {
   idRef {
     id: "51fc81be366236881d006827"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1724,6 +1868,7 @@ props {
   idRef {
     id: "51fc81be366236881d006828"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1736,6 +1881,7 @@ props {
   idRef {
     id: "51fc81be366236881d006829"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1748,6 +1894,7 @@ props {
   idRef {
     id: "51fc81be366236881d00682a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1760,6 +1907,7 @@ props {
   idRef {
     id: "51fc81be366236881d00682b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1772,6 +1920,7 @@ props {
   idRef {
     id: "51fc81be366236881d00682d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1784,6 +1933,7 @@ props {
   idRef {
     id: "51fc81be366236881d00682e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1796,6 +1946,7 @@ props {
   idRef {
     id: "51fc81be366236881d006830"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1808,6 +1959,7 @@ props {
   idRef {
     id: "51fc81be366236881d006831"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1820,6 +1972,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006832"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1832,6 +1985,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006833"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1844,6 +1998,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006834"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1856,6 +2011,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006835"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1868,6 +2024,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006836"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1880,6 +2037,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006837"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1892,6 +2050,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006838"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1904,6 +2063,7 @@ props {
   idRef {
     id: "51fc81bf366236881d006839"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1916,6 +2076,7 @@ props {
   idRef {
     id: "51fc81bf366236881d00683a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -1928,6 +2089,7 @@ props {
   idRef {
     id: "51fc81e3366236881d006842"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -1940,6 +2102,7 @@ props {
   idRef {
     id: "51fc8202366236881d006845"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -1952,6 +2115,7 @@ props {
   idRef {
     id: "51fc8203366236881d006846"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -1964,6 +2128,7 @@ props {
   idRef {
     id: "51fc8207366236881d006847"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -1976,6 +2141,7 @@ props {
   idRef {
     id: "51fc8209366236881d006848"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -1988,6 +2154,7 @@ props {
   idRef {
     id: "51fc820a366236881d006849"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2000,6 +2167,7 @@ props {
   idRef {
     id: "51fc820b366236881d00684a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2012,6 +2180,7 @@ props {
   idRef {
     id: "51fc820c366236881d00684b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2024,6 +2193,7 @@ props {
   idRef {
     id: "51fc820e366236881d00684c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2036,6 +2206,7 @@ props {
   idRef {
     id: "51fc8211366236881d00684d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2048,6 +2219,7 @@ props {
   idRef {
     id: "51fc8212366236881d00684e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2060,6 +2232,7 @@ props {
   idRef {
     id: "51fc8213366236881d00684f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2072,6 +2245,7 @@ props {
   idRef {
     id: "51fc8214366236881d006850"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2084,6 +2258,7 @@ props {
   idRef {
     id: "51fc8216366236881d006851"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2096,6 +2271,7 @@ props {
   idRef {
     id: "51fc8217366236881d006852"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2108,6 +2284,7 @@ props {
   idRef {
     id: "51fc822b366236881d006853"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2120,6 +2297,7 @@ props {
   idRef {
     id: "51fc822e366236881d006856"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2132,6 +2310,7 @@ props {
   idRef {
     id: "51fc823d366236881d006857"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2144,6 +2323,7 @@ props {
   idRef {
     id: "51fc823f366236881d006858"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2156,6 +2336,7 @@ props {
   idRef {
     id: "51fc8240366236881d006859"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2168,6 +2349,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2180,6 +2362,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2192,6 +2375,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2204,6 +2388,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2216,6 +2401,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2228,6 +2414,7 @@ props {
   idRef {
     id: "51fc8252366236881d00685f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2240,6 +2427,7 @@ props {
   idRef {
     id: "51fc8252366236881d006860"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2252,6 +2440,7 @@ props {
   idRef {
     id: "51fc8252366236881d006861"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2264,6 +2453,7 @@ props {
   idRef {
     id: "51fc8252366236881d006862"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2276,6 +2466,7 @@ props {
   idRef {
     id: "51fc8252366236881d006863"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2288,6 +2479,7 @@ props {
   idRef {
     id: "51fc8252366236881d006864"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2300,6 +2492,7 @@ props {
   idRef {
     id: "51fc8252366236881d006865"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2312,6 +2505,7 @@ props {
   idRef {
     id: "51fc8252366236881d006866"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2324,6 +2518,7 @@ props {
   idRef {
     id: "51fc8252366236881d006867"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2336,6 +2531,7 @@ props {
   idRef {
     id: "51fc8252366236881d006868"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2348,6 +2544,7 @@ props {
   idRef {
     id: "51fc8252366236881d006869"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2360,6 +2557,7 @@ props {
   idRef {
     id: "51fc8252366236881d00686a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2372,6 +2570,7 @@ props {
   idRef {
     id: "51fc8252366236881d00686b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2384,6 +2583,7 @@ props {
   idRef {
     id: "51fc8252366236881d00686c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2396,6 +2596,7 @@ props {
   idRef {
     id: "51fc8252366236881d00686e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2408,6 +2609,7 @@ props {
   idRef {
     id: "51fc825f366236881d006874"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2420,6 +2622,7 @@ props {
   idRef {
     id: "51fc825f366236881d006875"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2432,6 +2635,7 @@ props {
   idRef {
     id: "51fc825f366236881d006876"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2444,6 +2648,7 @@ props {
   idRef {
     id: "51fc825f366236881d006877"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2456,6 +2661,7 @@ props {
   idRef {
     id: "51fc825f366236881d006878"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2468,6 +2674,7 @@ props {
   idRef {
     id: "51fc825f366236881d006879"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2480,6 +2687,7 @@ props {
   idRef {
     id: "51fc8267366236881d00687b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2492,6 +2700,7 @@ props {
   idRef {
     id: "51fc8267366236881d00687c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -2504,6 +2713,7 @@ props {
   idRef {
     id: "51fc8267366236881d00687d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2516,6 +2726,7 @@ props {
   idRef {
     id: "51fc826c366236881d00687f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2528,6 +2739,7 @@ props {
   idRef {
     id: "51fc826c366236881d006880"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile01"
@@ -2540,6 +2752,7 @@ props {
   idRef {
     id: "51fc826c366236881d006881"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2552,6 +2765,7 @@ props {
   idRef {
     id: "51fc8272366236881d00688d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -2564,6 +2778,7 @@ props {
   idRef {
     id: "51fc8272366236881d00688f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2576,6 +2791,7 @@ props {
   idRef {
     id: "51fd1b4736623670070018bf"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2588,6 +2804,7 @@ props {
   idRef {
     id: "51fd1b4836623670070018c0"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2600,6 +2817,7 @@ props {
   idRef {
     id: "51fd1b5536623670070018c1"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2612,6 +2830,7 @@ props {
   idRef {
     id: "51fd1bb436623670070018c3"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -2624,6 +2843,7 @@ props {
   idRef {
     id: "51fd1bd136623670070018c4"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2636,6 +2856,7 @@ props {
   idRef {
     id: "51fd1bd836623670070018c5"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2648,6 +2869,7 @@ props {
   idRef {
     id: "51fd1bdb36623670070018c6"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2660,6 +2882,7 @@ props {
   idRef {
     id: "51fd1bdc36623670070018c7"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -2672,6 +2895,7 @@ props {
   idRef {
     id: "51fd1bdf36623670070018c8"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2684,6 +2908,7 @@ props {
   idRef {
     id: "51fd1c8a36623670070018cb"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2696,6 +2921,7 @@ props {
   idRef {
     id: "51fd1c9836623670070018cc"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2708,6 +2934,7 @@ props {
   idRef {
     id: "51fd206736623670070018d1"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2720,6 +2947,7 @@ props {
   idRef {
     id: "51fd206936623670070018d2"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2732,6 +2960,7 @@ props {
   idRef {
     id: "51fd206c36623670070018d3"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table01"
@@ -2744,6 +2973,7 @@ props {
   idRef {
     id: "51fd206e36623670070018d4"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2753,6 +2983,7 @@ props {
     z: 53
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2765,6 +2996,7 @@ props {
   idRef {
     id: "51fd208b36623670070018d5"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2777,6 +3009,7 @@ props {
   idRef {
     id: "51fd208c36623670070018d6"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2789,6 +3022,7 @@ props {
   idRef {
     id: "51fd208d36623670070018d7"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2801,6 +3035,7 @@ props {
   idRef {
     id: "51fd208e36623670070018d8"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2813,6 +3048,7 @@ props {
   idRef {
     id: "51fd208f36623670070018d9"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2825,6 +3061,7 @@ props {
   idRef {
     id: "51fd209136623670070018da"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2837,6 +3074,7 @@ props {
   idRef {
     id: "51fd209636623670070018db"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2849,6 +3087,7 @@ props {
   idRef {
     id: "51fd209936623670070018dc"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2861,6 +3100,7 @@ props {
   idRef {
     id: "51fd209a36623670070018dd"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2873,6 +3113,7 @@ props {
   idRef {
     id: "51fd209b36623670070018de"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2885,6 +3126,7 @@ props {
   idRef {
     id: "51fd209f36623670070018df"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2897,6 +3139,7 @@ props {
   idRef {
     id: "51fd20a136623670070018e0"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2909,6 +3152,7 @@ props {
   idRef {
     id: "51fd20f336623670070018e1"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2921,6 +3165,7 @@ props {
   idRef {
     id: "51fd20f436623670070018e2"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2933,6 +3178,7 @@ props {
   idRef {
     id: "51fd20f536623670070018e3"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2945,6 +3191,7 @@ props {
   idRef {
     id: "51fd20f736623670070018e4"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2957,6 +3204,7 @@ props {
   idRef {
     id: "51fd20fa36623670070018e5"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -2969,6 +3217,7 @@ props {
   idRef {
     id: "51fd210c36623670070018e6"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2981,6 +3230,7 @@ props {
   idRef {
     id: "51fd211e36623670070018e7"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -2993,6 +3243,7 @@ props {
   idRef {
     id: "51fd211e36623670070018e8"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3005,6 +3256,7 @@ props {
   idRef {
     id: "51fd211e36623670070018e9"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3017,6 +3269,7 @@ props {
   idRef {
     id: "51fd211e36623670070018ea"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -3029,6 +3282,7 @@ props {
   idRef {
     id: "51fd211e36623670070018eb"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3041,6 +3295,7 @@ props {
   idRef {
     id: "51fd211e36623670070018ec"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3053,6 +3308,7 @@ props {
   idRef {
     id: "51fd211e36623670070018ed"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3065,6 +3321,7 @@ props {
   idRef {
     id: "51fd211e36623670070018ee"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3077,6 +3334,7 @@ props {
   idRef {
     id: "51fd211e36623670070018ef"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3089,6 +3347,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -3101,6 +3360,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3113,6 +3373,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3125,6 +3386,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3137,6 +3399,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet04"
@@ -3149,6 +3412,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3161,6 +3425,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3173,6 +3438,7 @@ props {
   idRef {
     id: "51fd211e36623670070018f7"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -3185,6 +3451,7 @@ props {
   idRef {
     id: "51fd213936623670070018fa"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -3197,6 +3464,7 @@ props {
   idRef {
     id: "51fd213f36623670070018fb"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -3209,6 +3477,7 @@ props {
   idRef {
     id: "51fd214136623670070018fc"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth02"
@@ -3221,6 +3490,7 @@ props {
   idRef {
     id: "51fd214336623670070018fd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_carpet01"
@@ -3233,6 +3503,7 @@ props {
   idRef {
     id: "51fd21a336623670070018fe"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3245,6 +3516,7 @@ props {
   idRef {
     id: "51fd227e36623670070018ff"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3257,6 +3529,7 @@ props {
   idRef {
     id: "51fd227f3662367007001900"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront03"
@@ -3266,6 +3539,7 @@ props {
     z: 35
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront02"
@@ -3275,6 +3549,7 @@ props {
     z: 35
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth01test"
@@ -3286,6 +3561,7 @@ props {
   orientation: ORIENTATION_S
   GeneralTags: "BystanderProp"
   displayName: "Dwarf Booth"
+  lod: 0
 }
 props {
   name: "diveBar_furniture_booth01"
@@ -3295,6 +3571,7 @@ props {
     z: 33
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3307,6 +3584,7 @@ props {
   idRef {
     id: "51fd25093662367007001904"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3319,6 +3597,7 @@ props {
   idRef {
     id: "51fd25173662367007001905"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3331,6 +3610,7 @@ props {
   idRef {
     id: "51fd251c3662367007001908"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor02Front"
@@ -3340,6 +3620,7 @@ props {
     z: 47
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor02Back"
@@ -3349,6 +3630,7 @@ props {
     z: 46
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyDoorMid02"
@@ -3400,6 +3682,7 @@ props {
       doorSoundBundle: "props"
     }
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3418,6 +3701,7 @@ props {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3430,6 +3714,7 @@ props {
   idRef {
     id: "51fd2581366236700700190b"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd02"
@@ -3442,6 +3727,7 @@ props {
   idRef {
     id: "51fd26273662367007001910"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd02"
@@ -3454,6 +3740,7 @@ props {
   idRef {
     id: "51fd26273662367007001911"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3466,6 +3753,7 @@ props {
   idRef {
     id: "51fd266a3662367007001917"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3478,6 +3766,7 @@ props {
   idRef {
     id: "51fd266d3662367007001918"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3490,6 +3779,7 @@ props {
   idRef {
     id: "51fd266f3662367007001919"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3502,6 +3792,7 @@ props {
   idRef {
     id: "51fd2670366236700700191a"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3514,6 +3805,7 @@ props {
   idRef {
     id: "51fd2672366236700700191b"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3526,6 +3818,7 @@ props {
   idRef {
     id: "51fd2679366236700700191c"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3538,6 +3831,7 @@ props {
   idRef {
     id: "51fd267f366236700700191d"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3550,6 +3844,7 @@ props {
   idRef {
     id: "51fd2688366236700700191e"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3562,6 +3857,7 @@ props {
   idRef {
     id: "51fd268a366236700700191f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -3574,6 +3870,7 @@ props {
   idRef {
     id: "51fd268f3662367007001920"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor04fFront"
@@ -3583,6 +3880,7 @@ props {
     z: 41
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Back"
@@ -3592,6 +3890,7 @@ props {
     z: 40
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3604,6 +3903,7 @@ props {
   idRef {
     id: "51fd26fd3662367007001922"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3616,6 +3916,7 @@ props {
   idRef {
     id: "51fd27003662367007001923"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3628,6 +3929,7 @@ props {
   idRef {
     id: "51fd27013662367007001924"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3640,6 +3942,7 @@ props {
   idRef {
     id: "51fd27023662367007001925"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd02"
@@ -3652,6 +3955,7 @@ props {
   idRef {
     id: "51fd27073662367007001926"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd02"
@@ -3664,6 +3968,7 @@ props {
   idRef {
     id: "51fd27073662367007001927"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -3676,6 +3981,7 @@ props {
   idRef {
     id: "51fd271a3662367007001929"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyConnector02"
@@ -3685,6 +3991,7 @@ props {
     z: 51.7
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_greyDoorMid02"
@@ -3697,6 +4004,7 @@ props {
   idRef {
     id: "51fd2743366236700700192a"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3709,6 +4017,7 @@ props {
   idRef {
     id: "51fd2777366236700700192b"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge16"
@@ -3721,6 +4030,7 @@ props {
   idRef {
     id: "51fd277c366236700700192c"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3730,6 +4040,7 @@ props {
     z: 39
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3742,6 +4053,7 @@ props {
   idRef {
     id: "51fd2807366236700700192e"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3754,6 +4066,7 @@ props {
   idRef {
     id: "51fd2807366236700700192f"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3766,6 +4079,7 @@ props {
   idRef {
     id: "51fd28083662367007001930"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3778,6 +4092,7 @@ props {
   idRef {
     id: "51fd28133662367007001932"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3790,6 +4105,7 @@ props {
   idRef {
     id: "51fd28133662367007001933"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3802,6 +4118,7 @@ props {
   idRef {
     id: "51fd28173662367007001934"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3814,6 +4131,7 @@ props {
   idRef {
     id: "51fd28173662367007001935"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3826,6 +4144,7 @@ props {
   idRef {
     id: "51fd28173662367007001936"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3838,6 +4157,7 @@ props {
   idRef {
     id: "51fd28173662367007001937"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3850,6 +4170,7 @@ props {
   idRef {
     id: "51fd28173662367007001938"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3862,6 +4183,7 @@ props {
   idRef {
     id: "51fd28173662367007001939"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3874,6 +4196,7 @@ props {
   idRef {
     id: "51fd2818366236700700193a"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3886,6 +4209,7 @@ props {
   idRef {
     id: "51fd2818366236700700193b"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3898,6 +4222,7 @@ props {
   idRef {
     id: "51fd2818366236700700193c"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3910,6 +4235,7 @@ props {
   idRef {
     id: "51fd2818366236700700193d"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3922,6 +4248,7 @@ props {
   idRef {
     id: "51fd2818366236700700193e"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3934,6 +4261,7 @@ props {
   idRef {
     id: "51fd2818366236700700193f"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3946,6 +4274,7 @@ props {
   idRef {
     id: "51fd281d3662367007001940"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3958,6 +4287,7 @@ props {
   idRef {
     id: "51fd281d3662367007001941"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3970,6 +4300,7 @@ props {
   idRef {
     id: "51fd281d3662367007001942"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3982,6 +4313,7 @@ props {
   idRef {
     id: "51fd281d3662367007001943"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -3994,6 +4326,7 @@ props {
   idRef {
     id: "51fd281d3662367007001944"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4006,6 +4339,7 @@ props {
   idRef {
     id: "51fd281d3662367007001945"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4018,6 +4352,7 @@ props {
   idRef {
     id: "51fd281d3662367007001946"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4030,6 +4365,7 @@ props {
   idRef {
     id: "51fd281d3662367007001947"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4042,6 +4378,7 @@ props {
   idRef {
     id: "51fd281d3662367007001948"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4054,6 +4391,7 @@ props {
   idRef {
     id: "51fd281d3662367007001949"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4066,6 +4404,7 @@ props {
   idRef {
     id: "51fd281d366236700700194a"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4078,6 +4417,7 @@ props {
   idRef {
     id: "51fd281d366236700700194b"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4090,6 +4430,7 @@ props {
   idRef {
     id: "51fd281d366236700700194c"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4102,6 +4443,7 @@ props {
   idRef {
     id: "51fd281d366236700700194d"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4114,6 +4456,7 @@ props {
   idRef {
     id: "51fd281d366236700700194e"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4126,6 +4469,7 @@ props {
   idRef {
     id: "51fd281d366236700700194f"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4138,6 +4482,7 @@ props {
   idRef {
     id: "51fd281d3662367007001950"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4150,6 +4495,7 @@ props {
   idRef {
     id: "51fd281d3662367007001951"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4162,6 +4508,7 @@ props {
   idRef {
     id: "51fd28283662367007001953"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4174,6 +4521,7 @@ props {
   idRef {
     id: "51fd28283662367007001955"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4186,6 +4534,7 @@ props {
   idRef {
     id: "51fd28283662367007001956"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4198,6 +4547,7 @@ props {
   idRef {
     id: "51fd28283662367007001958"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4210,6 +4560,7 @@ props {
   idRef {
     id: "51fd28283662367007001959"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4222,6 +4573,7 @@ props {
   idRef {
     id: "51fd2828366236700700195b"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4234,6 +4586,7 @@ props {
   idRef {
     id: "51fd2828366236700700195c"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4246,6 +4599,7 @@ props {
   idRef {
     id: "51fd2828366236700700195e"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4258,6 +4612,7 @@ props {
   idRef {
     id: "51fd2828366236700700195f"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4270,6 +4625,7 @@ props {
   idRef {
     id: "51fd28283662367007001961"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4282,6 +4638,7 @@ props {
   idRef {
     id: "51fd28283662367007001962"
   }
+  lod: 0
 }
 props {
   name: "office_floor_cement01"
@@ -4294,6 +4651,7 @@ props {
   idRef {
     id: "51fd28463662367007001963"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Back"
@@ -4306,6 +4664,7 @@ props {
   idRef {
     id: "51fd28633662367007001964"
   }
+  lod: 0
 }
 props {
   name: "office_wall_darkDoor01Front"
@@ -4318,6 +4677,7 @@ props {
   idRef {
     id: "51fd28633662367007001965"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -4330,6 +4690,7 @@ props {
   idRef {
     id: "51fd28ad3662367007001968"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge15"
@@ -4342,6 +4703,7 @@ props {
   idRef {
     id: "51fd28ad3662367007001969"
   }
+  lod: 0
 }
 props {
   name: "secretLab_tech_largeWallMonitor02_lights"
@@ -4351,6 +4713,7 @@ props {
     z: 32.1
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_table03"
@@ -4363,6 +4726,7 @@ props {
   idRef {
     id: "51fd2904366236700700196a"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle04"
@@ -4372,6 +4736,7 @@ props {
     z: 33.8
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -4381,6 +4746,7 @@ props {
     z: 34
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -4390,6 +4756,7 @@ props {
     z: 33.8
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle03"
@@ -4399,6 +4766,7 @@ props {
     z: 33.7
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4411,6 +4779,7 @@ props {
   idRef {
     id: "51fd29ae366236700700196b"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4423,6 +4792,7 @@ props {
   idRef {
     id: "51fd29b1366236700700196c"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4435,6 +4805,7 @@ props {
   idRef {
     id: "51fd29b3366236700700196d"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4447,6 +4818,7 @@ props {
   idRef {
     id: "51fd29b5366236700700196e"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4459,6 +4831,7 @@ props {
   idRef {
     id: "51fd29b7366236700700196f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4471,6 +4844,7 @@ props {
   idRef {
     id: "51fd29c43662367007001970"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4483,6 +4857,7 @@ props {
   idRef {
     id: "51fd29d33662367007001971"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4495,6 +4870,7 @@ props {
   idRef {
     id: "51fd29d43662367007001972"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4507,6 +4883,7 @@ props {
   idRef {
     id: "51fd29d53662367007001973"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4519,6 +4896,7 @@ props {
   idRef {
     id: "51fd29f73662367007001975"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4531,6 +4909,7 @@ props {
   idRef {
     id: "51fd29fb3662367007001976"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4543,6 +4922,7 @@ props {
   idRef {
     id: "51fd29fd3662367007001977"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4555,6 +4935,7 @@ props {
   idRef {
     id: "51fd2a093662367007001978"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4567,6 +4948,7 @@ props {
   idRef {
     id: "51fd2a0a3662367007001979"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4579,6 +4961,7 @@ props {
   idRef {
     id: "51fd2a0c366236700700197a"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4591,6 +4974,7 @@ props {
   idRef {
     id: "51fd2a15366236700700197b"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4603,6 +4987,7 @@ props {
   idRef {
     id: "51fd2a22366236700700197c"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4615,6 +5000,7 @@ props {
   idRef {
     id: "51fd2a24366236700700197d"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4627,6 +5013,7 @@ props {
   idRef {
     id: "51fd2a28366236700700197e"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4636,6 +5023,7 @@ props {
     z: 4
   }
   orientation: ORIENTATION_W
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge01"
@@ -4645,6 +5033,7 @@ props {
     z: 4
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge01"
@@ -4657,6 +5046,7 @@ props {
   idRef {
     id: "51fd2ab5366236700700197f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEdge01"
@@ -4666,6 +5056,7 @@ props {
     z: 4
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4678,6 +5069,7 @@ props {
   idRef {
     id: "51fd2ad13662367007001981"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge04"
@@ -4690,6 +5082,7 @@ props {
   idRef {
     id: "51fd2ae03662367007001982"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -4699,6 +5092,7 @@ props {
     z: 4
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge04"
@@ -4711,6 +5105,7 @@ props {
   idRef {
     id: "51fd2b423662367007001983"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -4723,6 +5118,7 @@ props {
   idRef {
     id: "51fd2b453662367007001984"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4735,6 +5131,7 @@ props {
   idRef {
     id: "51fd2b4c3662367007001985"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEdge01"
@@ -4747,6 +5144,7 @@ props {
   idRef {
     id: "51fd2b4c3662367007001986"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4759,6 +5157,7 @@ props {
   idRef {
     id: "51fd2b4c3662367007001987"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEdge01"
@@ -4771,6 +5170,7 @@ props {
   idRef {
     id: "51fd2b6f3662367007001988"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEdge01"
@@ -4783,6 +5183,7 @@ props {
   idRef {
     id: "51fd2b83366236700700198b"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEnd01"
@@ -4795,6 +5196,7 @@ props {
   idRef {
     id: "51fd2c56366236700700198d"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyConnector01"
@@ -4807,6 +5209,7 @@ props {
   idRef {
     id: "51fd2c56366236700700198e"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4819,6 +5222,7 @@ props {
   idRef {
     id: "51fd2c6e366236700700198f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -4831,6 +5235,7 @@ props {
   idRef {
     id: "51fd2c9e3662367007001994"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4843,6 +5248,7 @@ props {
   idRef {
     id: "51fd2ca23662367007001995"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEdge01"
@@ -4855,6 +5261,7 @@ props {
   idRef {
     id: "51fd2ca23662367007001996"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyWindowEnd01"
@@ -4867,6 +5274,7 @@ props {
   idRef {
     id: "51fd2ca23662367007001997"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4879,6 +5287,7 @@ props {
   idRef {
     id: "51fd2cd2366236700700199b"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4891,6 +5300,7 @@ props {
   idRef {
     id: "51fd2cd6366236700700199c"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -4903,6 +5313,7 @@ props {
   idRef {
     id: "51fd2cd7366236700700199d"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -4915,6 +5326,7 @@ props {
   idRef {
     id: "51fd2ce2366236700700199e"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -4927,6 +5339,7 @@ props {
   idRef {
     id: "51fd2ce8366236700700199f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyConnector01"
@@ -4939,6 +5352,7 @@ props {
   idRef {
     id: "51fd2cf536623670070019a0"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge13"
@@ -4951,6 +5365,7 @@ props {
   idRef {
     id: "51fd2d0336623670070019a1"
   }
+  lod: 0
 }
 props {
   name: "office_floor_blueTile01"
@@ -4960,6 +5375,7 @@ props {
     z: 19
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_floor_marbleTile03"
@@ -4969,6 +5385,7 @@ props {
     z: 27
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -4978,6 +5395,7 @@ props {
     z: 17
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_floor_ventFloor04"
@@ -4987,6 +5405,7 @@ props {
     z: 15.5
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4blue"
@@ -4996,6 +5415,7 @@ props {
     z: 15
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5008,6 +5428,7 @@ props {
   idRef {
     id: "51fd2e2e36623670070019a2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5020,6 +5441,7 @@ props {
   idRef {
     id: "51fd2e3036623670070019a3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5032,6 +5454,7 @@ props {
   idRef {
     id: "51fd2e3136623670070019a4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5044,6 +5467,7 @@ props {
   idRef {
     id: "51fd2e3436623670070019a5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5056,6 +5480,7 @@ props {
   idRef {
     id: "51fd2e3b36623670070019a6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5068,6 +5493,7 @@ props {
   idRef {
     id: "51fd2e3b36623670070019a7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5080,6 +5506,7 @@ props {
   idRef {
     id: "51fd2e3b36623670070019a8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5092,6 +5519,7 @@ props {
   idRef {
     id: "51fd2e3b36623670070019a9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5104,6 +5532,7 @@ props {
   idRef {
     id: "51fd2e3b36623670070019aa"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5116,6 +5545,7 @@ props {
   idRef {
     id: "51fd2e3e36623670070019ab"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5128,6 +5558,7 @@ props {
   idRef {
     id: "51fd2e3e36623670070019ac"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5140,6 +5571,7 @@ props {
   idRef {
     id: "51fd2e3e36623670070019ad"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5152,6 +5584,7 @@ props {
   idRef {
     id: "51fd2e3e36623670070019ae"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5164,6 +5597,7 @@ props {
   idRef {
     id: "51fd2e3e36623670070019af"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5176,6 +5610,7 @@ props {
   idRef {
     id: "51fd2e4136623670070019b0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5188,6 +5623,7 @@ props {
   idRef {
     id: "51fd2e4136623670070019b1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5200,6 +5636,7 @@ props {
   idRef {
     id: "51fd2e4136623670070019b2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5212,6 +5649,7 @@ props {
   idRef {
     id: "51fd2e4336623670070019b5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5224,6 +5662,7 @@ props {
   idRef {
     id: "51fd2e4336623670070019b6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5236,6 +5675,7 @@ props {
   idRef {
     id: "51fd2e4336623670070019b7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5248,6 +5688,7 @@ props {
   idRef {
     id: "51fd2e4436623670070019ba"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5260,6 +5701,7 @@ props {
   idRef {
     id: "51fd2e4436623670070019bb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5272,6 +5714,7 @@ props {
   idRef {
     id: "51fd2e4436623670070019bc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5284,6 +5727,7 @@ props {
   idRef {
     id: "51fd2e4436623670070019bd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5296,6 +5740,7 @@ props {
   idRef {
     id: "51fd2e4436623670070019be"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5308,6 +5753,7 @@ props {
   idRef {
     id: "51fd2e4536623670070019bf"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5320,6 +5766,7 @@ props {
   idRef {
     id: "51fd2e4536623670070019c0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5332,6 +5779,7 @@ props {
   idRef {
     id: "51fd2e4536623670070019c1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5344,6 +5792,7 @@ props {
   idRef {
     id: "51fd2e4536623670070019c2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5356,6 +5805,7 @@ props {
   idRef {
     id: "51fd2e4536623670070019c3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5368,6 +5818,7 @@ props {
   idRef {
     id: "51fd2e5036623670070019c4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5380,6 +5831,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019c6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5392,6 +5844,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019c7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5404,6 +5857,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019c8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5416,6 +5870,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019c9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5428,6 +5883,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019ca"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5440,6 +5896,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019cb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5452,6 +5909,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019cc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5464,6 +5922,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019cd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5476,6 +5935,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019ce"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5488,6 +5948,7 @@ props {
   idRef {
     id: "51fd2e5536623670070019cf"
   }
+  lod: 0
 }
 props {
   name: "office_floor_marbleTile03"
@@ -5500,6 +5961,7 @@ props {
   idRef {
     id: "51fd2e8f36623670070019d0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5512,6 +5974,7 @@ props {
   idRef {
     id: "51fd2e9036623670070019d1"
   }
+  lod: 0
 }
 props {
   name: "office_floor_marbleTile03"
@@ -5524,6 +5987,7 @@ props {
   idRef {
     id: "51fd2e9636623670070019d2"
   }
+  lod: 0
 }
 props {
   name: "office_floor_marbleTile03"
@@ -5536,6 +6000,7 @@ props {
   idRef {
     id: "51fd2e9736623670070019d3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5548,6 +6013,7 @@ props {
   idRef {
     id: "51fd2e9b36623670070019d4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5560,6 +6026,7 @@ props {
   idRef {
     id: "51fd2e9d36623670070019d5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5572,6 +6039,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019d8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5584,6 +6052,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019d9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5596,6 +6065,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019da"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5608,6 +6078,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019db"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5620,6 +6091,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019dc"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5632,6 +6104,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019dd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5644,6 +6117,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019de"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5656,6 +6130,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019df"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5668,6 +6143,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019e0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5680,6 +6156,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019e1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5692,6 +6169,7 @@ props {
   idRef {
     id: "51fd2ea436623670070019e2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5704,6 +6182,7 @@ props {
   idRef {
     id: "51fd2eaf36623670070019e4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5716,6 +6195,7 @@ props {
   idRef {
     id: "51fd2eaf36623670070019e6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5728,6 +6208,7 @@ props {
   idRef {
     id: "51fd2eaf36623670070019e7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5740,6 +6221,7 @@ props {
   idRef {
     id: "51fd2eaf36623670070019e8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5752,6 +6234,7 @@ props {
   idRef {
     id: "51fd2ec936623670070019e9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5764,6 +6247,7 @@ props {
   idRef {
     id: "51fd2eca36623670070019ea"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5776,6 +6260,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019eb"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5788,6 +6273,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019ec"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5800,6 +6286,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019ed"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5812,6 +6299,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019ee"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5824,6 +6312,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019ef"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5836,6 +6325,7 @@ props {
   idRef {
     id: "51fd2ed236623670070019f0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5848,6 +6338,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5860,6 +6351,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5872,6 +6364,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5884,6 +6377,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5896,6 +6390,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5908,6 +6403,7 @@ props {
   idRef {
     id: "51fd2ed436623670070019f6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5920,6 +6416,7 @@ props {
   idRef {
     id: "51fd2ed836623670070019f7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5932,6 +6429,7 @@ props {
   idRef {
     id: "51fd2ed836623670070019f8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5944,6 +6442,7 @@ props {
   idRef {
     id: "51fd2ed836623670070019f9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -5956,6 +6455,7 @@ props {
   idRef {
     id: "51fd2ed836623670070019fa"
   }
+  lod: 0
 }
 props {
   name: "office_floor_blueTile01"
@@ -5968,6 +6468,7 @@ props {
   idRef {
     id: "51fd2eea36623670070019fb"
   }
+  lod: 0
 }
 props {
   name: "office_floor_blueTile01"
@@ -5980,6 +6481,7 @@ props {
   idRef {
     id: "51fd2eec36623670070019fc"
   }
+  lod: 0
 }
 props {
   name: "office_floor_blueTile01"
@@ -5992,6 +6494,7 @@ props {
   idRef {
     id: "51fd2eed36623670070019fd"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6004,6 +6507,7 @@ props {
   idRef {
     id: "51fd2eff36623670070019fe"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6016,6 +6520,7 @@ props {
   idRef {
     id: "51fd2f0036623670070019ff"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6028,6 +6533,7 @@ props {
   idRef {
     id: "51fd2f003662367007001a00"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6040,6 +6546,7 @@ props {
   idRef {
     id: "51fd2f013662367007001a01"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6052,6 +6559,7 @@ props {
   idRef {
     id: "51fd2f033662367007001a02"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6064,6 +6572,7 @@ props {
   idRef {
     id: "51fd2f063662367007001a03"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6076,6 +6585,7 @@ props {
   idRef {
     id: "51fd2f073662367007001a04"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6088,6 +6598,7 @@ props {
   idRef {
     id: "51fd2f083662367007001a05"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6100,6 +6611,7 @@ props {
   idRef {
     id: "51fd2f083662367007001a06"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6112,6 +6624,7 @@ props {
   idRef {
     id: "51fd2f093662367007001a07"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6124,6 +6637,7 @@ props {
   idRef {
     id: "51fd2f0a3662367007001a08"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6136,6 +6650,7 @@ props {
   idRef {
     id: "51fd2f0b3662367007001a09"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6148,6 +6663,7 @@ props {
   idRef {
     id: "51fd2f393662367007001a0c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6160,6 +6676,7 @@ props {
   idRef {
     id: "51fd2f3e3662367007001a13"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6172,6 +6689,7 @@ props {
   idRef {
     id: "51fd308d3662367007001a17"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6184,6 +6702,7 @@ props {
   idRef {
     id: "51fd308f3662367007001a18"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6196,6 +6715,7 @@ props {
   idRef {
     id: "51fd30923662367007001a19"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6208,6 +6728,7 @@ props {
   idRef {
     id: "51fd30943662367007001a1a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6220,6 +6741,7 @@ props {
   idRef {
     id: "51fd30953662367007001a1b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6232,6 +6754,7 @@ props {
   idRef {
     id: "51fd30973662367007001a1c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6244,6 +6767,7 @@ props {
   idRef {
     id: "51fd31423662367007001a1f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6256,6 +6780,7 @@ props {
   idRef {
     id: "51fd31423662367007001a20"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_door01Far"
@@ -6268,6 +6793,7 @@ props {
   idRef {
     id: "51fd31533662367007001a26"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_door01Near"
@@ -6281,6 +6807,7 @@ props {
   idRef {
     id: "51fd31533662367007001a27"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_door01Far"
@@ -6293,6 +6820,7 @@ props {
   idRef {
     id: "51fd317f3662367007001a28"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_door01Near"
@@ -6305,6 +6833,7 @@ props {
   idRef {
     id: "51fd317f3662367007001a29"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -6317,6 +6846,7 @@ props {
   idRef {
     id: "51fd318d3662367007001a2a"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -6340,6 +6870,7 @@ props {
       disableAfterInteracting: false
     }
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -6352,6 +6883,7 @@ props {
   idRef {
     id: "51fd31a43662367007001a2c"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -6364,6 +6896,7 @@ props {
   idRef {
     id: "51fd31a73662367007001a2d"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_Firewall2"
@@ -6376,6 +6909,7 @@ props {
   idRef {
     id: "51fd31c23662367007001a2e"
   }
+  lod: 0
 }
 props {
   name: "matrix_wall_Firewall2"
@@ -6388,6 +6922,7 @@ props {
   idRef {
     id: "51fd31cd3662367007001a2f"
   }
+  lod: 0
 }
 props {
   name: "secretLab_floor_ventFloor04"
@@ -6400,6 +6935,7 @@ props {
   idRef {
     id: "51fd31fd3662367007001a30"
   }
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4var2"
@@ -6412,6 +6948,7 @@ props {
   idRef {
     id: "51fd32243662367007001a38"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6424,6 +6961,7 @@ props {
   idRef {
     id: "51fd32393662367007001a39"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6436,6 +6974,7 @@ props {
   idRef {
     id: "51fd32393662367007001a3a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6448,6 +6987,7 @@ props {
   idRef {
     id: "51fd32393662367007001a3b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6460,6 +7000,7 @@ props {
   idRef {
     id: "51fd323f3662367007001a3c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6472,6 +7013,7 @@ props {
   idRef {
     id: "51fd323f3662367007001a3d"
   }
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4blue"
@@ -6484,6 +7026,7 @@ props {
   idRef {
     id: "51fd32463662367007001a3e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6496,6 +7039,7 @@ props {
   idRef {
     id: "51fd324c3662367007001a3f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6508,6 +7052,7 @@ props {
   idRef {
     id: "51fd324c3662367007001a40"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6520,6 +7065,7 @@ props {
   idRef {
     id: "51fd324c3662367007001a41"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6532,6 +7078,7 @@ props {
   idRef {
     id: "51fd32533662367007001a42"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6544,6 +7091,7 @@ props {
   idRef {
     id: "51fd32533662367007001a43"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6556,6 +7104,7 @@ props {
   idRef {
     id: "51fd32533662367007001a44"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6568,6 +7117,7 @@ props {
   idRef {
     id: "51fd32533662367007001a45"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6580,6 +7130,7 @@ props {
   idRef {
     id: "51fd32533662367007001a46"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6592,6 +7143,7 @@ props {
   idRef {
     id: "51fd32573662367007001a47"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6604,6 +7156,7 @@ props {
   idRef {
     id: "51fd32573662367007001a48"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6616,6 +7169,7 @@ props {
   idRef {
     id: "51fd32763662367007001a4a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6628,6 +7182,7 @@ props {
   idRef {
     id: "51fd32793662367007001a4b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6640,6 +7195,7 @@ props {
   idRef {
     id: "51fd327a3662367007001a4c"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6652,6 +7208,7 @@ props {
   idRef {
     id: "51fd32863662367007001a4e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6664,6 +7221,7 @@ props {
   idRef {
     id: "51fd32893662367007001a4f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6676,6 +7234,7 @@ props {
   idRef {
     id: "51fd328d3662367007001a50"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6688,6 +7247,7 @@ props {
   idRef {
     id: "51fd32963662367007001a51"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6700,6 +7260,7 @@ props {
   idRef {
     id: "51fd32973662367007001a52"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6712,6 +7273,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a53"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6724,6 +7286,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a54"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6736,6 +7299,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a55"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6748,6 +7312,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a56"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6760,6 +7325,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a57"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6772,6 +7338,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a58"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6784,6 +7351,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a59"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6796,6 +7364,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a5a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6808,6 +7377,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a5b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6820,6 +7390,7 @@ props {
   idRef {
     id: "51fd32a23662367007001a5c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6832,6 +7403,7 @@ props {
   idRef {
     id: "51fd32a53662367007001a5d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6844,6 +7416,7 @@ props {
   idRef {
     id: "51fd32a73662367007001a5e"
   }
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4blue"
@@ -6856,6 +7429,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a7b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6868,6 +7442,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a7c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6880,6 +7455,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a7d"
   }
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4var2"
@@ -6892,6 +7468,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a7e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6904,6 +7481,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a7f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6916,6 +7494,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a80"
   }
+  lod: 0
 }
 props {
   name: "matrix_floor_4x4blue"
@@ -6928,6 +7507,7 @@ props {
   idRef {
     id: "51fd32ec3662367007001a81"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6940,6 +7520,7 @@ props {
   idRef {
     id: "51fd33193662367007001a86"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6952,6 +7533,7 @@ props {
   idRef {
     id: "51fd33193662367007001a87"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6964,6 +7546,7 @@ props {
   idRef {
     id: "51fd33193662367007001a88"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -6976,6 +7559,7 @@ props {
   idRef {
     id: "51fd33193662367007001a89"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -6988,6 +7572,7 @@ props {
   idRef {
     id: "51fd33193662367007001a8a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7000,6 +7585,7 @@ props {
   idRef {
     id: "51fd33193662367007001a8b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7012,6 +7598,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a8c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7024,6 +7611,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a8d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7036,6 +7624,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a8e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7048,6 +7637,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a8f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7060,6 +7650,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a90"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7072,6 +7663,7 @@ props {
   idRef {
     id: "51fd331d3662367007001a91"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7084,6 +7676,7 @@ props {
   idRef {
     id: "51fd33223662367007001a92"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7096,6 +7689,7 @@ props {
   idRef {
     id: "51fd33263662367007001a93"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7108,6 +7702,7 @@ props {
   idRef {
     id: "51fd33293662367007001a94"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7120,6 +7715,7 @@ props {
   idRef {
     id: "51fd332e3662367007001a95"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7132,6 +7728,7 @@ props {
   idRef {
     id: "51fd332e3662367007001a96"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7144,6 +7741,7 @@ props {
   idRef {
     id: "51fd332e3662367007001a97"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7156,6 +7754,7 @@ props {
   idRef {
     id: "51fd332e3662367007001a98"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7168,6 +7767,7 @@ props {
   idRef {
     id: "51fd332e3662367007001a99"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7180,6 +7780,7 @@ props {
   idRef {
     id: "51fd333a3662367007001a9b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7192,6 +7793,7 @@ props {
   idRef {
     id: "51fd333a3662367007001a9c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7204,6 +7806,7 @@ props {
   idRef {
     id: "51fd333a3662367007001a9d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7216,6 +7819,7 @@ props {
   idRef {
     id: "51fd333a3662367007001a9e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7228,6 +7832,7 @@ props {
   idRef {
     id: "51fd333a3662367007001a9f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7240,6 +7845,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7252,6 +7858,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7264,6 +7871,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7276,6 +7884,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7288,6 +7897,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7300,6 +7910,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7312,6 +7923,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7324,6 +7936,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7336,6 +7949,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7348,6 +7962,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aa9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7360,6 +7975,7 @@ props {
   idRef {
     id: "51fd333a3662367007001aaa"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -7372,6 +7988,7 @@ props {
   idRef {
     id: "51fd334a3662367007001aab"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -7384,6 +8001,7 @@ props {
   idRef {
     id: "51fd334a3662367007001aac"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -7396,6 +8014,7 @@ props {
   idRef {
     id: "51fd334a3662367007001aad"
   }
+  lod: 0
 }
 props {
   name: "office_floor_shinyTile04"
@@ -7408,6 +8027,7 @@ props {
   idRef {
     id: "51fd334a3662367007001aae"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7420,6 +8040,7 @@ props {
   idRef {
     id: "51fd33563662367007001aaf"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7432,6 +8053,7 @@ props {
   idRef {
     id: "51fd335b3662367007001ab0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7444,6 +8066,7 @@ props {
   idRef {
     id: "51fd335b3662367007001ab1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7456,6 +8079,7 @@ props {
   idRef {
     id: "51fd335b3662367007001ab2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7468,6 +8092,7 @@ props {
   idRef {
     id: "51fd335b3662367007001ab3"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7480,6 +8105,7 @@ props {
   idRef {
     id: "51fd335c3662367007001ab4"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7492,6 +8118,7 @@ props {
   idRef {
     id: "51fd335c3662367007001ab5"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7504,6 +8131,7 @@ props {
   idRef {
     id: "51fd335c3662367007001ab6"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7516,6 +8144,7 @@ props {
   idRef {
     id: "51fd335c3662367007001ab7"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7528,6 +8157,7 @@ props {
   idRef {
     id: "51fd33603662367007001ab8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7540,6 +8170,7 @@ props {
   idRef {
     id: "51fd33663662367007001ab9"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7552,6 +8183,7 @@ props {
   idRef {
     id: "51fd33663662367007001aba"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_miniBarFront01"
@@ -7561,6 +8193,7 @@ props {
     z: 5
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront04"
@@ -7570,6 +8203,7 @@ props {
     z: 15
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_furniture_miniBarBack01"
@@ -7579,6 +8213,7 @@ props {
     z: 5
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_lighting_stageBackdrop"
@@ -7588,6 +8223,7 @@ props {
     z: -3.7
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "office_wall_greyDoorMid02"
@@ -7644,6 +8280,7 @@ props {
       confirmation_text: "Are you ready to enter the office? Security will likely prevent you from returning to the club."
     }
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyDoor02Front"
@@ -7653,6 +8290,7 @@ props {
     z: 11
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyDoor02Back"
@@ -7662,6 +8300,7 @@ props {
     z: 10
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge04"
@@ -7674,6 +8313,7 @@ props {
   idRef {
     id: "51fd3a2e3662367c090072bd"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge04"
@@ -7686,6 +8326,7 @@ props {
   idRef {
     id: "51fd3a2e3662367c090072be"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge06"
@@ -7698,6 +8339,7 @@ props {
   idRef {
     id: "51fd3a2f3662367c090072bf"
   }
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront01"
@@ -7707,6 +8349,7 @@ props {
     z: 17
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront03"
@@ -7716,6 +8359,7 @@ props {
     z: 19
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront03"
@@ -7725,6 +8369,7 @@ props {
     z: 7
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront01"
@@ -7734,6 +8379,7 @@ props {
     z: 7
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_furniture_barFront04"
@@ -7743,6 +8389,7 @@ props {
     z: 7
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallConsole02"
@@ -7761,6 +8408,7 @@ props {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallConsole02_lights"
@@ -7770,6 +8418,7 @@ props {
     z: 25.3
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -7782,6 +8431,7 @@ props {
   idRef {
     id: "51fd54653662367c090072c8"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -7794,6 +8444,7 @@ props {
   idRef {
     id: "51fd546c3662367c090072c9"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge11"
@@ -7806,6 +8457,7 @@ props {
   idRef {
     id: "51fd546e3662367c090072ca"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -7815,6 +8467,7 @@ props {
     z: 3.4
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -7827,6 +8480,7 @@ props {
   idRef {
     id: "51fd54c03662367c090072ce"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -7839,6 +8493,7 @@ props {
   idRef {
     id: "51fd54c23662367c090072cf"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7851,6 +8506,7 @@ props {
   idRef {
     id: "51fd54fc3662367c090072d0"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7863,6 +8519,7 @@ props {
   idRef {
     id: "51fd54fe3662367c090072d1"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7875,6 +8532,7 @@ props {
   idRef {
     id: "51fd55033662367c090072d2"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -7887,6 +8545,7 @@ props {
   idRef {
     id: "51fd55133662367c090072d3"
   }
+  lod: 0
 }
 props {
   name: "office_wall_glassDoor01"
@@ -7910,6 +8569,7 @@ props {
       doorSoundBundle: "props"
     }
   }
+  lod: 0
 }
 props {
   name: "office_tech_keycardLanyard"
@@ -7931,6 +8591,7 @@ props {
       destroyOnPickup: true
     }
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -7943,6 +8604,7 @@ props {
   idRef {
     id: "51febd243662365008006220"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -7955,6 +8617,7 @@ props {
   idRef {
     id: "51febd263662365008006221"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -7967,6 +8630,7 @@ props {
   idRef {
     id: "51febd283662365008006222"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -7979,6 +8643,7 @@ props {
   idRef {
     id: "51febd283662365008006223"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -7991,6 +8656,7 @@ props {
   idRef {
     id: "51febd2a3662365008006224"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8003,6 +8669,7 @@ props {
   idRef {
     id: "51febd2d3662365008006225"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8015,6 +8682,7 @@ props {
   idRef {
     id: "51febd2d3662365008006226"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8027,6 +8695,7 @@ props {
   idRef {
     id: "51febd2d3662365008006227"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8039,6 +8708,7 @@ props {
   idRef {
     id: "51febd2d3662365008006228"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8051,6 +8721,7 @@ props {
   idRef {
     id: "51febd2d3662365008006229"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8063,6 +8734,7 @@ props {
   idRef {
     id: "51febd2f366236500800622a"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8075,6 +8747,7 @@ props {
   idRef {
     id: "51febd2f366236500800622b"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8087,6 +8760,7 @@ props {
   idRef {
     id: "51febd2f366236500800622c"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8099,6 +8773,7 @@ props {
   idRef {
     id: "51febd2f366236500800622d"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8111,6 +8786,7 @@ props {
   idRef {
     id: "51febd2f366236500800622e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8123,6 +8799,7 @@ props {
   idRef {
     id: "51febd31366236500800622f"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8135,6 +8812,7 @@ props {
   idRef {
     id: "51febd313662365008006230"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8147,6 +8825,7 @@ props {
   idRef {
     id: "51febd313662365008006231"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8159,6 +8838,7 @@ props {
   idRef {
     id: "51febd313662365008006232"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8171,6 +8851,7 @@ props {
   idRef {
     id: "51febd313662365008006233"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8183,6 +8864,7 @@ props {
   idRef {
     id: "51febd323662365008006234"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8195,6 +8877,7 @@ props {
   idRef {
     id: "51febd323662365008006235"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8207,6 +8890,7 @@ props {
   idRef {
     id: "51febd323662365008006236"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8219,6 +8903,7 @@ props {
   idRef {
     id: "51febd323662365008006237"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_marbleTile01"
@@ -8231,6 +8916,7 @@ props {
   idRef {
     id: "51febd323662365008006238"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -8243,6 +8929,7 @@ props {
   idRef {
     id: "51fed6113662365008006583"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -8255,6 +8942,7 @@ props {
   idRef {
     id: "51fed6553662365008006584"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_speaker01"
@@ -8267,6 +8955,7 @@ props {
   idRef {
     id: "51fed6583662365008006586"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_tech_soundSystem"
@@ -8276,6 +8965,7 @@ props {
     z: 5
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "telestrianEstate_tech_soundSystem"
@@ -8288,6 +8978,7 @@ props {
   idRef {
     id: "51fed68e3662365008006588"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -8297,6 +8988,7 @@ props {
     z: 26.8
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -8309,6 +9001,7 @@ props {
   idRef {
     id: "520462973662361c21000266"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -8321,6 +9014,7 @@ props {
   idRef {
     id: "5204629c3662361c21000267"
   }
+  lod: 0
 }
 props {
   name: "system_gizmo_lightbulb"
@@ -8330,6 +9024,7 @@ props {
     z: 41
   }
   orientation: ORIENTATION_S
+  lod: 0
   light {
     range: 3
     color {
@@ -8357,6 +9052,7 @@ props {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
 }
 props {
   name: "medicalLab_wall_windowEdge02"
@@ -8375,6 +9071,7 @@ props {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
 }
 props {
   name: "medicalLab_wall_windowEdge01"
@@ -8393,6 +9090,7 @@ props {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
 }
 props {
   name: "system_gizmo_lightbulb"
@@ -8405,6 +9103,7 @@ props {
   idRef {
     id: "5206df38366236b01400392b"
   }
+  lod: 0
   light {
     range: 3
     color {
@@ -8426,6 +9125,7 @@ props {
   idRef {
     id: "5206dfd0366236b01400392c"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_steam"
@@ -8439,6 +9139,7 @@ props {
     property_id: "fxScript"
     string_value: "SteamEnvironment"
   }
+  lod: 0
 }
 props {
   name: "system_gizmo_lightbulb"
@@ -8448,6 +9149,7 @@ props {
     z: 9
   }
   orientation: ORIENTATION_S
+  lod: 0
   light {
     range: 5
     color {
@@ -8469,6 +9171,7 @@ props {
   idRef {
     id: "5206e3c0366236b01400392f"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8490,6 +9193,7 @@ props {
   idRef {
     id: "5206e3ce366236b014003930"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8511,6 +9215,7 @@ props {
   idRef {
     id: "5206e3ce366236b014003931"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8532,6 +9237,7 @@ props {
   idRef {
     id: "5206e3d3366236b014003932"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8553,6 +9259,7 @@ props {
   idRef {
     id: "5206e3d6366236b014003933"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8574,6 +9281,7 @@ props {
   idRef {
     id: "5206e3dc366236b014003934"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8595,6 +9303,7 @@ props {
   idRef {
     id: "5206e3e0366236b014003935"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8616,6 +9325,7 @@ props {
   idRef {
     id: "5206e3e3366236b014003936"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8637,6 +9347,7 @@ props {
   idRef {
     id: "5206e468366236b014003937"
   }
+  lod: 0
   light {
     range: 5
     color {
@@ -8655,6 +9366,7 @@ props {
     z: 24
   }
   orientation: ORIENTATION_S
+  lod: 0
   light {
     range: 3
     color {
@@ -8676,6 +9388,7 @@ props {
   idRef {
     id: "5206eba0366236b01400394e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -8688,6 +9401,7 @@ props {
   idRef {
     id: "5206ed38366236b014003a9e"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_floor_tile02"
@@ -8700,6 +9414,7 @@ props {
   idRef {
     id: "5206ed42366236b014003a9f"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge06"
@@ -8712,6 +9427,7 @@ props {
   idRef {
     id: "5206ee05366236b014003aa2"
   }
+  lod: 0
 }
 props {
   name: "office_wall_greyEdge06"
@@ -8724,6 +9440,7 @@ props {
   idRef {
     id: "5206ee07366236b014003aa3"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail04"
@@ -8733,6 +9450,7 @@ props {
     z: 44
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail03"
@@ -8742,6 +9460,7 @@ props {
     z: 43.7
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail05"
@@ -8751,6 +9470,7 @@ props {
     z: 43.6
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_wineGlass01"
@@ -8760,6 +9480,7 @@ props {
     z: 40
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_lighting_lightBox01"
@@ -8769,6 +9490,7 @@ props {
     z: 5.3
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "diveBar_lighting_lightBox01"
@@ -8781,6 +9503,7 @@ props {
   idRef {
     id: "5206ef78366236b014003aa4"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_dancePodBottom01"
@@ -8790,6 +9513,7 @@ props {
     z: 6
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_tech_dancePodTop01"
@@ -8799,6 +9523,7 @@ props {
     z: 6
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_wallDecoration_exitSign01"
@@ -8808,6 +9533,7 @@ props {
     z: 33
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "vfx_fx_dancingWoman"
@@ -8822,6 +9548,7 @@ props {
     string_value: "DancingWomanBar"
   }
   GeneralTags: "BystanderProp"
+  lod: 0
 }
 props {
   name: "diveBar_tech_dancePodBottom01"
@@ -8834,6 +9561,7 @@ props {
   idRef {
     id: "5206f10a366236b014003aa6"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_dancingWoman"
@@ -8851,6 +9579,7 @@ props {
   idRef {
     id: "5206f10a366236b014003aa7"
   }
+  lod: 0
 }
 props {
   name: "diveBar_tech_dancePodTop01"
@@ -8863,6 +9592,7 @@ props {
   idRef {
     id: "5206f10a366236b014003aa8"
   }
+  lod: 0
 }
 props {
   name: "telestrianEstate_furniture_hallwayTable02"
@@ -8872,6 +9602,7 @@ props {
     z: 23
   }
   orientation: ORIENTATION_E
+  lod: 0
 }
 props {
   name: "telestrianEstate_furniture_hallwayTable02"
@@ -8884,6 +9615,7 @@ props {
   idRef {
     id: "5206f183366236b014003aa9"
   }
+  lod: 0
 }
 props {
   name: "diveBar_lighting_lightBox01"
@@ -8896,6 +9628,7 @@ props {
   idRef {
     id: "5206f1a2366236b014003aaa"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -8905,6 +9638,7 @@ props {
     z: 7.4
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_lighting_lightBox01"
@@ -8917,6 +9651,7 @@ props {
   idRef {
     id: "5206f228366236b014003aac"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_fill"
@@ -8929,6 +9664,7 @@ props {
   idRef {
     id: "5206f22e366236b014003aad"
   }
+  lod: 0
 }
 props {
   name: "apartments_clutter_kitchenTrashcan02"
@@ -8938,6 +9674,7 @@ props {
     z: 41
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "apartments_clutter_kitchenTrashcan02"
@@ -8950,6 +9687,7 @@ props {
   idRef {
     id: "5206f2e7366236b014003aae"
   }
+  lod: 0
 }
 props {
   name: "apartments_clutter_kitchenTrashcan02"
@@ -8962,6 +9700,7 @@ props {
   idRef {
     id: "5206f2ee366236b014003aaf"
   }
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallSpeaker"
@@ -8971,6 +9710,7 @@ props {
     z: 30
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallSpeaker"
@@ -8983,6 +9723,7 @@ props {
   idRef {
     id: "5206f338366236b014003ab0"
   }
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallSpeaker"
@@ -8995,6 +9736,7 @@ props {
   idRef {
     id: "5206f340366236b014003ab1"
   }
+  lod: 0
 }
 props {
   name: "secretLab_clutter_wallSpeaker"
@@ -9007,6 +9749,7 @@ props {
   idRef {
     id: "5206f347366236b014003ab2"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle01"
@@ -9016,6 +9759,7 @@ props {
     z: 39.5
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -9025,6 +9769,7 @@ props {
     z: 40.1
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle04"
@@ -9034,6 +9779,7 @@ props {
     z: 39.3
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail01"
@@ -9043,6 +9789,7 @@ props {
     z: 40.2
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail02"
@@ -9052,6 +9799,7 @@ props {
     z: 44.1
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail03"
@@ -9061,6 +9809,7 @@ props {
     z: 44.3
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail04"
@@ -9070,6 +9819,7 @@ props {
     z: 34
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail05"
@@ -9079,6 +9829,7 @@ props {
     z: 39.8
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_cocktail06"
@@ -9088,6 +9839,7 @@ props {
     z: 44
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "diveBar_clutter_tableSet01"
@@ -9097,6 +9849,7 @@ props {
     z: 40
   }
   orientation: ORIENTATION_S
+  lod: 0
 }
 props {
   name: "telestrianEstate_furniture_hallwayTable02"
@@ -9109,6 +9862,7 @@ props {
   idRef {
     id: "5206fb5c366236541200164a"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_dancingMan"
@@ -9124,6 +9878,7 @@ props {
   }
   GeneralTags: "BystanderProp"
   displayName: "Dancing Man"
+  lod: 0
 }
 props {
   name: "vfx_fx_flashingAlarm"
@@ -9137,6 +9892,7 @@ props {
     property_id: "fxScript"
     string_value: "EnvironmentLoopFlashingAlarm"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9150,6 +9906,7 @@ props {
     property_id: "fxScript"
     string_value: "FlickeringLightEnvironment"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flickerFill"
@@ -9163,6 +9920,7 @@ props {
     property_id: "fxScript"
     string_value: "EnvironmentLoopFlickeringLightFill"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flies"
@@ -9176,6 +9934,7 @@ props {
     property_id: "fxScript"
     string_value: "SpotlightFliesEnvironment"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_lowmist"
@@ -9189,6 +9948,7 @@ props {
     property_id: "fxScript"
     string_value: "EnvironmentLoopLowMistBank"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_poisongasvent"
@@ -9202,6 +9962,7 @@ props {
     property_id: "fxScript"
     string_value: "PoisonGasVentEnvironment"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_smallfire"
@@ -9215,6 +9976,7 @@ props {
     property_id: "fxScript"
     string_value: "CampfireEnvironment"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_steam"
@@ -9228,6 +9990,7 @@ props {
     property_id: "fxScript"
     string_value: "SteamEnvironment"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_trivid"
@@ -9241,6 +10004,7 @@ props {
     property_id: "fxScript"
     string_value: "EnvironmentLoopTriVid"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_watersplashes"
@@ -9254,6 +10018,7 @@ props {
     property_id: "fxScript"
     string_value: "EnvironmentLoopWaterSplashes"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flashingAlarm"
@@ -9270,6 +10035,7 @@ props {
   idRef {
     id: "5206fe26366236541200164d"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flashingAlarm"
@@ -9286,6 +10052,7 @@ props {
   idRef {
     id: "5206fe2d366236541200164e"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flashingAlarm"
@@ -9302,6 +10069,7 @@ props {
   idRef {
     id: "5206fe37366236541200164f"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flashingAlarm"
@@ -9318,6 +10086,7 @@ props {
   idRef {
     id: "5206fe3b3662365412001650"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_smallfire"
@@ -9334,6 +10103,7 @@ props {
   idRef {
     id: "5206fea43662365412001651"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9350,6 +10120,7 @@ props {
   idRef {
     id: "5206ffb83662365412001653"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9366,6 +10137,7 @@ props {
   idRef {
     id: "5206ffbb3662365412001654"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9382,6 +10154,7 @@ props {
   idRef {
     id: "5206ffbe3662365412001655"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9398,6 +10171,7 @@ props {
   idRef {
     id: "5206ffc23662365412001656"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_poisongasvent"
@@ -9414,6 +10188,7 @@ props {
   idRef {
     id: "5206ffd53662365412001658"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_fallingsparks"
@@ -9430,6 +10205,7 @@ props {
   idRef {
     id: "5207003d3662365412001659"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_fallingsparks"
@@ -9446,6 +10222,7 @@ props {
   idRef {
     id: "5207006f366236541200165a"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_fallingsparks"
@@ -9462,6 +10239,7 @@ props {
   idRef {
     id: "52070072366236541200165b"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_fallingsparks"
@@ -9478,6 +10256,7 @@ props {
   idRef {
     id: "5207007c366236541200165c"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_fallingsparks"
@@ -9494,6 +10273,7 @@ props {
   idRef {
     id: "5207007e366236541200165d"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_lowmist"
@@ -9510,6 +10290,7 @@ props {
   idRef {
     id: "52070112366236541200165e"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_lowmist"
@@ -9526,6 +10307,7 @@ props {
   idRef {
     id: "52070116366236541200165f"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_lowmist"
@@ -9542,6 +10324,7 @@ props {
   idRef {
     id: "5207011e3662365412001660"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9558,6 +10341,7 @@ props {
   idRef {
     id: "520701223662365412001661"
   }
+  lod: 0
 }
 props {
   name: "vfx_fx_flicker"
@@ -9574,6 +10358,7 @@ props {
   idRef {
     id: "520701293662365412001662"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_wineGlass01"
@@ -9586,6 +10371,7 @@ props {
   idRef {
     id: "520716433662365412001738"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -9598,6 +10384,7 @@ props {
   idRef {
     id: "520716503662365412001739"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle04"
@@ -9610,6 +10397,7 @@ props {
   idRef {
     id: "5207165d366236541200173a"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -9622,6 +10410,7 @@ props {
   idRef {
     id: "5207165d366236541200173b"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle02"
@@ -9634,6 +10423,7 @@ props {
   idRef {
     id: "5207165d366236541200173c"
   }
+  lod: 0
 }
 props {
   name: "diveBar_clutter_bottle03"
@@ -9646,6 +10436,7 @@ props {
   idRef {
     id: "5207165d366236541200173d"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9658,6 +10449,7 @@ props {
   idRef {
     id: "520832ea3662364c0d0040d2"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9670,6 +10462,7 @@ props {
   idRef {
     id: "520832ed3662364c0d0040d3"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9682,6 +10475,7 @@ props {
   idRef {
     id: "520832ef3662364c0d0040d4"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9694,6 +10488,7 @@ props {
   idRef {
     id: "520832f03662364c0d0040d5"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9706,6 +10501,7 @@ props {
   idRef {
     id: "520832f23662364c0d0040d6"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9718,6 +10514,7 @@ props {
   idRef {
     id: "520832f43662364c0d0040d7"
   }
+  lod: 0
 }
 props {
   name: "secretLab_wall_4x4fill"
@@ -9730,4 +10527,5 @@ props {
   idRef {
     id: "520832f63662364c0d0040d8"
   }
+  lod: 0
 }

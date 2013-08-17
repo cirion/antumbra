@@ -136,7 +136,7 @@ nodes {
     id: "51ff2844366236f8030073f0"
   }
   index: 6
-  text: "My organization wants the Site, and we need to get it without alerting Mitsuhama to what they have. Hence that box, which will make them drop this property faster than... uh... a thing that drops quickly."
+  text: "My organization wants the Site, and we need to get it without alerting Mitsuhama to what they have. Hence that box, which will make them drop this property faster than you can blink."
   branches {
     responseText: "So what now?"
     nextNodeIndex: 7

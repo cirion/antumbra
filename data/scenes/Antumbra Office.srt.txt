@@ -1374,6 +1374,17 @@ triggers {
         float_value: 0
       }
     }
+    ops {
+      functionName: "Delete Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "51fef1663662365008006876"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -3744,6 +3755,7 @@ characters {
   idRef {
     id: "51fef16c3662365008006877"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "Player 0"
@@ -3763,6 +3775,7 @@ characters {
   idRef {
     id: "51ff1478366236f8030072ef"
   }
+  lod: 0
   character_instance {
     prefab_name: "Security/ElfMaleSecurity"
     character_sheet_id: "Lvl1_Elf_Samurai"
@@ -3826,9 +3839,6 @@ characters {
       prefab_name: "Sword 1 Machete"
     }
     equipment {
-      prefab_name: "HealthPack"
-    }
-    equipment {
       prefab_name: "Pi 1 Ceska Black Scorpion"
     }
     team_id: "LoneStar"
@@ -3855,6 +3865,7 @@ characters {
   idRef {
     id: "51ff1496366236f8030072f0"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/DwarfMale"
     character_sheet_id: "Lvl1_Merc_Dwarf_CombatDecker"
@@ -3951,6 +3962,7 @@ characters {
   idRef {
     id: "51ff1903366236f8030072fb"
   }
+  lod: 0
   character_instance {
     prefab_name: "Security/HumanMaleSecurityNVG"
     character_sheet_id: "Lvl1_Merc_Human_CyberWarrior"
@@ -4009,9 +4021,6 @@ characters {
       archetypeName: "Guard - Hunt And Destroy"
       attitude: AttitudeAggressive
     }
-    equipment {
-      prefab_name: "Grenade 1 (Frag)"
-    }
     team_id: "LoneStar"
     char_name: "Security Guard"
     GeneralTags: "squad1"
@@ -4032,6 +4041,7 @@ characters {
   idRef {
     id: "51ff1ed8366236f8030072ff"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanFemale"
     character_sheet_id: "BaseCivilian"
@@ -4082,6 +4092,7 @@ characters {
   idRef {
     id: "5202567a36623654100039d5"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/TrollMaleLonestarSecurityGuard"
     character_sheet_id: "Lonestar_Lv2_Captain"
@@ -4159,6 +4170,7 @@ characters {
   idRef {
     id: "5202578a36623654100039d6"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/OrkLonestarGuard"
     character_sheet_id: "Lonestar_Lv1_Ork_Shotgun"
@@ -4240,6 +4252,7 @@ characters {
   idRef {
     id: "5202580536623654100039d8"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/HumanMaleLonestarMage"
     character_sheet_id: "Lonestar_Lv1_Human_Mage"
@@ -4320,6 +4333,7 @@ characters {
   idRef {
     id: "5202588436623654100039d9"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/HumanMaleLonestarSecurityGuard"
     character_sheet_id: "Lonestar_Lv1_Human_Pistol"
@@ -4402,6 +4416,7 @@ characters {
   idRef {
     id: "5202592e36623654100039dc"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/HumanMaleLonestarSecurityGuard"
     character_sheet_id: "Lonestar_Lv1_Heavy_SMG"
@@ -4483,6 +4498,7 @@ characters {
   idRef {
     id: "5202598636623654100039dd"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/HumanMaleLonestarShaman"
     character_sheet_id: "Lonestar_Lv1_Human_Mage"
@@ -4564,6 +4580,7 @@ characters {
   idRef {
     id: "520259e736623654100039de"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/TrollMaleLoneStarHeavyGuard"
     character_sheet_id: "Lonestar_Lv1_Captain"
@@ -4649,6 +4666,7 @@ characters {
   idRef {
     id: "5202fc403662365410003af0"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "Player 1"
@@ -4668,6 +4686,7 @@ characters {
   idRef {
     id: "5203125d3662365410003d04"
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv5_Captain"

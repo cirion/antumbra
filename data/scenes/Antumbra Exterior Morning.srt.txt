@@ -611,6 +611,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanFemale"
     character_sheet_id: "BaseCivilian"
@@ -662,6 +663,7 @@ characters {
   idRef {
     id: "52080dde3662364c0d003da5"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -689,6 +691,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv5_Captain"
@@ -730,6 +733,7 @@ characters {
   idRef {
     id: "52080dde3662364c0d003da7"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/TrollFemale"
     character_sheet_id: "BaseCivilian"
@@ -782,6 +786,7 @@ characters {
   idRef {
     id: "52080e003662364c0d003da8"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -802,6 +807,7 @@ characters {
   idRef {
     id: "52080f183662364c0d003dab"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/ElfFemaleFashionista"
     character_sheet_id: "BaseCivilian"
@@ -849,6 +855,7 @@ characters {
   idRef {
     id: "52080f653662364c0d003dad"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/OrkMale"
     character_sheet_id: "BaseCivilian"
@@ -902,6 +909,7 @@ characters {
   idRef {
     id: "5208143b3662364c0d003daf"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanMale"
     character_sheet_id: "BaseCivilian"
@@ -954,6 +962,7 @@ characters {
   idRef {
     id: "520817183662364c0d003db8"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanMaleSpikyPunk"
     character_sheet_id: "BaseCivilian"

@@ -6283,14 +6283,15 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -58
+    x: 1
     y: 0
-    z: -32
+    z: 8
   }
   orientation: ORIENTATION_N
   idRef {
     id: "51ffb847366236ac0e00012c"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -6315,6 +6316,7 @@ characters {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/OrkMale"
     character_sheet_id: "Lvl1_Merc_Ork_UrbanShaman"
@@ -6414,6 +6416,7 @@ characters {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/ElfFemaleFashionista"
     character_sheet_id: "Lvl1_Elf_Samurai"
@@ -6507,6 +6510,7 @@ characters {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanMale"
     character_sheet_id: "Lvl1_Merc_Human_AllMagic"
@@ -6605,6 +6609,7 @@ characters {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
   character_instance {
     prefab_name: "Standard/DwarfMaleBiker"
     character_sheet_id: "Lvl1_Dwarf_Shaman"
@@ -6695,6 +6700,7 @@ characters {
     interactionRadius: 1
     interactionIcon: InteractionIcon_Generic
   }
+  lod: 0
   character_instance {
     prefab_name: "Gangers/TrollMaleGanger_Halloweener"
     character_sheet_id: "Lvl1_Troll_Samurai"
@@ -6779,6 +6785,7 @@ characters {
   idRef {
     id: "5201c2993662368c16004e54"
   }
+  lod: 0
   character_instance {
     prefab_name: "Spirit/SpiritEarth"
     character_sheet_id: "Spirit Nature"
@@ -6861,6 +6868,7 @@ characters {
   idRef {
     id: "5201c90f3662368c16004e59"
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/HumanMaleHomelessJacket"
     character_sheet_id: "Lonestar_Lv2_Captain"
@@ -6941,6 +6949,7 @@ characters {
   idRef {
     id: "5201cd263662368c16004e5d"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -6959,6 +6968,7 @@ characters {
   idRef {
     id: "5201d5b53662368c16004e6f"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
@@ -7038,6 +7048,7 @@ characters {
   idRef {
     id: "5201d73e3662368c16004e70"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
@@ -7115,6 +7126,7 @@ characters {
   idRef {
     id: "5201d8483662368c16004e71"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureHellhound"
     character_sheet_id: "Hellhound (normal)"
@@ -7192,6 +7204,7 @@ characters {
   idRef {
     id: "5201d87d3662368c16004e72"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureBasilisk"
     character_sheet_id: "Basilisk (normal)"
@@ -7269,6 +7282,7 @@ characters {
   idRef {
     id: "5202526036623654100039b4"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanFemale"
     character_sheet_id: "Ghoul (Human)"
@@ -7349,6 +7363,7 @@ characters {
   idRef {
     id: "5202536e36623654100039b5"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanFemale"
     character_sheet_id: "Ghoul (Human)"
@@ -7429,6 +7444,7 @@ characters {
   idRef {
     id: "5202537036623654100039b6"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanFemale"
     character_sheet_id: "Ghoul (Human)"
@@ -7509,6 +7525,7 @@ characters {
   idRef {
     id: "5202537236623654100039b7"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanMale"
     character_sheet_id: "Ghoul (Human)"
@@ -7589,6 +7606,7 @@ characters {
   idRef {
     id: "5202538536623654100039b8"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanMale"
     character_sheet_id: "Ghoul (Human)"
@@ -7669,6 +7687,7 @@ characters {
   idRef {
     id: "5202538736623654100039b9"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanMale"
     character_sheet_id: "Ghoul (Human)"
@@ -7749,6 +7768,7 @@ characters {
   idRef {
     id: "5202538b36623654100039ba"
   }
+  lod: 0
   character_instance {
     prefab_name: "Creature/CreatureGhoulHumanMale"
     character_sheet_id: "Ghoul (Human)"
@@ -7811,6 +7831,168 @@ characters {
     }
     equipment {
       prefab_name: "GhoulFistPoison"
+    }
+    team_id: "Gangers"
+    char_name: "Ghoul"
+    pc_spawn_number: -1
+    karma: 58
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -68
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520fbaa6366236f41700491d"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Creature/CreatureGhoulHumanMale"
+    character_sheet_id: "Ghoul (Human)"
+    character_mod {
+      stats {
+        body: -5
+        quickness: -2
+        strength: -2
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -1
+        force: 0
+        morale: -1
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: -3
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: -3
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Hunt And Destroy"
+      attitude: AttitudeAggressive
+      attackRandom: AttackStyle_AllEqual
+    }
+    equipment {
+      prefab_name: "GhoulFist"
+    }
+    team_id: "Gangers"
+    char_name: "Ghoul"
+    pc_spawn_number: -1
+    karma: 58
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -65
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520fbab2366236f41700491e"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Creature/CreatureGhoulHumanFemale"
+    character_sheet_id: "Ghoul (Human)"
+    character_mod {
+      stats {
+        body: -5
+        quickness: -2
+        strength: -2
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: -1
+        force: 0
+        morale: -1
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: -3
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: -3
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Hunt And Destroy"
+      attitude: AttitudeAggressive
+      attackRandom: AttackStyle_AllEqual
+    }
+    equipment {
+      prefab_name: "GhoulFist"
     }
     team_id: "Gangers"
     char_name: "Ghoul"
@@ -7943,6 +8125,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

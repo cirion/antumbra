@@ -912,6 +912,36 @@ nodes {
   text: "Well? What\'s the word?"
   branches {
     responseText: "It\'s done."
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "51f7429764343188990041a8"
+            }
+            args {
+              string_value: "CarverOpinion"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+        args {
+          int_value: 0
+        }
+      }
+    }
     nextNodeIndex: 18
     hideIfUnavailable: true
   }
@@ -1010,27 +1040,6 @@ nodes {
       functionName: "Add Nuyen"
       args {
         int_value: 20000
-      }
-    }
-    ops {
-      functionName: "Add Actor Karma"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Player)"
-              args {
-                int_value: 0
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        int_value: 5
       }
     }
   }

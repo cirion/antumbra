@@ -1719,7 +1719,7 @@ triggers {
         }
       }
       args {
-        float_value: 0.3
+        float_value: 0.2
       }
       args {
         call_value {
@@ -3126,6 +3126,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanMaleAutumnPony"
     character_sheet_id: "BaseCivilian"
@@ -3178,6 +3179,7 @@ characters {
   idRef {
     id: "51fd1f0d36623670070018cf"
   }
+  lod: 0
   character_instance {
     character_sheet_id: "Lvl4_Dwarf_Shaman"
     character_mod {
@@ -3257,10 +3259,11 @@ characters {
     z: 34
   }
   orientation: ORIENTATION_E
-  GeneralTags: "Bystander"
+  GeneralTags: "bystander"
   idRef {
     id: "51fd238c3662367007001902"
   }
+  lod: 0
   character_instance {
     character_sheet_id: "Lvl4_Elf_Decker"
     character_mod {
@@ -3348,7 +3351,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "New Actor"
-    GeneralTags: "Bystander"
+    GeneralTags: "bystander"
     pc_spawn_number: -1
     hiring_type: HiringType_Hireable
     cyberware_jack: "Datajack"
@@ -3380,6 +3383,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/OrkMale"
     character_sheet_id: "Lonestar_Lv1_Ork_Shotgun"
@@ -3436,6 +3440,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/ElfFemaleFashionista"
     character_sheet_id: "BaseCivilian"
@@ -3492,6 +3497,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Homeless/DwarfMaleHomelessBeard"
     character_sheet_id: "BaseCivilian"
@@ -3541,6 +3547,7 @@ characters {
   idRef {
     id: "51fd4dac3662367c090072c3"
   }
+  lod: 0
   character_instance {
     prefab_name: "Security/TrollFemaleSecurity"
     character_sheet_id: "Lvl1_Merc_Troll_Brute"
@@ -3577,6 +3584,7 @@ characters {
   idRef {
     id: "51fd4e0f3662367c090072c4"
   }
+  lod: 0
   character_instance {
     prefab_name: "Security/TrollMalesSecurity"
     character_sheet_id: "Lvl1_Merc_Troll_TechMage"
@@ -3618,6 +3626,7 @@ characters {
   idRef {
     id: "51fd4fd13662367c090072c5"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanMaleTurquoise"
     character_sheet_id: "BaseCivilian"
@@ -3666,6 +3675,7 @@ characters {
   idRef {
     id: "51fd509e3662367c090072c6"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/HumanFemaleBunraku"
     character_sheet_id: "BaseCivilian"
@@ -3721,6 +3731,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/DwarfMale"
     character_sheet_id: "Lvl1_Dwarf_Shaman"
@@ -3740,6 +3751,7 @@ characters {
         spellcasting: 3
         conjuring: 2
         spirit_summoning: 2
+        dodge: 1
       }
       specializations {
       }
@@ -3751,13 +3763,7 @@ characters {
       prefab_name: "Spell Haste 1"
     }
     equipment {
-      prefab_name: "HealthPack"
-    }
-    equipment {
       prefab_name: "ShamanTotemCoat"
-    }
-    equipment {
-      prefab_name: "Spell Quiet Bomb 1"
     }
     equipment {
       prefab_name: "Spell Powerbolt 1"
@@ -3771,13 +3777,16 @@ characters {
     equipment {
       prefab_name: "Fist"
     }
+    equipment {
+      prefab_name: "HealthPack_med"
+    }
     team_id: "Gangers"
     char_name: "Dalmin"
     pc_spawn_number: -1
     portrait {
       filename: "pc_dwarfmale_03c_eastasian"
     }
-    karma: 52
+    karma: 53
   }
 }
 characters {
@@ -3791,6 +3800,7 @@ characters {
   idRef {
     id: "51fd5dfe3662367c0900738b"
   }
+  lod: 0
   character_instance {
     team_id: "Shadowrunners"
     char_name: "New Actor"
@@ -3817,6 +3827,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Standard/TrollFemaleDetective"
     character_sheet_id: "Lvl1_Merc_Troll_Brute"
@@ -3873,6 +3884,7 @@ characters {
   idRef {
     id: "51fea39d3662365008006014"
   }
+  lod: 0
   character_instance {
     prefab_name: "Lonestar/HumanFemaleLonestarCaptain"
     character_sheet_id: "Lonestar_Lv1_Captain"
@@ -3919,6 +3931,7 @@ characters {
       turnToFace: true
     }
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/TrollMaleMentalPatientStraightJacketCreme"
     character_sheet_id: "BaseCivilian"
@@ -3970,6 +3983,7 @@ characters {
   idRef {
     id: "5206e92a366236b01400394c"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/ElfMale"
     character_sheet_id: "BaseCivilian"
@@ -4022,6 +4036,7 @@ characters {
   idRef {
     id: "520702b93662365412001664"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanMaleTurquoisePonyJacket"
     character_mod {
@@ -4048,6 +4063,7 @@ characters {
   idRef {
     id: "520702de3662365412001667"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanFemalePeacockCoat"
     character_mod {
@@ -4074,6 +4090,7 @@ characters {
   idRef {
     id: "520702df3662365412001668"
   }
+  lod: 0
   character_instance {
     prefab_name: "Standard/ElfMaleGanger"
     character_mod {
@@ -4099,6 +4116,7 @@ characters {
   idRef {
     id: "520702e13662365412001669"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/ElfFemaleFashionista"
     character_mod {
@@ -4125,6 +4143,7 @@ characters {
   idRef {
     id: "52070348366236541200166a"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanFemalePeacock"
     character_mod {
@@ -4152,6 +4171,7 @@ characters {
   idRef {
     id: "5207034b366236541200166b"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/HumanFemaleDancer"
     character_sheet_id: "BaseCivilian"
@@ -4196,6 +4216,7 @@ characters {
   idRef {
     id: "52070355366236541200166c"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanMaleSpikyPunk"
     character_sheet_id: "BaseCivilian"
@@ -4240,6 +4261,7 @@ characters {
   idRef {
     id: "52070371366236541200166d"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanFemaleLonghairGrayPunk"
     character_sheet_id: "BaseCivilian"
@@ -4284,6 +4306,7 @@ characters {
   idRef {
     id: "52070379366236541200166e"
   }
+  lod: 0
   character_instance {
     prefab_name: "Gangers/ElfMaleGangerDreads"
     character_sheet_id: "BaseCivilian"
@@ -4327,6 +4350,7 @@ characters {
   idRef {
     id: "52070383366236541200166f"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanMaleAutumn"
     character_mod {
@@ -4352,6 +4376,7 @@ characters {
   idRef {
     id: "5207065936623654120016c7"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanFemaleTuscanCoatHat"
     character_sheet_id: "BaseCivilian"
@@ -4394,6 +4419,7 @@ characters {
   idRef {
     id: "5207067636623654120016c8"
   }
+  lod: 0
   character_instance {
     prefab_name: "Wealthy/HumanMalePlumPony"
     character_sheet_id: "BaseCivilian"
@@ -4436,6 +4462,7 @@ characters {
   idRef {
     id: "5207069536623654120016c9"
   }
+  lod: 0
   character_instance {
     prefab_name: "Gangers/DwarfMaleGangerMohawk"
     character_sheet_id: "BaseCivilian"
@@ -4478,6 +4505,7 @@ characters {
   idRef {
     id: "520706b236623654120016ca"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/CherryBomb"
     character_sheet_id: "BaseCivilian"
@@ -4521,6 +4549,7 @@ characters {
   idRef {
     id: "5207076836623654120016cb"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/TechDealer"
     character_sheet_id: "BaseCivilian"
@@ -4569,6 +4598,7 @@ characters {
   idRef {
     id: "5207078f36623654120016cc"
   }
+  lod: 0
   character_instance {
     prefab_name: "Story/TrollMaleHawaiianShirt"
     character_sheet_id: "BaseCivilian"
@@ -4617,6 +4647,7 @@ characters {
   idRef {
     id: "520707b336623654120016cd"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/DwarfFemale"
     character_sheet_id: "BaseCivilian"
@@ -4669,6 +4700,7 @@ characters {
   idRef {
     id: "520707fd36623654120016ce"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/OrkFemale"
     character_sheet_id: "BaseCivilian"
@@ -4716,6 +4748,7 @@ characters {
   idRef {
     id: "5207082f36623654120016cf"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/TrollFemale"
     character_sheet_id: "BaseCivilian"
@@ -4762,6 +4795,7 @@ characters {
   idRef {
     id: "5207086436623654120016d0"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/ElfFemale"
     character_sheet_id: "BaseCivilian"
@@ -4808,6 +4842,7 @@ characters {
   idRef {
     id: "52070dbb36623654120016d2"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/OrkFemale"
     character_sheet_id: "BaseCivilian"
@@ -4854,6 +4889,7 @@ characters {
   idRef {
     id: "52070f1936623654120016d3"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/ElfFemaleProstitute"
     character_sheet_id: "BaseCivilian"
@@ -4895,6 +4931,7 @@ characters {
   idRef {
     id: "52071163366236541200172b"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/ElfFemale"
     character_sheet_id: "BaseCivilian"
@@ -4939,6 +4976,7 @@ characters {
   idRef {
     id: "520714a1366236541200172f"
   }
+  lod: 0
   character_instance {
     prefab_name: "Punk/HumanFemaleLonghairPunk"
     character_sheet_id: "BaseCivilian"
@@ -4988,6 +5026,7 @@ characters {
   idRef {
     id: "5207150a3662365412001730"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanFemale"
     character_sheet_id: "BaseCivilian"
@@ -5040,6 +5079,7 @@ characters {
   idRef {
     id: "520715413662365412001731"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanMale"
     character_sheet_id: "BaseCivilian"
@@ -5092,6 +5132,7 @@ characters {
   idRef {
     id: "520715613662365412001732"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/HumanFemale"
     character_sheet_id: "BaseCivilian"
@@ -5144,6 +5185,7 @@ characters {
   idRef {
     id: "520715853662365412001733"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/ElfMale"
     character_sheet_id: "BaseCivilian"
@@ -5196,6 +5238,7 @@ characters {
   idRef {
     id: "520715c63662365412001734"
   }
+  lod: 0
   character_instance {
     prefab_name: "Core/ElfMale"
     character_sheet_id: "BaseCivilian"
@@ -5248,6 +5291,7 @@ characters {
   idRef {
     id: "520715e83662365412001735"
   }
+  lod: 0
   character_instance {
     prefab_name: "Gangers/ElfFemaleGanger"
     character_sheet_id: "BaseCivilian"
@@ -5300,6 +5344,7 @@ characters {
   idRef {
     id: "520715fe3662365412001736"
   }
+  lod: 0
   character_instance {
     prefab_name: "Extras/HumanFemaleProstitute"
     character_sheet_id: "BaseCivilian"
@@ -5352,6 +5397,7 @@ characters {
   idRef {
     id: "5207161f3662365412001737"
   }
+  lod: 0
   character_instance {
     prefab_name: "Standard/ElfFemaleStreetSamurai"
     character_sheet_id: "BaseCivilian"
