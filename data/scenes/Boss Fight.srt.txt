@@ -2318,7 +2318,7 @@ characters {
   gridPoint {
     x: -76
     y: 0
-    z: -27
+    z: -26
   }
   orientation: ORIENTATION_N
   idRef {
