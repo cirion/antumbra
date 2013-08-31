@@ -3786,6 +3786,7 @@ characters {
     portrait {
       filename: "pc_dwarfmale_03c_eastasian"
     }
+    portrait_code_override: "s5h5c4b8"
     karma: 53
   }
 }

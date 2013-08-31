@@ -61,11 +61,19 @@ nodes {
     }
   }
   branches {
-    responseText: "What can you tell me about this box?"
+    responseText: "What brings you here?"
     nextNodeIndex: 4
     onlyOnce: true
     idRef {
-      id: "5208317c3662364c0d004045"
+      id: "5220d5116434313427188b5d"
+    }
+  }
+  branches {
+    responseText: "What can you tell me about this box?"
+    nextNodeIndex: 5
+    onlyOnce: true
+    idRef {
+      id: "5220d3dd6434313427188b58"
     }
   }
   branches {
@@ -113,7 +121,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 11
+    nextNodeIndex: 12
     hideIfUnavailable: true
   }
   branches {
@@ -161,7 +169,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 16
+    nextNodeIndex: 17
     hideIfUnavailable: true
   }
   branches {
@@ -209,16 +217,16 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 17
+    nextNodeIndex: 18
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
-      id: "51fdd303366236181b0075d7"
+      id: "5220d3e96434313427188b59"
     }
   }
   branches {
     responseText: "So long, Dalmin."
-    nextNodeIndex: 23
+    nextNodeIndex: 24
   }
   branches {
     responseText: "{{GM}}Leave.{{/GM}}"
@@ -254,13 +262,26 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fdcffa366236181b007524"
+    id: "5220d43e6434313427188b5c"
   }
   index: 4
+  text: "Apart from the fantastic drinks and eye-candy, you mean?\n\nI just finished a run, and wanted to celebrate a little. A shaman like me typically plays a supporting role; I\'m the person who Hastes the big guy so he looks even better. On the other hand, I\'ll probably have a longer life expectancy. I can always call on an elemental if I need a distraction while I make a quick exit."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "51fdcffa366236181b007524"
+  }
+  index: 5
   text: "{{GM}}Dalmin stops dancing when you hand him the box.  His eyes grow unfocused and he seems a little less present than he did a few seconds ago.{{/GM}}\n\nI\342\200\231d be happy to consult on your run. Let\342\200\231s take a look at it...\n\nOh.\n\nOh, dear."
   branches {
     responseText: ""
-    nextNodeIndex: 5
+    nextNodeIndex: 6
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -268,19 +289,19 @@ nodes {
   idRef {
     id: "51fdd0b0366236181b00752d"
   }
-  index: 5
+  index: 6
   text: "{{GM}}His jovial mood has flown away. Dalmin regards you with a growing frown.{{/GM}}\n\n$(l.name), do you have any idea what\'s in here?"
   branches {
     responseText: "Medical supplies?"
-    nextNodeIndex: 6
-  }
-  branches {
-    responseText: "Enough space to stuff an uncooperative dwarf?"
     nextNodeIndex: 7
   }
   branches {
-    responseText: "{{GM}}Remain silent.{{/GM}}"
+    responseText: "Enough space to stuff an uncooperative dwarf?"
     nextNodeIndex: 8
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 9
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -288,11 +309,11 @@ nodes {
   idRef {
     id: "51fdd296366236181b0075ce"
   }
-  index: 6
+  index: 7
   text: "No. Rather the opposite, in fact..."
   branches {
     responseText: ""
-    nextNodeIndex: 8
+    nextNodeIndex: 9
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -301,11 +322,11 @@ nodes {
   idRef {
     id: "51fdd270366236181b0075b3"
   }
-  index: 7
+  index: 8
   text: "Er. No. Not unless you squeezed it very hard, I suppose..."
   branches {
     responseText: ""
-    nextNodeIndex: 8
+    nextNodeIndex: 9
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -314,21 +335,21 @@ nodes {
   idRef {
     id: "51fdd0f7366236181b007535"
   }
-  index: 8
+  index: 9
   text: "This package is filled with nanites. Unbelievably small machines, and these ones are created to tear things apart. There are enough in there to infect this entire building. If they\342\200\231re designed to replicate, they could take over the whole district."
   branches {
     responseText: "I take it that\'s bad?"
-    nextNodeIndex: 9
+    nextNodeIndex: 10
     auxiliaryLink: true
   }
   branches {
     responseText: "So?"
-    nextNodeIndex: 9
+    nextNodeIndex: 10
     auxiliaryLink: true
   }
   branches {
     responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 9
+    nextNodeIndex: 10
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -363,21 +384,21 @@ nodes {
   idRef {
     id: "51fdd132366236181b00753a"
   }
-  index: 9
+  index: 10
   text: "I\342\200\231m no expert, but once this thing is opened, they\342\200\231ll swarm through the entire area. Just a couple of nanites are plenty for implanting cyberware. With this many in a box, they must be for an attack.\n\nWho would do that, though? There\342\200\231s nothing in here but aspiring trideo stars and DJs. The whole building will be doomed to destruction."
   branches {
     responseText: "What do you suggest I do?"
-    nextNodeIndex: 10
+    nextNodeIndex: 11
     auxiliaryLink: true
   }
   branches {
     responseText: "Who cares?"
-    nextNodeIndex: 10
+    nextNodeIndex: 11
     auxiliaryLink: true
   }
   branches {
     responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 10
+    nextNodeIndex: 11
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -385,7 +406,7 @@ nodes {
   idRef {
     id: "51fdd18e366236181b00753f"
   }
-  index: 10
+  index: 11
   text: "Kali runs the joint. You could show her the box and see if she knows why any Johnsons would be after her.\n\nOf course, backing out of a contract will hurt your rep. You can just do the job and get paid. It\342\200\231s what we usually do.\n\nAnd if you\342\200\231re feeling cheeky, I suppose you could always go back to your Johnson and ask him for some more nuyen. Not much is illegal in Seattle, but I\342\200\231d say a mass nanite-bombing certainly qualifies. This could be a rare opportunity for some prime blackmail."
   branches {
     responseText: ""
@@ -398,11 +419,11 @@ nodes {
   idRef {
     id: "51fd5ae43662367c09007328"
   }
-  index: 11
+  index: 12
   text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
   branches {
     responseText: ""
-    nextNodeIndex: 12
+    nextNodeIndex: 13
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -410,7 +431,7 @@ nodes {
   idRef {
     id: "51fdcf03366236181b0074f3"
   }
-  index: 12
+  index: 13
   text: "Tell you what: my pals are coming here in three hours. You can have me until then for just 500 nuyen."
   branches {
     responseText: "{{CC}}\302\245500{{/CC}} Here you go."
@@ -433,15 +454,15 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 13
-  }
-  branches {
-    responseText: "Too pricey for me."
     nextNodeIndex: 14
   }
   branches {
-    responseText: "Not a chance."
+    responseText: "Too pricey for me."
     nextNodeIndex: 15
+  }
+  branches {
+    responseText: "Not a chance."
+    nextNodeIndex: 16
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -449,7 +470,7 @@ nodes {
   idRef {
     id: "51fdcf03366236181b0074f6"
   }
-  index: 13
+  index: 14
   text: "Excellent! After you, $(l.sir)."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -515,7 +536,7 @@ nodes {
   idRef {
     id: "51fdd2af366236181b0075d2"
   }
-  index: 14
+  index: 15
   text: "That\'s a shame. I assure you that I\'m worth every credit."
   branches {
     responseText: ""
@@ -528,7 +549,7 @@ nodes {
   idRef {
     id: "51fdcf03366236181b0074fa"
   }
-  index: 15
+  index: 16
   text: "If I didn\'t know better, I\'d think you were trying to hurt my feelings!"
   branches {
     responseText: ""
@@ -541,11 +562,11 @@ nodes {
   idRef {
     id: "51fdce70366236181b007463"
   }
-  index: 16
+  index: 17
   text: "And I\'ll take your money with a smile!"
   branches {
     responseText: ""
-    nextNodeIndex: 12
+    nextNodeIndex: 13
     auxiliaryLink: true
   }
 }
@@ -553,11 +574,11 @@ nodes {
   idRef {
     id: "51fdd315366236181b0075d9"
   }
-  index: 17
+  index: 18
   text: "I\342\200\231m actually here celebrating a successful run... but yes, I never turn down an opportunity."
   branches {
     responseText: ""
-    nextNodeIndex: 18
+    nextNodeIndex: 19
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -565,11 +586,11 @@ nodes {
   idRef {
     id: "51fdd330366236181b0075dc"
   }
-  index: 18
+  index: 19
   text: "NO.\n\n{{GM}}Turm\'s voice bellows loudly enough that nearby patrons look over in annoyance. They quickly glance away and pretend not to have noticed the upset troll.{{/GM}}"
   branches {
     responseText: ""
-    nextNodeIndex: 19
+    nextNodeIndex: 20
   }
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
@@ -580,11 +601,11 @@ nodes {
   idRef {
     id: "51fdd42c366236181b0075e7"
   }
-  index: 19
+  index: 20
   text: "Aww, Turm..."
   branches {
     responseText: ""
-    nextNodeIndex: 20
+    nextNodeIndex: 21
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -592,11 +613,11 @@ nodes {
   idRef {
     id: "51fdd42c366236181b0075ea"
   }
-  index: 20
+  index: 21
   text: "{{GM}}Turm taps your chest with a stubby forefinger. While you catch your breath, she calmly explains the situation.{{/GM}}\n\n $(l.name), if this little pile of drek gets within reach of my arms, I\'ll stuff his face into his rectum."
   branches {
     responseText: ""
-    nextNodeIndex: 21
+    nextNodeIndex: 22
   }
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
@@ -607,11 +628,11 @@ nodes {
   idRef {
     id: "51fdd44c366236181b0075ee"
   }
-  index: 21
+  index: 22
   text: "{{GM}}Dalmin audibly gulps, his Adam\'s apple seemingly attempting to escape his body\'s fate.{{/GM}}\n\nThank you most kindly for the offer, $(l.name), but I must respectfully decline due to extenuating circumstances."
   branches {
     responseText: ""
-    nextNodeIndex: 22
+    nextNodeIndex: 23
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -619,7 +640,7 @@ nodes {
   idRef {
     id: "51fdd4aa366236181b0075f1"
   }
-  index: 22
+  index: 23
   text: "I\'ll extend your spine! Keep away from me, you freak!"
   branches {
     responseText: ""
@@ -634,7 +655,7 @@ nodes {
   idRef {
     id: "51fdd55e366236181b007675"
   }
-  index: 23
+  index: 24
   text: "Take care, $(l.name)! Enjoy the party! Maybe I\'ll see you around later."
   nodeType: ConversationNodeType_Simple
 }
@@ -642,7 +663,7 @@ nodes {
   idRef {
     id: "51fdd943366236181b007aad"
   }
-  index: 24
+  index: 25
   text: "Can\'t get enough, eh?"
   branches {
     responseText: ""
@@ -727,5 +748,5 @@ roots {
       }
     }
   }
-  nextNodeIndex: 24
+  nextNodeIndex: 25
 }

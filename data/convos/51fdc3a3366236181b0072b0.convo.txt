@@ -285,7 +285,7 @@ nodes {
     id: "51fdc7cd366236181b00734d"
   }
   index: 10
-  text: "Well... I\'m already here, aren\'t I? Don\'t have anything else going on tonight. Tell you what: I\'ll give you a discount. \302\245500 for the night."
+  text: "Well... I\'m already here, aren\'t I? Don\'t have anything else going on tonight, and you look like you could use a street samurai by your side. Tell you what: I\'ll give you a discount. \302\245500 for the night."
   branches {
     responseText: "{{CC}}\302\245500{{/CC}} Here you go."
     conditions {
