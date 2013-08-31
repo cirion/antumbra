@@ -265,7 +265,7 @@ nodes {
     id: "5220d43e6434313427188b5c"
   }
   index: 4
-  text: "Apart from the fantastic drinks and eye-candy, you mean?\n\nI just finished a run, and wanted to celebrate a little. A shaman like me typically plays a supporting role; I\'m the person who Hastes the big guy so he looks even better. On the other hand, I\'ll probably have a longer life expectancy. I can always call on an elemental if I need a distraction while I make a quick exit."
+  text: "Apart from the fantastic drinks and eye-candy, you mean?\n\nI just finished a run, and wanted to relax a bit. It gets tiring to constantly Haste the other runners on my team, and a little misunderstanding with some Halloweeners nearly ended us. Fortunately, I was able to call on a fire elemental to cover our daring last-minute escape. It felt good to be the hero of the hour for a change!"
   branches {
     responseText: ""
     nextNodeIndex: 1
