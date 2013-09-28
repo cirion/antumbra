@@ -307,6 +307,11 @@ nodes {
   }
   index: 7
   text: "What, are you going to start crying now?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {

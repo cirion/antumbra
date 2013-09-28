@@ -1039,7 +1039,7 @@ nodes {
     ops {
       functionName: "Add Nuyen"
       args {
-        int_value: 20000
+        int_value: 5000
       }
     }
   }

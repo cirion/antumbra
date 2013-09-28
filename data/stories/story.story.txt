@@ -164,7 +164,7 @@ variables {
     }
   }
 }
-description: "Powerful foes plot to take down Seattle\'s newest nightclub."
+description: "Powerful foes plot to take down Seattle\'s newest nightclub. Will you do the job cleanly, or go looking for trouble?\n\nAfter completing this module, you can continue your runner\'s story in Antumbra 2: Eclipse. Decisions made in this game will carry forward to the next."
 startScene: "Antumbra Exterior Night"
 allowCharacterGen: true
 allowFallbackCharacter: false
