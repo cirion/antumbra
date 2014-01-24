@@ -1195,6 +1195,17 @@ triggers {
           }
         }
       }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
     }
   }
   isActive: true
@@ -2661,6 +2672,35 @@ triggers {
       }
     }
     ops {
+      functionName: "Set Actor Run Speed"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "52071163366236541200172b"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "RunSpeedMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Order Actor to Patrol"
       args {
         call_value {
@@ -2759,6 +2799,17 @@ triggers {
           }
         }
       }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
     }
   }
   isActive: true
@@ -2800,6 +2851,17 @@ triggers {
           }
         }
       }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
     }
   }
   isActive: true
@@ -2823,6 +2885,14 @@ regions {
   idRef {
     id: "51fc83ad366236881d00689f"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -2859,6 +2929,14 @@ regions {
   idRef {
     id: "51fd33ab3662367007001abc"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.25
     y: -1
@@ -2895,6 +2973,14 @@ regions {
   idRef {
     id: "51fd36563662367007001abf"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -2931,6 +3017,14 @@ regions {
   idRef {
     id: "51fea2c93662365008006012"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -2967,6 +3061,14 @@ regions {
   idRef {
     id: "51febd3d3662365008006239"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -3003,6 +3105,14 @@ regions {
   idRef {
     id: "5206d892366236b014003915"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -3039,6 +3149,14 @@ regions {
   idRef {
     id: "5206d9b6366236b01400391a"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -3803,6 +3921,9 @@ characters {
   }
   lod: 0
   character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
     team_id: "Shadowrunners"
     char_name: "New Actor"
     enabled_at_start: true
@@ -4048,7 +4169,7 @@ characters {
     GeneralTags: "bystander"
     GeneralTags: "wanderer"
     pc_spawn_number: -1
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4075,7 +4196,7 @@ characters {
     GeneralTags: "bystander"
     GeneralTags: "wanderer"
     pc_spawn_number: -1
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4102,7 +4223,7 @@ characters {
     GeneralTags: "bystander"
     GeneralTags: "wanderer"
     pc_spawn_number: -1
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4127,7 +4248,7 @@ characters {
     char_name: "New Actor"
     GeneralTags: "bystander"
     pc_spawn_number: -1
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4155,7 +4276,7 @@ characters {
     GeneralTags: "bystander"
     GeneralTags: "wanderer"
     pc_spawn_number: -1
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4200,7 +4321,7 @@ characters {
     GeneralTags: "wanderer"
     pc_spawn_number: -1
     karma: 6
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4490,7 +4611,7 @@ characters {
     GeneralTags: "bystander"
     pc_spawn_number: -1
     karma: 6
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4534,7 +4655,7 @@ characters {
     GeneralTags: "wanderer"
     pc_spawn_number: -1
     karma: 6
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4733,7 +4854,7 @@ characters {
     pc_spawn_number: -1
     portrait_code_override: "s4h2"
     karma: 6
-    is_prop_character: true
+    is_prop_character: false
   }
 }
 characters {
@@ -4959,6 +5080,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Waitress"
+    patrolRoute: "Waitress Route"
     pc_spawn_number: -1
     portrait_code_override: "s5h6"
     karma: 6
