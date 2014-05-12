@@ -4643,7 +4643,7 @@ props {
           }
         }
         args {
-          int_value: 3
+          int_value: 2
         }
       }
     }
@@ -9039,6 +9039,7 @@ props {
     z: 20
   }
   orientation: ORIENTATION_E
+  displayName: "Door from Studio to Bullpen"
   idRef {
     id: "5202f9763662365410003a91"
   }
@@ -10091,7 +10092,7 @@ props {
   gridPoint {
     x: 21
     y: 0
-    z: 10
+    z: 11
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -10101,7 +10102,7 @@ props {
   gridPoint {
     x: 22
     y: 0
-    z: 10
+    z: 11
   }
   orientation: ORIENTATION_E
   idRef {

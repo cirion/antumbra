@@ -9,6 +9,18 @@ nodes {
   index: 0
   text: "Hey, $(l.guy). Want a drink? Or maybe some hardware?"
   branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "537153ae6434319d338e49a3"
+  }
+  index: 1
+  text: ""
+  branches {
     responseText: "{{CC}}\302\24510{{/CC}} Give me a beer."
     conditions {
       ops {
@@ -29,7 +41,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -124,7 +136,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -219,7 +231,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 3
+    nextNodeIndex: 4
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -228,7 +240,11 @@ nodes {
   }
   branches {
     responseText: "What kind of music are you listening to these days?"
-    nextNodeIndex: 4
+    nextNodeIndex: 5
+    onlyOnce: true
+    idRef {
+      id: "537154116434319d338e49e5"
+    }
   }
   branches {
     responseText: "{{GM}}Check out his inventory.{{/GM}}"
@@ -267,7 +283,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: -1
+    nextNodeIndex: 6
   }
   branches {
     responseText: "{{GM}}Leave the bar.{{/GM}}"
@@ -277,10 +293,15 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fecbd436623650080063ca"
+    id: "537153b76434319d338e49a9"
   }
-  index: 1
+  index: 2
   text: "{{GM}}He tosses one over to you. Deftly catching it in the air, you pop the top and down the contents. {{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -293,10 +314,15 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fecc2636623650080063cc"
+    id: "537153bc6434319d338e49af"
   }
-  index: 2
+  index: 3
   text: "{{GM}}The bartender shrugs.{{/GM}} \n\nTo each their own, I suppose. Your friend will be missing out on the fun for the rest of the night, though."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -343,10 +369,15 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fecc8a36623650080063ce"
+    id: "537153c06434319d338e49b5"
   }
-  index: 3
+  index: 4
   text: "Coming right up."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -393,13 +424,26 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fecd6336623650080063d6"
+    id: "537153c56434319d338e49be"
   }
-  index: 4
+  index: 5
   text: "I enjoy all kinds of stuff. I prefer listening to Neo-Jazz like Total Commitment while working on my screenplay. When I want to feel energized, I turn on some loud Deconsecrated or other Thrumming music. Most of my friends enjoy Chromatic metal, especially Transtalker. And at the end of the day, I unwind with Toxic House music like DJ Omphalos or DJ Phizbort."
   branches {
     responseText: ""
-    nextNodeIndex: 0
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "537153f56434319d338e49e2"
+  }
+  index: 6
+  text: "Anything else you want?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple

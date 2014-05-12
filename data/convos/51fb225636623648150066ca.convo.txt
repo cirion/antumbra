@@ -62,24 +62,16 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 15
+    nextNodeIndex: 16
   }
   branches {
     responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 16
+    nextNodeIndex: 17
   }
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
-      functionName: "Play Animation"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        string_value: "idle_alert"
-      }
+      functionName: "No Effect"
     }
     ops {
       functionName: "Set Animation State Of Actor To Animation Modifier"
@@ -131,6 +123,18 @@ nodes {
   }
   index: 2
   text: "Are we clear?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "537155926434319d338e4e70"
+  }
+  index: 3
+  text: ""
   branches {
     responseText: "I\'ll need an advance."
     conditions {
@@ -203,7 +207,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 3
+    nextNodeIndex: 4
     onlyOnce: true
     idRef {
       id: "5205ad10366236601b0039d5"
@@ -235,7 +239,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 6
+    nextNodeIndex: 7
     onlyOnce: true
     idRef {
       id: "51fb39ce36623648150068b2"
@@ -267,7 +271,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 10
+    nextNodeIndex: 11
     onlyOnce: true
     idRef {
       id: "51fb399f36623648150068ab"
@@ -299,39 +303,39 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 11
+    nextNodeIndex: 12
     onlyOnce: true
     idRef {
       id: "51fb39c936623648150068b1"
     }
   }
   branches {
-    responseText: "Crystal."
-    nextNodeIndex: 12
-  }
-  branches {
-    responseText: "Like mud."
+    responseText: "I\'ve got it."
     nextNodeIndex: 13
   }
   branches {
-    responseText: "{{GM}}Remain silent.{{/GM}}"
+    responseText: "This job stinks."
     nextNodeIndex: 14
+  }
+  branches {
+    responseText: "{{GM}}Remain silent.{{/GM}}"
+    nextNodeIndex: 15
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb358d36623648150067af"
+    id: "5371559c6434319d338e4e82"
   }
-  index: 3
+  index: 4
   text: "Frag you! What for?"
   branches {
     responseText: "I may need to hire some more runners."
-    nextNodeIndex: 4
+    nextNodeIndex: 5
   }
   branches {
     responseText: "Never mind."
-    nextNodeIndex: 5
+    nextNodeIndex: 6
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -356,13 +360,13 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb365e36623648150067b3"
+    id: "5371559c6434319d338e4e85"
   }
-  index: 4
+  index: 5
   text: "What for? It\342\200\231s the simplest job on the planet! A blind beagle could do it without help!\n\nFine... this is coming out of your final payment, though!"
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -402,34 +406,34 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb36da36623648150067c7"
+    id: "5371559c6434319d338e4e8b"
   }
-  index: 5
+  index: 6
   text: "Good! That\342\200\231s why I asked for you. Stealthy $(l.race) like you should get the job done cheap and neat."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb377e36623648150067de"
+    id: "537155a26434319d338e4ea6"
   }
-  index: 6
+  index: 7
   text: "{{GM}}Mr. Johnson grunts in frustration.{{/GM}}\n\nI thought you were a professional. Is this your first run?\n\nWhat did I get myself into?"
   branches {
     responseText: "What should I tell the guards if they stop me?"
-    nextNodeIndex: 7
-  }
-  branches {
-    responseText: "A dangerous package should pay a premium."
     nextNodeIndex: 8
   }
   branches {
-    responseText: "Never mind."
+    responseText: "A dangerous package should pay a premium."
     nextNodeIndex: 9
+  }
+  branches {
+    responseText: "Never mind."
+    nextNodeIndex: 10
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -454,26 +458,26 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb37ff36623648150067e3"
+    id: "537155a26434319d338e4ea9"
   }
-  index: 7
+  index: 8
   text: "Say it\342\200\231s a case of medical supplies. Or a gift for Kali.\n\nOr you could just shoot them in the face before they stop you.\n\nYou\342\200\231re the runner. Only I need to care about what\342\200\231s in the box. Only you need to care about how you deliver it."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb38fc36623648150068a1"
+    id: "537155a26434319d338e4eaf"
   }
-  index: 8
+  index: 9
   text: "I suppose that\342\200\231s true. And, if it were dangerous, why would I tell you? You\342\200\231ll do the job for what I offered. No more."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -499,48 +503,48 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb391736623648150068a5"
+    id: "537155a26434319d338e4eb5"
   }
-  index: 9
+  index: 10
   text: "Glad that\'s taken care of."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb398236623648150068aa"
+    id: "537155a86434319d338e4ec1"
   }
-  index: 10
+  index: 11
   text: "I\342\200\231m keeping my distance. A man like me shouldn\342\200\231t show his face in there.\n\nIt sounds like quite a party, though. All sorts of trash has been coming in and out. You\342\200\231ll fit right in on the dance floor.\n\nIf we\342\200\231re lucky, they will have pulled security from the upstairs office to help cover the main floor. It might make things easier for you."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb39bc36623648150068b0"
+    id: "537155ad6434319d338e4ecd"
   }
-  index: 11
+  index: 12
   text: "Interested parties."
   branches {
     responseText: ""
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fb258036623648150066fe"
+    id: "537155b26434319d338e4ed6"
   }
-  index: 12
+  index: 13
   text: "Pleasure doing business with you. I\'ll be here with your payment when you\'re done."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -643,10 +647,10 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb284f3662364815006727"
+    id: "537155b66434319d338e4edc"
   }
-  index: 13
-  text: "If you didn\342\200\231t like the mud, you shouldn\342\200\231t have become a runner.\n\nNow go do your job!"
+  index: 14
+  text: "If you didn\342\200\231t like the stench, you shouldn\342\200\231t have become a runner.\n\nNow go do your job!"
   nodeType: ConversationNodeType_Simple
   actions {
     ops {
@@ -701,18 +705,7 @@ nodes {
       }
     }
     ops {
-      functionName: "Play Animation"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "51fb1ee436623648150066c6"
-          }
-        }
-      }
-      args {
-        string_value: "idle_calm"
-      }
+      functionName: "No Effect"
     }
     ops {
       functionName: "Set Animation State Of Actor To Animation Modifier"
@@ -792,9 +785,9 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fb2d3c36623648150067ab"
+    id: "537155b96434319d338e4ee2"
   }
-  index: 14
+  index: 15
   text: "You\'re a creepy $(l.guy), you know that?\n\nAs long as you get the job done, you can be as strange as you want."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -882,7 +875,7 @@ nodes {
   idRef {
     id: "51fb24f336623648150066e7"
   }
-  index: 15
+  index: 16
   text: "Cute. Very cute."
   branches {
     responseText: ""
@@ -895,7 +888,7 @@ nodes {
   idRef {
     id: "51fb24c136623648150066e5"
   }
-  index: 16
+  index: 17
   text: "... Right."
   branches {
     responseText: ""
@@ -908,7 +901,7 @@ nodes {
   idRef {
     id: "5202f59b3662365410003a4e"
   }
-  index: 17
+  index: 18
   text: "Well? What\'s the word?"
   branches {
     responseText: "It\'s done."
@@ -942,7 +935,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 18
+    nextNodeIndex: 19
     hideIfUnavailable: true
   }
   branches {
@@ -977,12 +970,12 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 19
+    nextNodeIndex: 20
     hideIfUnavailable: true
   }
   branches {
     responseText: "{{GM}}Remain silent.{{/GM}}"
-    nextNodeIndex: 20
+    nextNodeIndex: 21
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -991,11 +984,11 @@ nodes {
   idRef {
     id: "5204463436623608130003c3"
   }
-  index: 18
+  index: 19
   text: "Good $(l.guy)! Here\'s your fee as discussed."
   branches {
     responseText: ""
-    nextNodeIndex: 20
+    nextNodeIndex: 21
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -1004,20 +997,8 @@ nodes {
   idRef {
     id: "520445fe36623608130003be"
   }
-  index: 19
-  text: "I may not like you, but I can respect someone who gets the job done. My organization may have some more challenging runs for you in the future. Don\342\200\231t get yourself shot before then."
-  branches {
-    responseText: ""
-    nextNodeIndex: 20
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "5204462836623608130003c1"
-  }
   index: 20
-  text: "You seem efficient. Maybe I can trust you a bit more.\n\nYou\342\200\231ve done Aztechnology a good service tonight. That\342\200\231s right, you\342\200\231re playing with the big boys now.\n\nYou might be hearing from me or Morgan Tooms soon. Pick up the call. It will be worth your while.\n"
+  text: "I may not like you, but I can respect someone who gets the job done. My organization may have some more challenging runs for you in the future. Don\342\200\231t get yourself shot before then."
   branches {
     responseText: ""
     nextNodeIndex: 21
@@ -1026,13 +1007,25 @@ nodes {
 }
 nodes {
   idRef {
-    id: "5204468a36623608130003c6"
+    id: "5204462836623608130003c1"
   }
   index: 21
-  text: "Take care of yourself, $(l.name). A valuable asset like you shouldn\'t go to waste."
+  text: "You seem efficient. Maybe I can trust you a bit more.\n\nYou\342\200\231ve done Aztechnology a good service tonight. That\342\200\231s right, you\342\200\231re playing with the big boys now.\n\nYou might be hearing from me or Morgan Tooms soon. Pick up the call. It will be worth your while.\n"
   branches {
     responseText: ""
     nextNodeIndex: 22
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5204468a36623608130003c6"
+  }
+  index: 22
+  text: "Take care of yourself, $(l.name). A valuable asset like you shouldn\'t go to waste."
+  branches {
+    responseText: ""
+    nextNodeIndex: 23
   }
   nodeType: ConversationNodeType_Simple
   actions {
@@ -1048,7 +1041,7 @@ nodes {
   idRef {
     id: "520446b036623608130003c9"
   }
-  index: 22
+  index: 23
   text: ""
   actions {
     ops {
@@ -1145,5 +1138,5 @@ roots {
       }
     }
   }
-  nextNodeIndex: 17
+  nextNodeIndex: 18
 }

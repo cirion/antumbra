@@ -45,8 +45,20 @@ nodes {
   index: 1
   text: "{{GM}}Turm lets out a bellow, clearly enjoying herself. Judging from the bottles littering her table, she has already drunk enough to kill any lesser species.{{/GM}}"
   branches {
-    responseText: "What are you doing here?"
+    responseText: ""
     nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5371552f6434319d338e4d45"
+  }
+  index: 2
+  text: ""
+  branches {
+    responseText: "What are you doing here?"
+    nextNodeIndex: 3
     onlyOnce: true
     idRef {
       id: "51fdc5df366236181b0072db"
@@ -54,7 +66,7 @@ nodes {
   }
   branches {
     responseText: "What do you think of this place?"
-    nextNodeIndex: 3
+    nextNodeIndex: 4
     onlyOnce: true
     idRef {
       id: "51fdcb04366236181b00741f"
@@ -62,7 +74,7 @@ nodes {
   }
   branches {
     responseText: "Have you been upstairs yet?"
-    nextNodeIndex: 4
+    nextNodeIndex: 5
     onlyOnce: true
     idRef {
       id: "51fdc7d2366236181b00734f"
@@ -113,7 +125,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 5
+    nextNodeIndex: 6
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -165,7 +177,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 10
+    nextNodeIndex: 11
     hideIfUnavailable: true
   }
   branches {
@@ -180,89 +192,89 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fdc5e2366236181b0072dd"
+    id: "537155366434319d338e4d4e"
   }
-  index: 2
+  index: 3
   text: "Eh, trying to make rent. Figured they could use some extra muscle for their grand opening. No luck so far. They just bring down more guns from upstairs."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc65c366236181b007305"
+    id: "5371553c6434319d338e4d5a"
   }
-  index: 3
+  index: 4
   text: "My pa would call it a target-rich environment. Too bad security\342\200\231s so tight.\n\nI don\342\200\231t know who fronted Kali the dough to open this joint, but it\342\200\231s gotta have megacorp backing. You don\342\200\231t find these pros in Everett."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc67c366236181b007309"
+    id: "537155426434319d338e4d66"
   }
-  index: 4
+  index: 5
   text: "You kidding? I\342\200\231d get shot on sight. No way a troll like me could pass for talent.\n\nThey sure put on a bright front here, all smiles and dances, but if you start prowling through the offices they\342\200\231ll drop you quicker than Kali\342\200\231s next single."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc6c8366236181b00730b"
-  }
-  index: 5
-  text: "Ugh... with HIM?! No way!"
-  branches {
-    responseText: ""
-    nextNodeIndex: 6
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fdc740366236181b00731b"
+    id: "537155486434319d338e4d7e"
   }
   index: 6
-  text: "Oh, come on. I said I was sorry!"
+  text: "Ugh... with HIM?! No way!"
   branches {
     responseText: ""
     nextNodeIndex: 7
   }
-  sourceInSceneRef {
-    id: "51fd55843662367c090072d4"
-  }
+  nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc752366236181b00731e"
+    id: "537155486434319d338e4d81"
   }
   index: 7
-  text: "They put labels on those rooms for a reason! No way I\342\200\231ll let some dwarf pervert watch my back."
+  text: "Oh, come on. I said I was sorry!"
   branches {
     responseText: ""
     nextNodeIndex: 8
   }
+  sourceInSceneRef {
+    id: "51fd55843662367c090072d4"
+  }
 }
 nodes {
   idRef {
-    id: "51fdc764366236181b007321"
+    id: "537155486434319d338e4d84"
   }
   index: 8
-  text: "I told you, I was drunk, and..."
+  text: "They put labels on those rooms for a reason! No way I\342\200\231ll let some dwarf pervert watch my back."
   branches {
     responseText: ""
     nextNodeIndex: 9
+  }
+}
+nodes {
+  idRef {
+    id: "537155486434319d338e4d87"
+  }
+  index: 9
+  text: "I told you, I was drunk, and..."
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
   }
   sourceInSceneRef {
     id: "51fd55843662367c090072d4"
@@ -270,21 +282,21 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fdc77e366236181b007324"
+    id: "537155486434319d338e4d8a"
   }
-  index: 9
+  index: 10
   text: "Sorry, $(l.name). Lose him and we\'ll talk."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
 }
 nodes {
   idRef {
-    id: "51fdc7cd366236181b00734d"
+    id: "5371554d6434319d338e4da2"
   }
-  index: 10
+  index: 11
   text: "Well... I\'m already here, aren\'t I? Don\'t have anything else going on tonight, and you look like you could use a street samurai by your side. Tell you what: I\'ll give you a discount. \302\245500 for the night."
   branches {
     responseText: "{{CC}}\302\245500{{/CC}} Here you go."
@@ -307,23 +319,23 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 11
-  }
-  branches {
-    responseText: "I can\'t afford that."
     nextNodeIndex: 12
   }
   branches {
-    responseText: "No."
+    responseText: "I can\'t afford that."
     nextNodeIndex: 13
+  }
+  branches {
+    responseText: "No."
+    nextNodeIndex: 14
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc8a5366236181b00735d"
+    id: "5371554d6434319d338e4da5"
   }
-  index: 11
+  index: 12
   text: "All right. Lead on, chummer!"
   nodeType: ConversationNodeType_Simple
   actions {
@@ -387,26 +399,26 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fdc864366236181b007355"
+    id: "5371554d6434319d338e4da8"
   }
-  index: 12
+  index: 13
   text: "Sorry, chummer. A troll\'s gotta have standards."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fdc87e366236181b007359"
+    id: "5371554d6434319d338e4dae"
   }
-  index: 13
+  index: 14
   text: "Well, then."
   branches {
     responseText: ""
-    nextNodeIndex: 1
+    nextNodeIndex: 2
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple

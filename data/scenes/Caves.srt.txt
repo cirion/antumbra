@@ -621,27 +621,47 @@ triggers {
       }
     }
     ops {
-      functionName: "Set Ambient Light Color"
+      functionName: "Change Actor Team"
       args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 100
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "squad2"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
       }
       args {
         call_value {
-          functionName: "Get Map Item (CameraRegion)"
+          functionName: "Get Preset Value (string)"
           args {
-            string_value: "52019dd93662368c16004dc6"
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
           }
         }
       }
@@ -1937,15 +1957,7 @@ triggers {
       }
     }
     ops {
-      functionName: "Play Animation"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        string_value: "summon"
-      }
+      functionName: "No Effect"
     }
   }
   isActive: true
@@ -3099,6 +3111,17 @@ triggers {
           }
         }
       }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
     }
     ops {
       functionName: "Set Goal Status"
@@ -3115,6 +3138,17 @@ triggers {
           functionName: "Get Preset Value (int)"
           args {
             string_value: "GoalStatus"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
           }
           args {
             int_value: 1
@@ -4576,6 +4610,17 @@ triggers {
           }
         }
       }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
     }
   }
   isActive: true
@@ -5884,6 +5929,125 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "Squad 1 Aggro"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "53715ca2643431fb34702e36"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Change Actor Team"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "squad1"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Display Text over Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "Brrr... do you feel that?"
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53715cb9643431fb34702e37"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera Region"
   position {
@@ -5897,6 +6061,14 @@ regions {
   idRef {
     id: "52007321366236b019003d26"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -5933,6 +6105,14 @@ regions {
   idRef {
     id: "52011937643431684e7c3c61"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -5969,6 +6149,14 @@ regions {
   idRef {
     id: "52011953643431684e7c3c62"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6005,6 +6193,14 @@ regions {
   idRef {
     id: "52011965643431684e7c3c63"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6041,6 +6237,14 @@ regions {
   idRef {
     id: "5201197c643431684e7c3c64"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6077,6 +6281,14 @@ regions {
   idRef {
     id: "52011995643431684e7c3c65"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6113,6 +6325,14 @@ regions {
   idRef {
     id: "5201b78e3662368c16004e15"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6149,6 +6369,14 @@ regions {
   idRef {
     id: "5201cb9a3662368c16004e5b"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6185,6 +6413,14 @@ regions {
   idRef {
     id: "5201cd643662368c16004e5e"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6221,6 +6457,14 @@ regions {
   idRef {
     id: "5201d5433662368c16004e6d"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6257,6 +6501,14 @@ regions {
   idRef {
     id: "520adb0a3662366c1f000127"
   }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
   directional_light_dir {
     x: -0.5
     y: -1
@@ -6280,6 +6532,58 @@ regions {
   loop_combat_music: true
   loop_default_music: false
 }
+regions {
+  name: "Squad 1 Aggro"
+  position {
+    x: -26
+    y: -3
+    width: 5
+    height: -1
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "53715ca2643431fb34702e36"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+patrolRoutes {
+  name: "New Patrol Route"
+  pathType: 0
+  can_move_beyond_node: false
+  idRef {
+    id: "53715c97643431fb34702e35"
+  }
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
@@ -6293,6 +6597,9 @@ characters {
   }
   lod: 0
   character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
     team_id: "Shadowrunners"
     char_name: "New Actor"
     enabled_at_start: true
@@ -6951,6 +7258,9 @@ characters {
   }
   lod: 0
   character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
     team_id: "Shadowrunners"
     char_name: "New Actor"
     enabled_at_start: true
@@ -6965,6 +7275,7 @@ characters {
     z: -19
   }
   orientation: ORIENTATION_E
+  GeneralTags: "squad1"
   idRef {
     id: "5201d5b53662368c16004e6f"
   }
@@ -7029,8 +7340,9 @@ characters {
     equipment {
       prefab_name: "Chomp"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Hellhound"
+    GeneralTags: "squad1"
     pc_spawn_number: -1
     hiring_type: HiringType_None
     karma: 39
@@ -7045,6 +7357,7 @@ characters {
     z: -31
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad1"
   idRef {
     id: "5201d73e3662368c16004e70"
   }
@@ -7109,8 +7422,9 @@ characters {
     equipment {
       prefab_name: "Chomp"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Hellhound"
+    GeneralTags: "squad1"
     pc_spawn_number: -1
     karma: 36
   }
@@ -7123,6 +7437,7 @@ characters {
     z: -22
   }
   orientation: ORIENTATION_E
+  GeneralTags: "squad1"
   idRef {
     id: "5201d8483662368c16004e71"
   }
@@ -7187,8 +7502,9 @@ characters {
     equipment {
       prefab_name: "Chomp"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Hellhound"
+    GeneralTags: "squad1"
     pc_spawn_number: -1
     karma: 39
   }
@@ -7201,6 +7517,7 @@ characters {
     z: -25
   }
   orientation: ORIENTATION_E
+  GeneralTags: "squad1"
   idRef {
     id: "5201d87d3662368c16004e72"
   }
@@ -7265,8 +7582,9 @@ characters {
       archetypeName: "Guard - Seek And Destroy"
       attitude: AttitudeAggressive
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Basilisk"
+    GeneralTags: "squad1"
     pc_spawn_number: -1
     karma: 40
   }
@@ -7279,6 +7597,7 @@ characters {
     z: -26
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202526036623654100039b4"
   }
@@ -7346,8 +7665,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7360,6 +7680,7 @@ characters {
     z: -19
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202536e36623654100039b5"
   }
@@ -7427,8 +7748,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7441,6 +7763,7 @@ characters {
     z: -23
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202537036623654100039b6"
   }
@@ -7508,8 +7831,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7522,6 +7846,7 @@ characters {
     z: -25
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202537236623654100039b7"
   }
@@ -7589,8 +7914,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7603,6 +7929,7 @@ characters {
     z: -23
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202538536623654100039b8"
   }
@@ -7670,8 +7997,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7684,6 +8012,7 @@ characters {
     z: -32
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202538736623654100039b9"
   }
@@ -7751,8 +8080,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7765,6 +8095,7 @@ characters {
     z: -29
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "5202538b36623654100039ba"
   }
@@ -7832,8 +8163,9 @@ characters {
     equipment {
       prefab_name: "GhoulFistPoison"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7846,6 +8178,7 @@ characters {
     z: -26
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "520fbaa6366236f41700491d"
   }
@@ -7913,8 +8246,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -7927,6 +8261,7 @@ characters {
     z: -29
   }
   orientation: ORIENTATION_S
+  GeneralTags: "squad2"
   idRef {
     id: "520fbab2366236f41700491e"
   }
@@ -7994,8 +8329,9 @@ characters {
     equipment {
       prefab_name: "GhoulFist"
     }
-    team_id: "Gangers"
+    team_id: "Civilians"
     char_name: "Ghoul"
+    GeneralTags: "squad2"
     pc_spawn_number: -1
     karma: 58
   }
@@ -8143,3 +8479,5 @@ use_hiring_cost_warning: false
 hiring_average_cost: 0
 override_hiring_average_cost: false
 show_equip_screen_on_scene_load: false
+can_move_outside_camera_regions: true
+can_start_before_triggers: true

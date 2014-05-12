@@ -9,8 +9,20 @@ nodes {
   index: 0
   text: "May I help you with something?"
   branches {
-    responseText: "Can you get me upstairs?"
+    responseText: ""
     nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "537154f96434319d338e4c7c"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: "Can you get me upstairs?"
+    nextNodeIndex: 2
     onlyOnce: true
     idRef {
       id: "51fec9af366236500800634b"
@@ -53,7 +65,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 2
+    nextNodeIndex: 3
     hideIfUnavailable: true
     onlyOnce: true
     idRef {
@@ -68,9 +80,9 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fec945366236500800633f"
+    id: "537154fd6434319d338e4c85"
   }
-  index: 1
+  index: 2
   text: "I\'m sorry $(l.sir), but that\'s simply impossible. The office is closed to visitors this time of night. Stay down here and enjoy yourself!"
   branches {
     responseText: ""
@@ -81,37 +93,37 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51fec9b3366236500800634d"
+    id: "537155026434319d338e4c9a"
   }
-  index: 2
+  index: 3
   text: "{{GM}}She looks in the direction you are pointing.{{/GM}}\n\nOh... right. Thank you for calming him down. He\342\200\231s been very unpleasant to my servers all evening.\n\nUnfortunately, I\342\200\231m fully staffed up at the moment. That is... unless you are interested in helping with sound? One of our engineers failed to show up tonight."
   branches {
     responseText: "Wiz, I\342\200\231d love to break into the industry."
-    nextNodeIndex: 3
+    nextNodeIndex: 4
   }
   branches {
     responseText: "Great, I\342\200\231ve always wanted to be a bootlicker."
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "537155026434319d338e4c9d"
+  }
+  index: 4
+  text: "{{GM}}She attempts to suppress a smile.{{/GM}} \n\nYou may be disappointed. There isn\342\200\231t much of a career path from tech to talent. Still, it can be a good chance to meet people."
+  branches {
+    responseText: ""
     nextNodeIndex: 5
   }
   nodeType: ConversationNodeType_Simple
 }
 nodes {
   idRef {
-    id: "51fec9d03662365008006351"
+    id: "537155026434319d338e4ca0"
   }
-  index: 3
-  text: "{{GM}}She attempts to suppress a smile.{{/GM}} \n\nYou may be disappointed. There isn\342\200\231t much of a career path from tech to talent. Still, it can be a good chance to meet people."
-  branches {
-    responseText: ""
-    nextNodeIndex: 4
-  }
-  nodeType: ConversationNodeType_Simple
-}
-nodes {
-  idRef {
-    id: "51fec9e63662365008006355"
-  }
-  index: 4
+  index: 5
   text: "Here\342\200\231s your uniform. The initial setup has been done, just keep an eye on the stage and be ready to fix any problems."
   nodeType: ConversationNodeType_Simple
   actions {
@@ -175,13 +187,13 @@ nodes {
 }
 nodes {
   idRef {
-    id: "51feca1b3662365008006357"
+    id: "537155026434319d338e4ca3"
   }
-  index: 5
+  index: 6
   text: "Oh, it\342\200\231s not so bad. Most of the time nobody will notice you\342\200\231re even there."
   branches {
     responseText: ""
-    nextNodeIndex: 4
+    nextNodeIndex: 5
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
@@ -190,15 +202,15 @@ nodes {
   idRef {
     id: "51feca5d366236500800635d"
   }
-  index: 6
+  index: 7
   text: "How\342\200\231s everything looking?"
   branches {
     responseText: "Great!"
-    nextNodeIndex: 7
+    nextNodeIndex: 8
   }
   branches {
     responseText: "The music sucks."
-    nextNodeIndex: 8
+    nextNodeIndex: 9
   }
   branches {
     responseText: "There\342\200\231s a glitch in the sound system. I\342\200\231ll need to go backstage to fix it."
@@ -237,7 +249,7 @@ nodes {
         }
       }
     }
-    nextNodeIndex: 9
+    nextNodeIndex: 10
     hideIfUnavailable: true
   }
   nodeType: ConversationNodeType_Simple
@@ -246,7 +258,7 @@ nodes {
   idRef {
     id: "51feca763662365008006362"
   }
-  index: 7
+  index: 8
   text: "Glad to hear it. Now, if you don\342\200\231t mind, I\342\200\231m a bit busy."
   nodeType: ConversationNodeType_Simple
 }
@@ -254,7 +266,7 @@ nodes {
   idRef {
     id: "51feca833662365008006364"
   }
-  index: 8
+  index: 9
   text: "On certain nights I\'d be inclined to agree with you. But as long as people can hear it, there\342\200\231s nothing to worry about. Excuse me."
   nodeType: ConversationNodeType_Simple
 }
@@ -262,7 +274,7 @@ nodes {
   idRef {
     id: "51feca9d3662365008006366"
   }
-  index: 9
+  index: 10
   text: "{{GM}}She sighs softly, resigned in the knowledge that something always goes wrong on opening night.{{/GM}} \n\nKali won\342\200\231t be happy with this. Better fix it soon. Here, take these papers over to the door guard. And hurry!"
   nodeType: ConversationNodeType_Simple
   actions {
@@ -366,41 +378,5 @@ roots {
 }
 roots {
   responseText: ""
-  conditions {
-    ops {
-      functionName: "Evaluate If Actor Has Item"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "HasOrHasNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Item)"
-          args {
-            string_value: "Maintenance"
-          }
-        }
-      }
-    }
-  }
-  nextNodeIndex: 6
+  nextNodeIndex: 7
 }
