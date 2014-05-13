@@ -1957,7 +1957,26 @@ triggers {
       }
     }
     ops {
-      functionName: "No Effect"
+      functionName: "Play Animation From Type"
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationType)"
+          args {
+            string_value: "Seattle"
+          }
+          args {
+            string_value: "summon"
+          }
+        }
+      }
     }
   }
   isActive: true

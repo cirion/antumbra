@@ -8310,7 +8310,7 @@ props {
     interactionRadius: 1
     transitionPoint {
       scene_name: "Caves"
-      confirmation_text: ""
+      confirmation_text: "Are you ready to descend to the basement?"
     }
   }
   lod: 0

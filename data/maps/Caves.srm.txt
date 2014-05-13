@@ -15943,7 +15943,7 @@ props {
 props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
-    x: 1.66893e-06
+    x: 1.66893e-006
     y: 0
     z: 22.099998
   }
@@ -21324,20 +21324,6 @@ props {
   properties {
     property_id: "fxScript"
     string_value: "LeyLineMedium"
-  }
-  lod: 0
-}
-props {
-  name: "vfx_fx_candleflicker"
-  gridPoint {
-    x: -10
-    y: 0
-    z: 22
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "fxScript"
-    string_value: "CandleLightEnvironment"
   }
   lod: 0
 }

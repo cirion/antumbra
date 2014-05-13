@@ -29,7 +29,12 @@ nodes {
     nextNodeIndex: 4
   }
   branches {
-    responseText: "{{CC}}Academic{{/CC}} You are a nature spirit, are you not?"
+    responseText: "{{GM}}Attack.{{/GM}}"
+    nextNodeIndex: 3
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "{{CC}}Etiquette: Academic{{/CC}} You are a nature spirit, are you not?"
     conditions {
       ops {
         functionName: "Compare Actor Skill"
@@ -77,11 +82,6 @@ nodes {
       }
     }
     nextNodeIndex: 5
-  }
-  branches {
-    responseText: "{{GM}}Attack.{{/GM}}"
-    nextNodeIndex: 3
-    auxiliaryLink: true
   }
 }
 nodes {
@@ -156,6 +156,17 @@ nodes {
           functionName: "Get Preset Value (int)"
           args {
             string_value: "GoalStatus"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
           }
           args {
             int_value: 1

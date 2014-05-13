@@ -25,7 +25,7 @@ nodes {
     }
   }
   branches {
-    responseText: "{{CC}}Security{{/CC}} I just heard a report come in over the scanner. DMS-371 has been called in on the entire building. I need to alert Kali that her talent is at risk."
+    responseText: "{{CC}}Etiquette: Security{{/CC}} I just heard a report come in over the scanner. DMS-371 has been called in on the entire building. I need to alert Kali that her talent is at risk."
     conditions {
       ops {
         functionName: "Compare Actor Skill"
@@ -692,7 +692,7 @@ nodes {
     nextNodeIndex: 5
   }
   branches {
-    responseText: "{{CC}}Socialite{{/CC}} I know Kali from Evergreen. I\342\200\231ll break the news to her gently. We don\342\200\231t want her shooting the messenger."
+    responseText: "{{CC}}Etiquette: Socialite{{/CC}} I know Kali from Evergreen. I\342\200\231ll break the news to her gently. We don\342\200\231t want her shooting the messenger."
     conditions {
       ops {
         functionName: "Compare Actor Skill"
@@ -1138,6 +1138,14 @@ nodes {
           args {
             string_value: "BystanderProp"
           }
+        }
+      }
+      args {
+        float_value: -1
+      }
+      args {
+        call_value {
+          functionName: "Everywhere"
         }
       }
     }

@@ -5273,6 +5273,7 @@ characters {
     z: 22
   }
   orientation: ORIENTATION_W
+  GeneralTags: "squad1a"
   idRef {
     id: "537157996434319d338e5048"
   }
@@ -5298,6 +5299,7 @@ characters {
     }
     team_id: "Civilians"
     char_name: "Lonestar Enforcer"
+    GeneralTags: "squad1a"
     enabled_at_start: true
     pc_spawn_number: -1
     portrait {

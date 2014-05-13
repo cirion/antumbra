@@ -86,7 +86,7 @@ nodes {
   text: "I\'m sorry $(l.sir), but that\'s simply impossible. The office is closed to visitors this time of night. Stay down here and enjoy yourself!"
   branches {
     responseText: ""
-    nextNodeIndex: 0
+    nextNodeIndex: 1
     auxiliaryLink: true
   }
   nodeType: ConversationNodeType_Simple
