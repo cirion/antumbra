@@ -3561,6 +3561,9 @@ props {
   orientation: ORIENTATION_S
   GeneralTags: "BystanderProp"
   displayName: "Dwarf Booth"
+  idRef {
+    id: "538fd89b366236601e00619e"
+  }
   lod: 0
 }
 props {
@@ -9548,6 +9551,9 @@ props {
     string_value: "DancingWomanBar"
   }
   GeneralTags: "BystanderProp"
+  idRef {
+    id: "538fd89c366236601e00619f"
+  }
   lod: 0
 }
 props {
@@ -9878,6 +9884,9 @@ props {
   }
   GeneralTags: "BystanderProp"
   displayName: "Dancing Man"
+  idRef {
+    id: "538fd89c366236601e0061a0"
+  }
   lod: 0
 }
 props {
