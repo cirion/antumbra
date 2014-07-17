@@ -985,7 +985,7 @@ nodes {
     id: "5204463436623608130003c3"
   }
   index: 19
-  text: "Good $(l.guy)! Here\'s your fee as discussed."
+  text: "Good $(l.guy)! I\'ll deposit your fee into your account."
   branches {
     responseText: ""
     nextNodeIndex: 21
@@ -1028,14 +1028,6 @@ nodes {
     nextNodeIndex: 23
   }
   nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Add Nuyen"
-      args {
-        int_value: 5000
-      }
-    }
-  }
 }
 nodes {
   idRef {

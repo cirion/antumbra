@@ -47,20 +47,12 @@ nodes {
     id: "5204484a36623608130004c0"
   }
   index: 3
-  text: "Here, take this reward - you\'ve certainly earned it.\n\nI\'ll even do you one better and tell Mr. Santo what you\'ve accomplished here. A discovery like this will open many opportunities for an ambitious runner like you. Expect to hear from him soon."
+  text: "I\'ll transfer a reward into your account - you\'ve certainly earned it.\n\nI\'ll even do you one better and tell Mr. Santo what you\'ve accomplished here. A discovery like this will open many opportunities for an ambitious runner like you. Expect to hear from him soon."
   branches {
     responseText: "{{GM}}Leave.{{/GM}}"
     nextNodeIndex: 4
   }
   nodeType: ConversationNodeType_Simple
-  actions {
-    ops {
-      functionName: "Add Nuyen"
-      args {
-        int_value: 5000
-      }
-    }
-  }
 }
 nodes {
   idRef {

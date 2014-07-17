@@ -1,6 +1,6 @@
 project_id: "51f7429764343188990041a8"
 project_name: "Antumbra"
-project_version: "1.2.3"
+project_version: "1.2.4"
 author_name: "Cirion"
 synopsis: "Antumbra"
 has_story: true

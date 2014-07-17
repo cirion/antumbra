@@ -286,6 +286,14 @@ nodes {
     nextNodeIndex: 6
   }
   branches {
+    responseText: "Got any advice for me?"
+    nextNodeIndex: 7
+    onlyOnce: true
+    idRef {
+      id: "53c73b20366236181f0039de"
+    }
+  }
+  branches {
     responseText: "{{GM}}Leave the bar.{{/GM}}"
     nextNodeIndex: -1
   }
@@ -441,6 +449,19 @@ nodes {
   }
   index: 6
   text: "Anything else you want?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c73b35366236181f003a02"
+  }
+  index: 7
+  text: "{{GM}}He reflectively polishes the bar for a moment.{{/GM}}\n\nYou can\'t take it with you, y\'know?\n\nNuyen, I mean. Supplies and stuff always comes in handy. Money will burn a hole in your pocket, but spare medkits always come in handy."
   branches {
     responseText: ""
     nextNodeIndex: 1
